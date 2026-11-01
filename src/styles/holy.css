@@ -156,7 +156,7 @@
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
-  animation: char-slam 0.7s cubic-bezier(0.2, 0.9, 0.25, 1) backwards,
+  animation: char-slam 0.95s cubic-bezier(0.16, 1, 0.3, 1) backwards,
     foil-sweep 11s linear infinite;
   animation-delay: calc(var(--i) * var(--step, 0.075s) + var(--d, 0.2s)), 0s;
 }
@@ -218,40 +218,12 @@
   }
 }
 
-/* ---------- 入场圣光 ---------- */
-.fx-bless {
-  position: fixed;
-  inset: 0;
-  z-index: 72;
-  pointer-events: none;
-  background: radial-gradient(
-    circle at 50% 38%,
-    rgba(255, 244, 224, 0.5) 0%,
-    rgba(255, 232, 198, 0.16) 26%,
-    rgba(10, 7, 4, 0) 58%
-  );
-  animation: bless 1.9s var(--ease-out) forwards;
-}
-
-@keyframes bless {
-  0% {
-    opacity: 0;
-    transform: scale(0.7);
-  }
-  12% {
-    opacity: 1;
-  }
-  100% {
-    opacity: 0;
-    transform: scale(1.35);
-  }
-}
+/* ---------- 入场圣光（跟随标题冲击的一次闪光） ---------- */
 
 @media (prefers-reduced-motion: reduce) {
   .hero__godrays,
   .cookie__waves,
   .fx-halo,
-  .fx-bless,
   .databand::after {
     display: none;
   }
@@ -313,3 +285,114 @@
 .update:hover {
   box-shadow: 0 18px 40px -30px rgba(0, 0, 0, 0.9), 0 0 40px -20px rgba(134, 207, 196, 0.28);
 }
+
+/* ---------- 冲击力入场：从上砸下 + 变形回弹 ---------- */
+@keyframes char-slam {
+  0% {
+    transform: translate3d(var(--dx, 0), -0.7em, 0) scale(6.4) rotate(var(--dr, -10deg));
+    opacity: 0;
+    filter: blur(20px);
+  }
+  24% {
+    transform: translate3d(0, 0, 0) scale(1.24) rotate(3deg) skewX(6deg);
+    opacity: 1;
+    filter: blur(0);
+  }
+  36% {
+    transform: translate3d(0, 0.02em, 0) scale(0.86) rotate(-2.4deg) skewX(-5deg);
+  }
+  48% {
+    transform: translate3d(0, 0, 0) scale(1.12) rotate(1.2deg) skewX(3deg);
+  }
+  62% {
+    transform: translate3d(0, 0, 0) scale(0.95) skewX(-1.4deg);
+  }
+  78% {
+    transform: scale(1.03);
+  }
+  100% {
+    transform: none;
+    filter: blur(0);
+  }
+}
+
+/* ---------- 撕裂式揭幕 ---------- */
+.wipe-in {
+  animation: wipe-in 1.15s var(--ease-out) var(--wd, 0.6s) backwards;
+}
+
+@keyframes wipe-in {
+  0% {
+    clip-path: inset(-0.3em 100% -0.3em 0);
+    opacity: 0;
+    transform: translate3d(-0.1em, 0.32em, 0);
+  }
+  14% {
+    opacity: 1;
+  }
+  100% {
+    clip-path: inset(-0.3em 0 -0.3em 0);
+    transform: none;
+  }
+}
+
+/* ---------- 滚动揭示改成撕开 ---------- */
+.reveal {
+  opacity: 0;
+  clip-path: inset(-8% 0 108% 0);
+  transform: translate3d(0, 14px, 0);
+  transition: clip-path 1s var(--ease-out), opacity 0.5s var(--ease-out),
+    transform 1s var(--ease-out);
+}
+
+.reveal.is-in {
+  opacity: 1;
+  clip-path: inset(-8% 0 -8% 0);
+  transform: none;
+}
+
+.reveal--fade {
+  clip-path: none;
+  transform: none;
+  filter: blur(10px);
+}
+
+/* ---------- 标题字符的指针引力 ---------- */
+.hero__title .split__inner {
+  transform: translate3d(var(--px, 0px), var(--py, 0px), 0);
+}
+
+/* ---------- 卡片条目横向错开入场 ---------- */
+.update__item {
+  animation: item-rise 0.55s var(--ease-out) backwards;
+}
+.update__item:nth-child(1) {
+  animation-delay: 0.05s;
+}
+.update__item:nth-child(2) {
+  animation-delay: 0.12s;
+}
+.update__item:nth-child(3) {
+  animation-delay: 0.19s;
+}
+
+@keyframes item-rise {
+  from {
+    opacity: 0;
+    transform: translate3d(-10px, 0.35em, 0);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+/* ---------- 详情页条目也错开 ---------- */
+.u-item {
+  animation: item-rise 0.5s var(--ease-out) backwards;
+}
+.u-item:nth-child(1) { animation-delay: 0.02s; }
+.u-item:nth-child(2) { animation-delay: 0.06s; }
+.u-item:nth-child(3) { animation-delay: 0.1s; }
+.u-item:nth-child(4) { animation-delay: 0.14s; }
+.u-item:nth-child(5) { animation-delay: 0.18s; }

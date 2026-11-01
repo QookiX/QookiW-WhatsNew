@@ -158,7 +158,6 @@ export default function App() {
   return (
     <>
       <FxLayer />
-      <span className="fx-bless" aria-hidden="true" />
       <div className="grain" aria-hidden="true" />
       <div className="ambient" aria-hidden="true">
         <span className="ambient__blob ambient__blob--a" />
