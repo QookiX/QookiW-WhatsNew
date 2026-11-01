@@ -406,3 +406,116 @@
 .u-item:nth-child(3) { animation-delay: 0.1s; }
 .u-item:nth-child(4) { animation-delay: 0.14s; }
 .u-item:nth-child(5) { animation-delay: 0.18s; }
+
+/* ---------- 仓库卡：横向揭开 + 呼吸 ---------- */
+.lab__primary .feature {
+  animation: card-unveil 0.9s var(--ease-out) backwards,
+    feature-breathe 6.5s ease-in-out 1.3s infinite;
+}
+
+.lab__primary .feature:nth-child(1) {
+  animation-delay: 0.06s, 1.3s;
+}
+.lab__primary .feature:nth-child(2) {
+  animation-delay: 0.2s, 1.5s;
+}
+
+@keyframes card-unveil {
+  0% {
+    opacity: 0;
+    clip-path: inset(0 100% 0 0);
+  }
+  100% {
+    opacity: 1;
+    clip-path: inset(0 0 0 0);
+  }
+}
+
+@keyframes feature-breathe {
+  0%,
+  100% {
+    box-shadow: 0 0 0 rgba(237, 164, 85, 0);
+  }
+  50% {
+    box-shadow: 0 0 42px -16px rgba(237, 164, 85, 0.42);
+  }
+}
+
+/* ---------- 名册行错开滑入 ---------- */
+.roster__row {
+  animation: row-slide 0.7s var(--ease-out) backwards;
+}
+
+.roster__row:nth-child(2) {
+  animation-delay: 0.080s;
+}
+.roster__row:nth-child(3) {
+  animation-delay: 0.135s;
+}
+.roster__row:nth-child(4) {
+  animation-delay: 0.190s;
+}
+.roster__row:nth-child(5) {
+  animation-delay: 0.245s;
+}
+.roster__row:nth-child(6) {
+  animation-delay: 0.300s;
+}
+.roster__row:nth-child(7) {
+  animation-delay: 0.355s;
+}
+.roster__row:nth-child(8) {
+  animation-delay: 0.410s;
+}
+.roster__row:nth-child(9) {
+  animation-delay: 0.465s;
+}
+
+@keyframes row-slide {
+  from {
+    opacity: 0;
+    transform: translate3d(22px, 0, 0);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+/* ---------- 卡片内常驻微光扫过 ---------- */
+.feature__scan {
+  opacity: 0.55;
+}
+
+.feature__scan::after {
+  animation: scan-sweep 9s var(--ease-out) infinite;
+  opacity: 0.42;
+}
+
+.feature:hover .feature__scan {
+  opacity: 1;
+}
+
+.feature:hover .feature__scan::after {
+  animation: scan-sweep 1.1s var(--ease-out);
+  opacity: 1;
+}
+
+/* ---------- 仓库名的金属流光 ---------- */
+.feature__name {
+  background: linear-gradient(100deg, #f7ebd8 38%, #fff6e2 50%, #f7ebd8 62%);
+  background-size: 240% 100%;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: name-sweep 7s linear infinite;
+}
+
+@keyframes name-sweep {
+  from {
+    background-position: 210% 0;
+  }
+  to {
+    background-position: -30% 0;
+  }
+}
