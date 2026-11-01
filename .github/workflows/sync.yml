@@ -1,37 +1,25 @@
-name: Sync updates
+name: Refresh data
 
 on:
   schedule:
-    # 每天 UTC 02:00（北京时间 10:00）刷新一次快照
+    # 每天 UTC 02:00（北京时间 10:00）触发一次重新部署
     - cron: '0 2 * * *'
   workflow_dispatch:
 
 permissions:
-  contents: write
+  contents: read
 
 jobs:
-  sync:
+  refresh:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
-
-      - uses: actions/setup-node@v4
-        with:
-          node-version: 20
-
-      - name: Sync snapshot
-        run: node scripts/sync-data.mjs --full
+      - name: Trigger Vercel rebuild
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
-      - name: Commit changes
+          HOOK: ${{ secrets.VERCEL_DEPLOY_HOOK }}
         run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add public/data/updates.json
-          if git diff --cached --quiet; then
-            echo "没有变化"
-          else
-            git commit -m "chore: 刷新更新快照"
-            git push
+          if [ -z "$HOOK" ]; then
+            echo "未配置 VERCEL_DEPLOY_HOOK，跳过。在 Vercel 项目 Settings → Git → Deploy Hooks 里创建后，把它加到仓库 Secrets 即可。"
+            exit 0
           fi
+          curl -sS -X POST "$HOOK"
+          echo "已触发 Vercel 重新构建"

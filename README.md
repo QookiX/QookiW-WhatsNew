@@ -53,26 +53,36 @@ npm run preview
 ```json
 {
   "framework": "vite",
-  "buildCommand": "npm run build:only",
+  "buildCommand": "npm run build",
   "outputDirectory": "dist"
 }
 ```
 
-构建走 `build:only`，也就是**不联网抓数据**，直接读仓库里的 `public/data/updates.json`。这样 Vercel 不需要任何 token，也不会因为 GitHub 限速导致部署失败。数据更新交给 GitHub Actions 提交快照，commit 推上去 Vercel 会自动重新部署，链路就闭合了。
+构建时会跑一次 `sync`：配了 `GITHUB_TOKEN` 就抓最新数据，没配或者被限速就沿用仓库里的快照继续构建（不会失败）。
 
 导入步骤：
 
-1. 打开 https://vercel.com/new ，用 GitHub 账号登录
-2. 选中 `QookiX/QookiW-WhatsNew` 仓库，点 Import
-3. Framework 会自动识别成 Vite，Root Directory 保持 `./`，其余留空（`vercel.json` 已经写好了）
-4. 点 Deploy，等 1 分钟左右拿到 `*.vercel.app` 域名
-5. 想绑自定义域名就在 Project → Settings → Domains 里加
+1. 打开 https://vercel.com/new ，用 GitHub 账号登录，授权访问 `QookiX` 组织
+2. 选中 `QookiX/QookiW-WhatsNew`，点 Import
+3. Framework 自动识别为 Vite，Root Directory 保持 `./`，构建命令读 `vercel.json`，不用改
+4. **建议**在 Environment Variables 里加一条 `GITHUB_TOKEN`（GitHub 个人访问令牌，`public_repo` 权限即可），否则每次构建只能用匿名额度，容易触发限速并回落到快照
+5. 点 Deploy，约 1 分钟拿到 `*.vercel.app` 域名
 
-之后每次 `git push` 到 `main` 都是自动部署，PR 也会生成预览环境。
+之后每次 `git push` 到 `main` 都会自动部署，PR 也会生成预览环境。
 
-## 自动更新
+### 每日自动刷新
 
-`.github/workflows/sync.yml` 每天定时跑一次 `sync:full` 并提交快照；也可以在 Actions 页面手动触发。手动触发时如果仓库有新提交，页面第二天就会跟上。
+Vercel 上的构建不会自己跑，需要一个定时器去踢它。用 Deploy Hook 最省事（不需要仓库写权限）：
+
+1. Vercel 项目 → **Settings → Git → Deploy Hooks** → 创建一个，名字随便，分支填 `main`，复制生成的 URL
+2. GitHub 仓库 → **Settings → Secrets and variables → Actions → New repository secret**，名字 `VERCEL_DEPLOY_HOOK`，值粘贴上一步的 URL
+3. `.github/workflows/sync.yml` 每天 UTC 02:00 会请这个 URL 一次，Vercel 随即重新构建并抓取最新数据；也可以在 Actions 页面点 Run workflow 手动触发
+
+没配这个 secret 的话 workflow 只会打印一条提示然后正常退出，不会报红。
+
+## 数据更新
+
+本地跑 `npm run sync:full` 之后提交 `public/data/updates.json` 就会更新线上的快照。线上每日自动刷新见上面「每日自动刷新」一节。
 
 ## 主视觉
 
