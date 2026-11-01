@@ -336,24 +336,34 @@
   }
 }
 
-/* ---------- 滚动揭示改成撕开 ---------- */
+/* ---------- 滚动揭示：从下往上撕开 ----------
+   用 mask 而不是 clip-path —— clip-path 会让 IntersectionObserver 判定元素
+   完全不可见，观察器就永远不会触发。mask 不影响 IO。 */
 .reveal {
   opacity: 0;
-  clip-path: inset(-8% 0 108% 0);
   transform: translate3d(0, 14px, 0);
-  transition: clip-path 1s var(--ease-out), opacity 0.5s var(--ease-out),
-    transform 1s var(--ease-out);
+  -webkit-mask-image: linear-gradient(180deg, transparent 0%, #000 100%);
+  mask-image: linear-gradient(180deg, transparent 0%, #000 100%);
+  -webkit-mask-size: 100% 0%;
+  mask-size: 100% 0%;
+  -webkit-mask-position: 0 100%;
+  mask-position: 0 100%;
+  transition: opacity 0.45s var(--ease-out), transform 1s var(--ease-out),
+    mask-size 1s var(--ease-out), -webkit-mask-size 1s var(--ease-out);
 }
 
 .reveal.is-in {
   opacity: 1;
-  clip-path: inset(-8% 0 -8% 0);
   transform: none;
+  -webkit-mask-size: 100% 130%;
+  mask-size: 100% 130%;
 }
 
 .reveal--fade {
-  clip-path: none;
-  transform: none;
+  -webkit-mask-image: none;
+  mask-image: none;
+  -webkit-mask-size: 100% 100%;
+  mask-size: 100% 100%;
   filter: blur(10px);
 }
 
