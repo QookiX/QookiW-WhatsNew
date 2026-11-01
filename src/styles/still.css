@@ -1,0 +1,91 @@
+/* =========================================================
+   静默层：除大标题外，所有元素的动效统一停用
+   —— 保留：标题字符砸下 / 金箔扫光 / 字符引力 / 描边呼吸
+   —— 停用：入场揭幕、卡片扫光、行滑入、文字流光、数字呼吸
+   —— 保留：背景层圣光柱、光环扩散、粒子（属于环境，不是文字）
+   ========================================================= */
+
+/* 文字入场：直接呈现，不做任何动画 */
+.wipe-in {
+  animation: none !important;
+  opacity: 1 !important;
+  clip-path: none !important;
+  -webkit-mask-image: none !important;
+  mask-image: none !important;
+  transform: none !important;
+}
+
+/* 滚动揭示：取消遮罩与位移，内容始终可读 */
+.reveal {
+  opacity: 1 !important;
+  clip-path: none !important;
+  -webkit-mask-image: none !important;
+  mask-image: none !important;
+  -webkit-mask-size: 100% 100% !important;
+  mask-size: 100% 100% !important;
+  transform: none !important;
+  filter: none !important;
+  transition: none !important;
+}
+
+.reveal--fade {
+  filter: none !important;
+}
+
+/* 卡片、条目、名册行：取消入场动画 */
+.update,
+.update__item,
+.u-item,
+.roster__row {
+  animation: none !important;
+  opacity: 1 !important;
+  clip-path: none !important;
+  transform: none !important;
+  filter: none !important;
+}
+
+/* 仓库卡：保留 3D 倾斜交互，只停掉入场与呼吸 */
+.lab__primary .feature {
+  animation: none !important;
+  opacity: 1 !important;
+  clip-path: none !important;
+  filter: none !important;
+}
+
+/* 常驻微光扫过 */
+.feature__scan {
+  opacity: 0 !important;
+}
+
+.feature__scan::after,
+.update__scan::after {
+  animation: none !important;
+  opacity: 0 !important;
+}
+
+/* 仓库名的金属流光：恢复成普通奶白文字 */
+.feature__name {
+  animation: none !important;
+  background: none !important;
+  -webkit-background-clip: border-box !important;
+  background-clip: border-box !important;
+  -webkit-text-fill-color: var(--cream) !important;
+  color: var(--cream) !important;
+}
+
+/* 数据带的定时扫光 */
+.databand::after {
+  display: none !important;
+}
+
+/* 数字 / 章节编号 / 页脚字标的呼吸 */
+.stat__value,
+.section__ghost,
+.footer__mega span {
+  animation: none !important;
+}
+
+/* Hero 刻度线：保持静态 */
+.hero__ticks {
+  animation: none !important;
+}
