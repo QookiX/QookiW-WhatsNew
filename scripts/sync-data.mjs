@@ -365,9 +365,32 @@ async function buildRepo(repo, index) {
   }
 }
 
+async function reportToken() {
+  const probe = await api('/rate_limit', { allowFail: true })
+  const core = probe?.resources?.core
+
+  if (!TOKEN) {
+    console.log('[sync] 未配置 GITHUB_TOKEN · 使用匿名额度（60 次/小时）')
+    return
+  }
+  if (!core) {
+    console.log('[sync] 已设置 GITHUB_TOKEN，但额度查询失败')
+    return
+  }
+  if (core.limit > 60) {
+    console.log(`[sync] GITHUB_TOKEN 已生效 · 剩余额度 ${core.remaining}/${core.limit}`)
+  } else {
+    console.log(
+      `[sync] 已设置 GITHUB_TOKEN 但额度仍是 ${core.limit}/小时 · 令牌可能无效或未授权`,
+    )
+  }
+}
+
 async function main() {
   const full = process.argv.includes('--full')
   const startedAt = Date.now()
+
+  await reportToken()
 
   const existingRaw = await readFile(OUT, 'utf8').catch(() => null)
   let previous = null
