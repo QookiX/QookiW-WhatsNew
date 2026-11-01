@@ -239,6 +239,7 @@ export function FxLayer() {
           RELEASES · COMMITS · STARS · FRESH FROM THE OVEN ·{' '}
         </span>
       </div>
+      <div className="fx-halo" aria-hidden="true" />
       <div className="fx-vignette" aria-hidden="true" />
       <div className="fx-scan" aria-hidden="true" />
     </>

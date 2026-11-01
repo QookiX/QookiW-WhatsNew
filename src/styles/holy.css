@@ -1,0 +1,315 @@
+/* =========================================================
+   神圣层：圣光柱 / 光环扩散 / 天顶圣光 / 金箔标题
+   ========================================================= */
+
+/* ---------- 圣光柱 ---------- */
+.hero__godrays {
+  position: absolute;
+  top: -8%;
+  right: -6%;
+  width: 62%;
+  height: 116%;
+  overflow: hidden;
+  pointer-events: none;
+  z-index: 0;
+  mask-image: linear-gradient(180deg, #000 0%, #000 58%, rgba(0, 0, 0, 0) 92%);
+  -webkit-mask-image: linear-gradient(180deg, #000 0%, #000 58%, rgba(0, 0, 0, 0) 92%);
+}
+
+.hero__godrays span {
+  position: absolute;
+  top: -6%;
+  left: 50%;
+  width: 26vmax;
+  height: 128%;
+  transform-origin: 50% 0;
+  background: linear-gradient(
+    180deg,
+    rgba(255, 214, 148, 0.34) 0%,
+    rgba(255, 204, 132, 0.12) 34%,
+    rgba(255, 226, 178, 0) 74%
+  );
+  clip-path: polygon(47.5% 0, 52.5% 0, 100% 100%, 0 100%);
+  filter: blur(16px);
+  mix-blend-mode: screen;
+  opacity: 0;
+  animation: godray 15s ease-in-out infinite;
+}
+
+.hero__godrays span:nth-child(1) {
+  transform: translateX(-50%) rotate(-13deg);
+  animation-delay: 0s;
+}
+.hero__godrays span:nth-child(2) {
+  transform: translateX(-50%) rotate(4deg);
+  width: 20vmax;
+  animation-delay: 3.5s;
+}
+.hero__godrays span:nth-child(3) {
+  transform: translateX(-50%) rotate(16deg);
+  width: 14vmax;
+  animation-delay: 7s;
+}
+.hero__godrays span:nth-child(4) {
+  transform: translateX(-50%) rotate(-26deg);
+  width: 11vmax;
+  animation-delay: 10.5s;
+}
+
+@keyframes godray {
+  0%,
+  100% {
+    opacity: 0.12;
+  }
+  45% {
+    opacity: 0.52;
+  }
+  70% {
+    opacity: 0.26;
+  }
+}
+
+/* ---------- 圣像光环扩散 ---------- */
+.cookie__waves {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+}
+
+.cookie__waves i {
+  position: absolute;
+  inset: 0;
+  border-radius: 50%;
+  border: 1.5px solid rgba(247, 213, 166, 0.5);
+  opacity: 0;
+  animation: halo-wave 7.5s var(--ease-out) infinite;
+}
+
+.cookie__waves i:nth-child(2) {
+  animation-delay: 2.5s;
+}
+.cookie__waves i:nth-child(3) {
+  animation-delay: 5s;
+}
+
+@keyframes halo-wave {
+  0% {
+    transform: scale(0.56);
+    opacity: 0;
+  }
+  14% {
+    opacity: 0.7;
+  }
+  100% {
+    transform: scale(2.15);
+    opacity: 0;
+  }
+}
+
+/* ---------- 固定天顶圣光 ---------- */
+.fx-halo {
+  position: fixed;
+  top: -34vh;
+  left: 50%;
+  width: 92vmax;
+  height: 92vmax;
+  margin-left: -46vmax;
+  border-radius: 50%;
+  z-index: 1;
+  pointer-events: none;
+  background: radial-gradient(
+    circle,
+    rgba(255, 228, 182, 0.13) 0%,
+    rgba(255, 222, 170, 0.05) 34%,
+    rgba(255, 214, 158, 0) 62%
+  );
+  mix-blend-mode: screen;
+  animation: halo-breathe 12s ease-in-out infinite;
+}
+
+@keyframes halo-breathe {
+  0%,
+  100% {
+    opacity: 0.5;
+    transform: scale(1);
+  }
+  50% {
+    opacity: 0.95;
+    transform: scale(1.07);
+  }
+}
+
+/* ---------- 金箔标题 ---------- */
+.hero__title-line:not(.hero__title-line--outline) .split__inner {
+  background: linear-gradient(
+    100deg,
+    #f7ebd8 0%,
+    #fff8ea 12%,
+    #eda455 26%,
+    #f7e3c6 42%,
+    #c98a4a 56%,
+    #f7ebd8 70%,
+    #f2dfc4 84%,
+    #f7ebd8 100%
+  );
+  background-size: 320% 100%;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: char-slam 0.7s cubic-bezier(0.2, 0.9, 0.25, 1) backwards,
+    foil-sweep 11s linear infinite;
+  animation-delay: calc(var(--i) * var(--step, 0.075s) + var(--d, 0.2s)), 0s;
+}
+
+@keyframes foil-sweep {
+  from {
+    background-position: 0% 50%;
+  }
+  to {
+    background-position: 320% 50%;
+  }
+}
+
+/* ---------- 描边行的光晕呼吸 ---------- */
+.hero__title-line--outline {
+  animation: outline-glow 9s ease-in-out infinite;
+}
+
+@keyframes outline-glow {
+  0%,
+  100% {
+    filter: drop-shadow(0 0 18px rgba(237, 164, 85, 0.28));
+  }
+  50% {
+    filter: drop-shadow(0 0 34px rgba(247, 205, 151, 0.5));
+  }
+}
+
+/* ---------- 数据带的圣光扫过 ---------- */
+.databand {
+  position: relative;
+  overflow: hidden;
+}
+
+.databand::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 26%;
+  left: -30%;
+  background: linear-gradient(
+    90deg,
+    rgba(255, 236, 205, 0) 0%,
+    rgba(255, 236, 205, 0.07) 50%,
+    rgba(255, 236, 205, 0) 100%
+  );
+  animation: band-sweep 9s ease-in-out infinite;
+  pointer-events: none;
+}
+
+@keyframes band-sweep {
+  0%,
+  55% {
+    left: -30%;
+  }
+  100% {
+    left: 110%;
+  }
+}
+
+/* ---------- 入场圣光 ---------- */
+.fx-bless {
+  position: fixed;
+  inset: 0;
+  z-index: 72;
+  pointer-events: none;
+  background: radial-gradient(
+    circle at 50% 38%,
+    rgba(255, 244, 224, 0.5) 0%,
+    rgba(255, 232, 198, 0.16) 26%,
+    rgba(10, 7, 4, 0) 58%
+  );
+  animation: bless 1.9s var(--ease-out) forwards;
+}
+
+@keyframes bless {
+  0% {
+    opacity: 0;
+    transform: scale(0.7);
+  }
+  12% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    transform: scale(1.35);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .hero__godrays,
+  .cookie__waves,
+  .fx-halo,
+  .fx-bless,
+  .databand::after {
+    display: none;
+  }
+  .hero__title-line:not(.hero__title-line--outline) .split__inner {
+    background: none;
+    -webkit-text-fill-color: var(--cream);
+    animation: none;
+  }
+}
+
+@media (max-width: 940px) {
+  .hero__godrays {
+    width: 96%;
+    right: -24%;
+    opacity: 0.65;
+  }
+  .cookie__waves i {
+    animation-duration: 9s;
+  }
+}
+
+/* ---------- 数字的金光呼吸 ---------- */
+.stat__value {
+  animation: stat-glow 8s ease-in-out infinite;
+}
+
+@keyframes stat-glow {
+  0%, 100% { text-shadow: 0 0 22px rgba(224, 164, 94, 0.22); }
+  50% { text-shadow: 0 0 40px rgba(247, 205, 151, 0.52); }
+}
+
+/* ---------- 章节编号的光晕 ---------- */
+.section__ghost {
+  animation: ghost-glow 11s ease-in-out infinite;
+}
+
+@keyframes ghost-glow {
+  0%, 100% { -webkit-text-stroke-color: rgba(240, 199, 149, 0.28); }
+  50% { -webkit-text-stroke-color: rgba(247, 213, 166, 0.6); }
+}
+
+/* ---------- 页脚字标金色扫光 ---------- */
+.footer__mega span {
+  background-size: 220% 100%;
+  animation: mega-sweep 14s linear infinite;
+}
+
+@keyframes mega-sweep {
+  from { background-position: 0% 50%; }
+  to { background-position: 220% 50%; }
+}
+
+/* ---------- 仓库卡的圣光呼吸 ---------- */
+.feature:hover {
+  box-shadow: 0 26px 60px -34px rgba(0, 0, 0, 0.9), 0 0 60px -24px rgba(237, 164, 85, 0.42);
+}
+
+/* ---------- 更新卡的边缘微光 ---------- */
+.update:hover {
+  box-shadow: 0 18px 40px -30px rgba(0, 0, 0, 0.9), 0 0 40px -20px rgba(134, 207, 196, 0.28);
+}

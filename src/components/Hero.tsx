@@ -73,6 +73,12 @@ export function Hero({ stats, org }: { stats: HeroStats; org: string }) {
       <span className="hero__flash" aria-hidden="true" />
       <div className="hero__grid-bg" aria-hidden="true" />
       <div className="hero__floor" aria-hidden="true" />
+      <div className="hero__godrays" aria-hidden="true">
+        <span />
+        <span />
+        <span />
+        <span />
+      </div>
 
       <div className="hud hud--tl" aria-hidden="true">
         <i />

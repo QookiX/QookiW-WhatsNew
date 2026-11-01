@@ -76,6 +76,11 @@ export function HeroMark({
           <span className="cookie__aura" aria-hidden="true" />
           <span className="cookie__rays" aria-hidden="true" />
           <span className="cookie__radar" aria-hidden="true" />
+          <span className="cookie__waves" aria-hidden="true">
+            <i />
+            <i />
+            <i />
+          </span>
           <span className="cookie__ring" aria-hidden="true" />
           <span className="cookie__arc" aria-hidden="true" />
           <span className="cookie__dial" aria-hidden="true" />

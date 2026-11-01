@@ -1,6 +1,6 @@
 {
   "org": "QookiX",
-  "generatedAt": "2026-11-01T13:26:57.405Z",
+  "generatedAt": "2026-11-01T14:18:05.995Z",
   "repos": [
     {
       "name": "QookiW-WhatsNew",
@@ -20,7 +20,7 @@
       ],
       "htmlUrl": "https://github.com/QookiX/QookiW-WhatsNew",
       "homepage": "https://qooki-w-whats-new.vercel.app",
-      "pushedAt": "2026-11-01T13:20:58Z",
+      "pushedAt": "2026-11-01T13:27:23Z",
       "createdAt": "2026-11-01T13:01:44Z",
       "archived": false,
       "source": "commits",
@@ -28,8 +28,8 @@
       "tone": "#F0C98A",
       "releaseCount": 0,
       "latestVersion": null,
-      "latestDate": "2026-11-01T13:20:53Z",
-      "updateCount": 3
+      "latestDate": "2026-11-01T13:27:17Z",
+      "updateCount": 4
     },
     {
       "name": "QookiX-Launcher",
@@ -133,30 +133,6 @@
       "updateCount": 29
     },
     {
-      "name": "QookiBot",
-      "fullName": "QookiX/QookiBot",
-      "displayName": "QookiBot",
-      "description": "Qookix Launcher 自动化bot",
-      "language": "",
-      "languageColor": "#C99A4E",
-      "stars": 0,
-      "forks": 0,
-      "openIssues": 0,
-      "topics": [],
-      "htmlUrl": "https://github.com/QookiX/QookiBot",
-      "homepage": "",
-      "pushedAt": "2026-10-20T04:29:47Z",
-      "createdAt": "2026-10-20T04:29:46Z",
-      "archived": false,
-      "source": "commits",
-      "changelogPath": null,
-      "tone": "#8A4520",
-      "releaseCount": 0,
-      "latestVersion": null,
-      "latestDate": "2026-10-20T04:29:47Z",
-      "updateCount": 0
-    },
-    {
       "name": "QookiL",
       "fullName": "QookiX/QookiL",
       "displayName": "QookiL",
@@ -174,7 +150,7 @@
       "archived": false,
       "source": "commits",
       "changelogPath": null,
-      "tone": "#C99A4E",
+      "tone": "#8A4520",
       "releaseCount": 0,
       "latestVersion": null,
       "latestDate": "2026-10-18T15:36:33Z",
@@ -198,7 +174,7 @@
       "archived": false,
       "source": "commits",
       "changelogPath": null,
-      "tone": "#DDB46B",
+      "tone": "#C99A4E",
       "releaseCount": 0,
       "latestVersion": null,
       "latestDate": "2026-10-10T14:49:42Z",
@@ -229,7 +205,7 @@
       "archived": false,
       "source": "commits",
       "changelogPath": null,
-      "tone": "#BF7333",
+      "tone": "#DDB46B",
       "releaseCount": 0,
       "latestVersion": null,
       "latestDate": "2026-10-07T04:02:56Z",
@@ -260,7 +236,7 @@
       "archived": false,
       "source": "commits",
       "changelogPath": null,
-      "tone": "#F0C98A",
+      "tone": "#BF7333",
       "releaseCount": 0,
       "latestVersion": null,
       "latestDate": "2026-09-15T15:42:17Z",
@@ -268,6 +244,28 @@
     }
   ],
   "updates": [
+    {
+      "id": "QookiW-WhatsNew:commit:0593eb8b984e0e91eb089a8ad8147fa8b155b74f",
+      "repo": "QookiW-WhatsNew",
+      "type": "commit",
+      "version": null,
+      "date": "2026-11-01T13:27:17Z",
+      "sha": "0593eb8",
+      "url": "https://github.com/QookiX/QookiW-WhatsNew/commit/0593eb8b984e0e91eb089a8ad8147fa8b155b74f",
+      "notes": [
+        "workflow 改为 */10 轮询，先 sync 再比对快照",
+        "新增 scripts/has-changed.mjs，忽略 generatedAt 只比内容"
+      ],
+      "items": [
+        {
+          "module": "feat",
+          "text": "每 10 分钟检测更新，仅数据变化时触发部署",
+          "kind": "feat",
+          "section": null
+        }
+      ],
+      "sections": []
+    },
     {
       "id": "QookiW-WhatsNew:commit:dbaf25037346c41b3f46ac0c9270bd835daec809",
       "repo": "QookiW-WhatsNew",
@@ -530,7 +528,7 @@
             "name": "QookiX.Launcher_0.19.0_amd64.AppImage",
             "size": 89332216,
             "url": "https://github.com/QookiX/QookiX-Launcher/releases/download/v0.19.0/QookiX.Launcher_0.19.0_amd64.AppImage",
-            "downloads": 4,
+            "downloads": 5,
             "type": "application/octet-stream"
           },
           {
@@ -558,7 +556,7 @@
             "name": "QookiX.Launcher_0.19.0_x64-setup.exe",
             "size": 8019588,
             "url": "https://github.com/QookiX/QookiX-Launcher/releases/download/v0.19.0/QookiX.Launcher_0.19.0_x64-setup.exe",
-            "downloads": 10,
+            "downloads": 11,
             "type": "application/x-msdos-program"
           },
           {
