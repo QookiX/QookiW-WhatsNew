@@ -70,15 +70,27 @@ npm run preview
 
 之后每次 `git push` 到 `main` 都会自动部署，PR 也会生成预览环境。
 
-### 每日自动刷新
+### 定时刷新
 
 Vercel 上的构建不会自己跑，需要一个定时器去踢它。用 Deploy Hook 最省事（不需要仓库写权限）：
 
-1. Vercel 项目 → **Settings → Git → Deploy Hooks** → 创建一个，名字随便，分支填 `main`，复制生成的 URL
+1. Vercel 项目 → **Settings → Git → Deploy Hooks** → 创建一个，分支填 `main`，复制生成的 URL
 2. GitHub 仓库 → **Settings → Secrets and variables → Actions → New repository secret**，名字 `VERCEL_DEPLOY_HOOK`，值粘贴上一步的 URL
-3. `.github/workflows/sync.yml` 每天 UTC 02:00 会请这个 URL 一次，Vercel 随即重新构建并抓取最新数据；也可以在 Actions 页面点 Run workflow 手动触发
 
-没配这个 secret 的话 workflow 只会打印一条提示然后正常退出，不会报红。
+`.github/workflows/sync.yml` **每 10 分钟**跑一次：
+
+1. 用 `secrets.GITHUB_TOKEN` 跑一次 `sync:full`，抓最新数据
+2. 用 `scripts/has-changed.mjs` 和仓库里的快照比对（只比 `repos` / `updates`，忽略 `generatedAt`）
+3. **只有数据真的变了才请求 Deploy Hook**，避免每 10 分钟就产生一次部署
+
+所以一天通常只部署 0～3 次，远低于 Vercel Hobby 每天 100 次的上限。
+
+没配 secret 的话 workflow 只会打印一条提示然后正常退出，不会报红。
+
+两点限制：
+
+- GitHub 的 schedule 在高峰期会延迟甚至跳过，10 分钟是「大约每 10 分钟」
+- 公开仓库如果连续 60 天没有任何 commit，GitHub 会自动停掉定时任务，需要有人 push 一次才会恢复
 
 ## 数据更新
 

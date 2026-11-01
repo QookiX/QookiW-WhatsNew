@@ -1,7 +1,36 @@
 {
   "org": "QookiX",
-  "generatedAt": "2026-11-01T12:18:37.233Z",
+  "generatedAt": "2026-11-01T13:26:57.405Z",
   "repos": [
+    {
+      "name": "QookiW-WhatsNew",
+      "fullName": "QookiX/QookiW-WhatsNew",
+      "displayName": "QookiW-WhatsNew",
+      "description": "QookiX 组织所有仓库的更新汇总 —— CHANGELOG 与提交记录，一炉端出",
+      "language": "CSS",
+      "languageColor": "#C99A4E",
+      "stars": 0,
+      "forks": 0,
+      "openIssues": 0,
+      "topics": [
+        "changelog",
+        "dashboard",
+        "react",
+        "vite"
+      ],
+      "htmlUrl": "https://github.com/QookiX/QookiW-WhatsNew",
+      "homepage": "https://qooki-w-whats-new.vercel.app",
+      "pushedAt": "2026-11-01T13:20:58Z",
+      "createdAt": "2026-11-01T13:01:44Z",
+      "archived": false,
+      "source": "commits",
+      "changelogPath": null,
+      "tone": "#F0C98A",
+      "releaseCount": 0,
+      "latestVersion": null,
+      "latestDate": "2026-11-01T13:20:53Z",
+      "updateCount": 3
+    },
     {
       "name": "QookiX-Launcher",
       "fullName": "QookiX/QookiX-Launcher",
@@ -25,7 +54,7 @@
       "archived": false,
       "source": "changelog",
       "changelogPath": "CHANGELOG.md",
-      "tone": "#F0C98A",
+      "tone": "#E3A863",
       "releaseCount": 70,
       "latestVersion": "0.19.0",
       "latestDate": "2026-11-01",
@@ -49,7 +78,7 @@
       "archived": false,
       "source": "changelog",
       "changelogPath": "CHANGELOG.md",
-      "tone": "#E3A863",
+      "tone": "#D08A45",
       "releaseCount": 54,
       "latestVersion": "0.2.2-beta11",
       "latestDate": "2026-10-31",
@@ -73,7 +102,7 @@
       "archived": false,
       "source": "commits",
       "changelogPath": null,
-      "tone": "#D08A45",
+      "tone": "#B96F35",
       "releaseCount": 0,
       "latestVersion": null,
       "latestDate": "2026-10-30T17:27:41Z",
@@ -97,7 +126,7 @@
       "archived": false,
       "source": "commits",
       "changelogPath": null,
-      "tone": "#B96F35",
+      "tone": "#A0562A",
       "releaseCount": 0,
       "latestVersion": null,
       "latestDate": "2026-10-30T14:08:04Z",
@@ -121,7 +150,7 @@
       "archived": false,
       "source": "commits",
       "changelogPath": null,
-      "tone": "#A0562A",
+      "tone": "#8A4520",
       "releaseCount": 0,
       "latestVersion": null,
       "latestDate": "2026-10-20T04:29:47Z",
@@ -145,7 +174,7 @@
       "archived": false,
       "source": "commits",
       "changelogPath": null,
-      "tone": "#8A4520",
+      "tone": "#C99A4E",
       "releaseCount": 0,
       "latestVersion": null,
       "latestDate": "2026-10-18T15:36:33Z",
@@ -169,7 +198,7 @@
       "archived": false,
       "source": "commits",
       "changelogPath": null,
-      "tone": "#C99A4E",
+      "tone": "#DDB46B",
       "releaseCount": 0,
       "latestVersion": null,
       "latestDate": "2026-10-10T14:49:42Z",
@@ -200,7 +229,7 @@
       "archived": false,
       "source": "commits",
       "changelogPath": null,
-      "tone": "#DDB46B",
+      "tone": "#BF7333",
       "releaseCount": 0,
       "latestVersion": null,
       "latestDate": "2026-10-07T04:02:56Z",
@@ -231,7 +260,7 @@
       "archived": false,
       "source": "commits",
       "changelogPath": null,
-      "tone": "#BF7333",
+      "tone": "#F0C98A",
       "releaseCount": 0,
       "latestVersion": null,
       "latestDate": "2026-09-15T15:42:17Z",
@@ -239,6 +268,71 @@
     }
   ],
   "updates": [
+    {
+      "id": "QookiW-WhatsNew:commit:dbaf25037346c41b3f46ac0c9270bd835daec809",
+      "repo": "QookiW-WhatsNew",
+      "type": "commit",
+      "version": null,
+      "date": "2026-11-01T13:20:53Z",
+      "sha": "dbaf250",
+      "url": "https://github.com/QookiX/QookiW-WhatsNew/commit/dbaf25037346c41b3f46ac0c9270bd835daec809",
+      "notes": [
+        "部署日志第一行即可确认 GITHUB_TOKEN 是否真正生效"
+      ],
+      "items": [
+        {
+          "module": "chore",
+          "text": "sync 启动时打印 token 状态与 API 额度",
+          "kind": "other",
+          "section": null
+        }
+      ],
+      "sections": []
+    },
+    {
+      "id": "QookiW-WhatsNew:commit:394bed67cf4042a2e17096d3cb1921b90cf2a294",
+      "repo": "QookiW-WhatsNew",
+      "type": "commit",
+      "version": null,
+      "date": "2026-11-01T13:04:22Z",
+      "sha": "394bed6",
+      "url": "https://github.com/QookiX/QookiW-WhatsNew/commit/394bed67cf4042a2e17096d3cb1921b90cf2a294",
+      "notes": [
+        "vercel.json 指定 vite 构建与缓存策略",
+        "workflow 改为触发 Vercel Deploy Hook（组织禁用了 GITHUB_TOKEN 写权限）"
+      ],
+      "items": [
+        {
+          "module": "chore",
+          "text": "Vercel 部署配置与每日刷新工作流",
+          "kind": "other",
+          "section": null
+        }
+      ],
+      "sections": []
+    },
+    {
+      "id": "QookiW-WhatsNew:commit:38dd9af7cf364c44d12991cc2870fe931a7e7839",
+      "repo": "QookiW-WhatsNew",
+      "type": "commit",
+      "version": null,
+      "date": "2026-11-01T13:03:30Z",
+      "sha": "38dd9af",
+      "url": "https://github.com/QookiX/QookiW-WhatsNew/commit/38dd9af7cf364c44d12991cc2870fe931a7e7839",
+      "notes": [
+        "构建期抓取组织下全部仓库的 CHANGELOG 与提交记录，产出静态快照",
+        "主视觉用组织头像做的能量核心，饼干金 + 冷青数据色"
+      ],
+      "items": [
+        {
+          "module": "feat",
+          "text": "QookiX 出炉日志 —— 组织更新聚合站",
+          "kind": "feat",
+          "section": null
+        }
+      ],
+      "sections": []
+    },
     {
       "id": "QookiX-Launcher:0.19.0",
       "repo": "QookiX-Launcher",
@@ -387,98 +481,98 @@
             "name": "changelog.json",
             "size": 15131,
             "url": "https://github.com/QookiX/QookiX-Launcher/releases/download/v0.19.0/changelog.json",
-            "downloads": 2,
+            "downloads": 9,
             "type": "application/json"
           },
           {
             "name": "latest.json",
             "size": 7598,
             "url": "https://github.com/QookiX/QookiX-Launcher/releases/download/v0.19.0/latest.json",
-            "downloads": 1,
+            "downloads": 6,
             "type": "application/octet-stream"
           },
           {
             "name": "QookiX.Launcher-0.19.0-1.x86_64.rpm",
             "size": 11895811,
             "url": "https://github.com/QookiX/QookiX-Launcher/releases/download/v0.19.0/QookiX.Launcher-0.19.0-1.x86_64.rpm",
-            "downloads": 0,
+            "downloads": 4,
             "type": "application/x-redhat-package-manager"
           },
           {
             "name": "QookiX.Launcher-0.19.0-1.x86_64.rpm.sig",
             "size": 428,
             "url": "https://github.com/QookiX/QookiX-Launcher/releases/download/v0.19.0/QookiX.Launcher-0.19.0-1.x86_64.rpm.sig",
-            "downloads": 0,
+            "downloads": 4,
             "type": "application/pgp-signature"
           },
           {
             "name": "QookiX.Launcher.app.tar.gz",
             "size": 10102520,
             "url": "https://github.com/QookiX/QookiX-Launcher/releases/download/v0.19.0/QookiX.Launcher.app.tar.gz",
-            "downloads": 0,
+            "downloads": 4,
             "type": "application/gzip"
           },
           {
             "name": "QookiX.Launcher.app.tar.gz.sig",
             "size": 416,
             "url": "https://github.com/QookiX/QookiX-Launcher/releases/download/v0.19.0/QookiX.Launcher.app.tar.gz.sig",
-            "downloads": 1,
+            "downloads": 5,
             "type": "application/pgp-signature"
           },
           {
             "name": "QookiX.Launcher_0.19.0_aarch64.dmg",
             "size": 9935948,
             "url": "https://github.com/QookiX/QookiX-Launcher/releases/download/v0.19.0/QookiX.Launcher_0.19.0_aarch64.dmg",
-            "downloads": 0,
+            "downloads": 4,
             "type": "application/x-apple-diskimage"
           },
           {
             "name": "QookiX.Launcher_0.19.0_amd64.AppImage",
             "size": 89332216,
             "url": "https://github.com/QookiX/QookiX-Launcher/releases/download/v0.19.0/QookiX.Launcher_0.19.0_amd64.AppImage",
-            "downloads": 0,
+            "downloads": 4,
             "type": "application/octet-stream"
           },
           {
             "name": "QookiX.Launcher_0.19.0_amd64.AppImage.sig",
             "size": 432,
             "url": "https://github.com/QookiX/QookiX-Launcher/releases/download/v0.19.0/QookiX.Launcher_0.19.0_amd64.AppImage.sig",
-            "downloads": 1,
+            "downloads": 5,
             "type": "application/pgp-signature"
           },
           {
             "name": "QookiX.Launcher_0.19.0_amd64.deb",
             "size": 11894600,
             "url": "https://github.com/QookiX/QookiX-Launcher/releases/download/v0.19.0/QookiX.Launcher_0.19.0_amd64.deb",
-            "downloads": 0,
+            "downloads": 4,
             "type": "application/x-debian-package"
           },
           {
             "name": "QookiX.Launcher_0.19.0_amd64.deb.sig",
             "size": 424,
             "url": "https://github.com/QookiX/QookiX-Launcher/releases/download/v0.19.0/QookiX.Launcher_0.19.0_amd64.deb.sig",
-            "downloads": 0,
+            "downloads": 4,
             "type": "application/pgp-signature"
           },
           {
             "name": "QookiX.Launcher_0.19.0_x64-setup.exe",
             "size": 8019588,
             "url": "https://github.com/QookiX/QookiX-Launcher/releases/download/v0.19.0/QookiX.Launcher_0.19.0_x64-setup.exe",
-            "downloads": 0,
+            "downloads": 10,
             "type": "application/x-msdos-program"
           },
           {
             "name": "QookiX.Launcher_0.19.0_x64-setup.exe.sig",
             "size": 428,
             "url": "https://github.com/QookiX/QookiX-Launcher/releases/download/v0.19.0/QookiX.Launcher_0.19.0_x64-setup.exe.sig",
-            "downloads": 1,
+            "downloads": 5,
             "type": "application/pgp-signature"
           },
           {
             "name": "QookiX_0.19.0_x64_portable.zip",
             "size": 10426790,
             "url": "https://github.com/QookiX/QookiX-Launcher/releases/download/v0.19.0/QookiX_0.19.0_x64_portable.zip",
-            "downloads": 0,
+            "downloads": 4,
             "type": "application/zip"
           }
         ]
@@ -2135,7 +2229,7 @@
             "name": "QookiX-Launcher-Android-v0.2.1-arm64.apk",
             "size": 50264184,
             "url": "https://github.com/QookiX/QookiX-Launcher-Android/releases/download/v0.2.1/QookiX-Launcher-Android-v0.2.1-arm64.apk",
-            "downloads": 48,
+            "downloads": 49,
             "type": "application/vnd.android.package-archive"
           },
           {
@@ -3797,7 +3891,7 @@
             "name": "changelog.json",
             "size": 12048,
             "url": "https://github.com/QookiX/QookiX-Launcher/releases/download/v0.17.0/changelog.json",
-            "downloads": 35,
+            "downloads": 36,
             "type": "application/json"
           },
           {
@@ -4761,7 +4855,7 @@
             "name": "changelog.json",
             "size": 7393,
             "url": "https://github.com/QookiX/QookiX-Launcher/releases/download/v0.16.0/changelog.json",
-            "downloads": 61,
+            "downloads": 62,
             "type": "application/json"
           },
           {
@@ -4894,7 +4988,7 @@
             "name": "changelog.json",
             "size": 6167,
             "url": "https://github.com/QookiX/QookiX-Launcher/releases/download/v0.15.5/changelog.json",
-            "downloads": 39,
+            "downloads": 40,
             "type": "application/json"
           },
           {
@@ -5305,7 +5399,7 @@
             "name": "changelog.json",
             "size": 6360,
             "url": "https://github.com/QookiX/QookiX-Launcher/releases/download/v0.15.4/changelog.json",
-            "downloads": 34,
+            "downloads": 35,
             "type": "application/json"
           },
           {
