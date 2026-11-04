@@ -59,6 +59,17 @@ jobs:
           VERCEL_PROJECT_ID: ${{ secrets.VERCEL_PROJECT_ID }}
         run: npx vercel pull --yes --environment=production --token="${{ secrets.VERCEL_TOKEN }}"
 
+      # Vercel 上的 sensitive 变量拉不下来（会变成 [SENSITIVE] 占位符），
+      # 所以用 GitHub 自己的令牌覆盖掉，构建时的 sync 才能真正抓到数据
+      - name: Inject GitHub token
+        env:
+          TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          if [ -f .vercel/.env.production.local ]; then
+            sed -i '/^GITHUB_TOKEN=/d' .vercel/.env.production.local
+          fi
+          echo "GITHUB_TOKEN=$TOKEN" >> .vercel/.env.production.local
+
       - name: Build
         run: npx vercel build --prod --token="${{ secrets.VERCEL_TOKEN }}"
 
