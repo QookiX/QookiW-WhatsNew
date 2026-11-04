@@ -150,7 +150,8 @@ export function Footer({ data }: { data: Snapshot }) {
         </div>
 
         <p className="footer__credit">
-          本网页完全由 <b>DeepSeek V4.1 Flash</b> 与 <b>MiniMax M3.1 Flash</b> 开发
+          本网页完全由 <b>DeepSeek V4.1 Flash</b>、<b>MiniMax M3.1 Flash</b>、
+          <b>GLM 5.3 Flash</b>、<b>HY4</b> 开发
         </p>
       </div>
 
