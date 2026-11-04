@@ -2,6 +2,12 @@ const MS_DAY = 86_400_000
 
 export function toDate(value: string | null | undefined): Date | null {
   if (!value) return null
+  // 纯日期（YYYY-MM-DD）按本地时区解析。
+  // new Date('2026-11-04') 会被规范当成 UTC 午夜，在负时区会退成前一天。
+  const plain = /^(\d{4})-(\d{2})-(\d{2})$/.exec(value)
+  if (plain) {
+    return new Date(Number(plain[1]), Number(plain[2]) - 1, Number(plain[3]))
+  }
   const date = new Date(value)
   return Number.isNaN(date.getTime()) ? null : date
 }

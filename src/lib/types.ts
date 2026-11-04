@@ -31,6 +31,8 @@ export interface Update {
   type: 'release' | 'commit'
   version: string | null
   date: string | null
+  changelogDate?: string | null
+  publishedAt?: string | null
   sha?: string
   url?: string
   changelogUrl?: string

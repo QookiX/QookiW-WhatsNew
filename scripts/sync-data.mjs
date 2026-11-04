@@ -157,6 +157,7 @@ function parseChangelog(markdown, repoName) {
         type: 'release',
         version: version.replace(/^v/i, ''),
         date: heading[2] || null,
+        changelogDate: heading[2] || null,
         notes: [],
         items: [],
         sections: [],
@@ -328,6 +329,12 @@ async function buildRepo(repo, index) {
     entry.release = record
     entry.url = record?.url || changelogUrl
     entry.changelogUrl = changelogUrl
+    // 以 GitHub 上的真实发布时间为准（前端按浏览器时区渲染，与 GitHub 页面一致）；
+    // CHANGELOG 里手写的日期只作兜底。
+    if (record?.publishedAt) {
+      entry.publishedAt = record.publishedAt
+      entry.date = record.publishedAt
+    }
   }
 
   const dated = entries.filter((e) => e.date).sort((a, b) => b.date.localeCompare(a.date))
