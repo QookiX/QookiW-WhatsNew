@@ -1,7 +1,84 @@
 {
   "org": "QookiX",
-  "generatedAt": "2026-11-01T14:18:05.995Z",
+  "generatedAt": "2026-11-04T14:45:59.040Z",
   "repos": [
+    {
+      "name": "QookiX-Launcher-Android",
+      "fullName": "QookiX/QookiX-Launcher-Android",
+      "displayName": "QookiX-Launcher-Android",
+      "description": "QookiX我的世界启动器Android版",
+      "language": "Kotlin",
+      "languageColor": "#E8BC83",
+      "stars": 8,
+      "forks": 1,
+      "openIssues": 0,
+      "topics": [],
+      "htmlUrl": "https://github.com/QookiX/QookiX-Launcher-Android",
+      "homepage": "",
+      "pushedAt": "2026-11-04T14:35:42Z",
+      "createdAt": "2026-09-05T10:42:38Z",
+      "archived": false,
+      "source": "changelog",
+      "changelogPath": "CHANGELOG.md",
+      "tone": "#F0C98A",
+      "releaseCount": 71,
+      "latestVersion": "0.2.2-beta28",
+      "latestDate": "2026-11-04",
+      "updateCount": 71
+    },
+    {
+      "name": "QookiX-Docs",
+      "fullName": "QookiX/QookiX-Docs",
+      "displayName": "QookiX-Docs",
+      "description": "",
+      "language": "Vue",
+      "languageColor": "#B96F35",
+      "stars": 0,
+      "forks": 0,
+      "openIssues": 0,
+      "topics": [],
+      "htmlUrl": "https://github.com/QookiX/QookiX-Docs",
+      "homepage": "https://docs.qookix.cn",
+      "pushedAt": "2026-11-01T15:19:57Z",
+      "createdAt": "2026-09-05T09:38:16Z",
+      "archived": false,
+      "source": "commits",
+      "changelogPath": null,
+      "tone": "#E3A863",
+      "releaseCount": 0,
+      "latestVersion": null,
+      "latestDate": "2026-11-01T15:06:25Z",
+      "updateCount": 29
+    },
+    {
+      "name": "QookiX-Launcher",
+      "fullName": "QookiX/QookiX-Launcher",
+      "displayName": "QookiX-Launcher",
+      "description": "一个简洁无广的轻量级跨平台我的世界启动器",
+      "language": "Rust",
+      "languageColor": "#DDA45F",
+      "stars": 24,
+      "forks": 3,
+      "openIssues": 0,
+      "topics": [
+        "launcher",
+        "minecraft",
+        "rust",
+        "tauri"
+      ],
+      "htmlUrl": "https://github.com/QookiX/QookiX-Launcher",
+      "homepage": "https://www.qookix.cn/",
+      "pushedAt": "2026-11-01T15:13:23Z",
+      "createdAt": "2026-08-20T15:36:43Z",
+      "archived": false,
+      "source": "changelog",
+      "changelogPath": "CHANGELOG.md",
+      "tone": "#D08A45",
+      "releaseCount": 71,
+      "latestVersion": "0.19.1",
+      "latestDate": "2026-11-01",
+      "updateCount": 71
+    },
     {
       "name": "QookiW-WhatsNew",
       "fullName": "QookiX/QookiW-WhatsNew",
@@ -20,69 +97,16 @@
       ],
       "htmlUrl": "https://github.com/QookiX/QookiW-WhatsNew",
       "homepage": "https://qooki-w-whats-new.vercel.app",
-      "pushedAt": "2026-11-01T13:27:23Z",
+      "pushedAt": "2026-11-01T14:48:55Z",
       "createdAt": "2026-11-01T13:01:44Z",
       "archived": false,
       "source": "commits",
       "changelogPath": null,
-      "tone": "#F0C98A",
+      "tone": "#B96F35",
       "releaseCount": 0,
       "latestVersion": null,
-      "latestDate": "2026-11-01T13:27:17Z",
-      "updateCount": 4
-    },
-    {
-      "name": "QookiX-Launcher",
-      "fullName": "QookiX/QookiX-Launcher",
-      "displayName": "QookiX-Launcher",
-      "description": "一个简洁无广的轻量级跨平台我的世界启动器",
-      "language": "Rust",
-      "languageColor": "#DDA45F",
-      "stars": 23,
-      "forks": 3,
-      "openIssues": 1,
-      "topics": [
-        "launcher",
-        "minecraft",
-        "rust",
-        "tauri"
-      ],
-      "htmlUrl": "https://github.com/QookiX/QookiX-Launcher",
-      "homepage": "https://www.qookix.cn/",
-      "pushedAt": "2026-11-01T11:49:48Z",
-      "createdAt": "2026-08-20T15:36:43Z",
-      "archived": false,
-      "source": "changelog",
-      "changelogPath": "CHANGELOG.md",
-      "tone": "#E3A863",
-      "releaseCount": 70,
-      "latestVersion": "0.19.0",
-      "latestDate": "2026-11-01",
-      "updateCount": 70
-    },
-    {
-      "name": "QookiX-Launcher-Android",
-      "fullName": "QookiX/QookiX-Launcher-Android",
-      "displayName": "QookiX-Launcher-Android",
-      "description": "QookiX我的世界启动器Android版",
-      "language": "Kotlin",
-      "languageColor": "#E8BC83",
-      "stars": 8,
-      "forks": 1,
-      "openIssues": 0,
-      "topics": [],
-      "htmlUrl": "https://github.com/QookiX/QookiX-Launcher-Android",
-      "homepage": "",
-      "pushedAt": "2026-10-31T10:17:16Z",
-      "createdAt": "2026-09-05T10:42:38Z",
-      "archived": false,
-      "source": "changelog",
-      "changelogPath": "CHANGELOG.md",
-      "tone": "#D08A45",
-      "releaseCount": 54,
-      "latestVersion": "0.2.2-beta11",
-      "latestDate": "2026-10-31",
-      "updateCount": 54
+      "latestDate": "2026-11-01T14:48:53Z",
+      "updateCount": 9
     },
     {
       "name": "QookiX-Video",
@@ -102,35 +126,11 @@
       "archived": false,
       "source": "commits",
       "changelogPath": null,
-      "tone": "#B96F35",
+      "tone": "#A0562A",
       "releaseCount": 0,
       "latestVersion": null,
       "latestDate": "2026-10-30T17:27:41Z",
       "updateCount": 5
-    },
-    {
-      "name": "QookiX-Docs",
-      "fullName": "QookiX/QookiX-Docs",
-      "displayName": "QookiX-Docs",
-      "description": "",
-      "language": "Vue",
-      "languageColor": "#B96F35",
-      "stars": 0,
-      "forks": 0,
-      "openIssues": 0,
-      "topics": [],
-      "htmlUrl": "https://github.com/QookiX/QookiX-Docs",
-      "homepage": "https://docs.qookix.cn",
-      "pushedAt": "2026-10-30T14:09:29Z",
-      "createdAt": "2026-09-05T09:38:16Z",
-      "archived": false,
-      "source": "commits",
-      "changelogPath": null,
-      "tone": "#A0562A",
-      "releaseCount": 0,
-      "latestVersion": null,
-      "latestDate": "2026-10-30T14:08:04Z",
-      "updateCount": 29
     },
     {
       "name": "QookiL",
@@ -245,6 +245,1217 @@
   ],
   "updates": [
     {
+      "id": "QookiX-Launcher-Android:0.2.2-beta28",
+      "repo": "QookiX-Launcher-Android",
+      "type": "release",
+      "version": "0.2.2-beta28",
+      "date": "2026-11-04",
+      "notes": [
+        "预览版：可直接覆盖 0.2.2-beta27（versionCode 20247 > 20246）。"
+      ],
+      "items": [
+        {
+          "module": "",
+          "text": "修掉两处内存相关缺陷：屏幕旋转后不再重复订阅「游戏退出」事件；进程级单例不再强引用 Activity（旋转屏幕会泄漏一个 Activity）",
+          "kind": "fix",
+          "section": null
+        }
+      ],
+      "sections": [],
+      "release": null,
+      "url": "https://github.com/QookiX/QookiX-Launcher-Android/blob/master/CHANGELOG.md",
+      "changelogUrl": "https://github.com/QookiX/QookiX-Launcher-Android/blob/master/CHANGELOG.md"
+    },
+    {
+      "id": "QookiX-Launcher-Android:0.2.2-beta27",
+      "repo": "QookiX-Launcher-Android",
+      "type": "release",
+      "version": "0.2.2-beta27",
+      "date": "2026-11-04",
+      "notes": [
+        "预览版：可直接覆盖 0.2.2-beta26（versionCode 20246 > 20245）。"
+      ],
+      "items": [
+        {
+          "module": "新建实例",
+          "text": "「创建实例」按钮固定在左栏底部，横屏下不用滚两屏才看得到",
+          "kind": "other",
+          "section": null
+        },
+        {
+          "module": "错误提示",
+          "text": "长文案不再被横向裁切（红色横条里的 URL / 异常串能完整换行显示）",
+          "kind": "other",
+          "section": null
+        },
+        {
+          "module": "局域网同步",
+          "text": "端口加范围校验（深链接和手动输入两条路径），填错会标红而不是连上去才失败",
+          "kind": "other",
+          "section": null
+        },
+        {
+          "module": "",
+          "text": "冷启动不再执行两次视图树 dump（诊断遗留，会拖慢启动并刷 logcat）",
+          "kind": "other",
+          "section": null
+        },
+        {
+          "module": "",
+          "text": "文案：统一「新建实例」的说法，修掉详情页「创建实例/新建实例」混用",
+          "kind": "fix",
+          "section": null
+        }
+      ],
+      "sections": [],
+      "release": {
+        "tag": "v0.2.2-beta27",
+        "url": "https://github.com/QookiX/QookiX-Launcher-Android/releases/tag/v0.2.2-beta27",
+        "name": "v0.2.2-beta27",
+        "publishedAt": "2026-11-04T14:35:43Z",
+        "prerelease": true,
+        "draft": false,
+        "assets": [
+          {
+            "name": "QookiX-Launcher-Android-v0.2.2-beta27-arm64.apk",
+            "size": 80134242,
+            "url": "https://github.com/QookiX/QookiX-Launcher-Android/releases/download/v0.2.2-beta27/QookiX-Launcher-Android-v0.2.2-beta27-arm64.apk",
+            "downloads": 0,
+            "type": "application/vnd.android.package-archive"
+          },
+          {
+            "name": "QookiX-Launcher-Android-v0.2.2-beta27-x86_64.apk",
+            "size": 76760407,
+            "url": "https://github.com/QookiX/QookiX-Launcher-Android/releases/download/v0.2.2-beta27/QookiX-Launcher-Android-v0.2.2-beta27-x86_64.apk",
+            "downloads": 0,
+            "type": "application/vnd.android.package-archive"
+          },
+          {
+            "name": "SHA256SUMS.txt",
+            "size": 229,
+            "url": "https://github.com/QookiX/QookiX-Launcher-Android/releases/download/v0.2.2-beta27/SHA256SUMS.txt",
+            "downloads": 0,
+            "type": "text/plain"
+          }
+        ]
+      },
+      "url": "https://github.com/QookiX/QookiX-Launcher-Android/releases/tag/v0.2.2-beta27",
+      "changelogUrl": "https://github.com/QookiX/QookiX-Launcher-Android/blob/master/CHANGELOG.md"
+    },
+    {
+      "id": "QookiX-Launcher-Android:0.2.2-beta26",
+      "repo": "QookiX-Launcher-Android",
+      "type": "release",
+      "version": "0.2.2-beta26",
+      "date": "2026-11-04",
+      "notes": [
+        "预览版：可直接覆盖 0.2.2-beta25（versionCode 20245 > 20244）。"
+      ],
+      "items": [
+        {
+          "module": "界面缩放",
+          "text": "把「界面缩放」调到 125% / 150% 时，横屏布局不再被误判成窄屏——导航形态、首页分栏、新建实例左栏、内容详情、服务器详情、皮肤页、多人页都改用了缩放感知的宽度（以前 150% 下横屏会掉回底部导航）",
+          "kind": "other",
+          "section": null
+        },
+        {
+          "module": "多人页",
+          "text": "横屏下「直接连接」不再独占一行，和搜索框、创建服务器排在一起",
+          "kind": "other",
+          "section": null
+        },
+        {
+          "module": "文案",
+          "text": "修掉两处缺句号导致的断句粘连，以及渲染器说明里的错别字「不烧心」",
+          "kind": "fix",
+          "section": null
+        }
+      ],
+      "sections": [],
+      "release": {
+        "tag": "v0.2.2-beta26",
+        "url": "https://github.com/QookiX/QookiX-Launcher-Android/releases/tag/v0.2.2-beta26",
+        "name": "v0.2.2-beta26",
+        "publishedAt": "2026-11-04T14:14:01Z",
+        "prerelease": true,
+        "draft": false,
+        "assets": [
+          {
+            "name": "QookiX-Launcher-Android-v0.2.2-beta26-arm64.apk",
+            "size": 80136146,
+            "url": "https://github.com/QookiX/QookiX-Launcher-Android/releases/download/v0.2.2-beta26/QookiX-Launcher-Android-v0.2.2-beta26-arm64.apk",
+            "downloads": 1,
+            "type": "application/vnd.android.package-archive"
+          },
+          {
+            "name": "QookiX-Launcher-Android-v0.2.2-beta26-x86_64.apk",
+            "size": 76762435,
+            "url": "https://github.com/QookiX/QookiX-Launcher-Android/releases/download/v0.2.2-beta26/QookiX-Launcher-Android-v0.2.2-beta26-x86_64.apk",
+            "downloads": 1,
+            "type": "application/vnd.android.package-archive"
+          },
+          {
+            "name": "SHA256SUMS.txt",
+            "size": 229,
+            "url": "https://github.com/QookiX/QookiX-Launcher-Android/releases/download/v0.2.2-beta26/SHA256SUMS.txt",
+            "downloads": 1,
+            "type": "text/plain"
+          }
+        ]
+      },
+      "url": "https://github.com/QookiX/QookiX-Launcher-Android/releases/tag/v0.2.2-beta26",
+      "changelogUrl": "https://github.com/QookiX/QookiX-Launcher-Android/blob/master/CHANGELOG.md"
+    },
+    {
+      "id": "QookiX-Launcher-Android:0.2.2-beta25",
+      "repo": "QookiX-Launcher-Android",
+      "type": "release",
+      "version": "0.2.2-beta25",
+      "date": "2026-11-04",
+      "notes": [
+        "预览版：可直接覆盖 0.2.2-beta24（versionCode 20244 > 20243）。"
+      ],
+      "items": [
+        {
+          "module": "通知权限",
+          "text": "说明框只会出现一次（beta22 加的说明框有个副作用——点了「取消」之后每次冷启动都会再问一遍）",
+          "kind": "other",
+          "section": null
+        }
+      ],
+      "sections": [],
+      "release": {
+        "tag": "v0.2.2-beta25",
+        "url": "https://github.com/QookiX/QookiX-Launcher-Android/releases/tag/v0.2.2-beta25",
+        "name": "v0.2.2-beta25",
+        "publishedAt": "2026-11-04T13:57:22Z",
+        "prerelease": true,
+        "draft": false,
+        "assets": [
+          {
+            "name": "QookiX-Launcher-Android-v0.2.2-beta25-arm64.apk",
+            "size": 80136406,
+            "url": "https://github.com/QookiX/QookiX-Launcher-Android/releases/download/v0.2.2-beta25/QookiX-Launcher-Android-v0.2.2-beta25-arm64.apk",
+            "downloads": 1,
+            "type": "application/vnd.android.package-archive"
+          },
+          {
+            "name": "QookiX-Launcher-Android-v0.2.2-beta25-x86_64.apk",
+            "size": 76762455,
+            "url": "https://github.com/QookiX/QookiX-Launcher-Android/releases/download/v0.2.2-beta25/QookiX-Launcher-Android-v0.2.2-beta25-x86_64.apk",
+            "downloads": 1,
+            "type": "application/vnd.android.package-archive"
+          },
+          {
+            "name": "SHA256SUMS.txt",
+            "size": 229,
+            "url": "https://github.com/QookiX/QookiX-Launcher-Android/releases/download/v0.2.2-beta25/SHA256SUMS.txt",
+            "downloads": 1,
+            "type": "text/plain"
+          }
+        ]
+      },
+      "url": "https://github.com/QookiX/QookiX-Launcher-Android/releases/tag/v0.2.2-beta25",
+      "changelogUrl": "https://github.com/QookiX/QookiX-Launcher-Android/blob/master/CHANGELOG.md"
+    },
+    {
+      "id": "QookiX-Launcher-Android:0.2.2-beta24",
+      "repo": "QookiX-Launcher-Android",
+      "type": "release",
+      "version": "0.2.2-beta24",
+      "date": "2026-11-04",
+      "notes": [
+        "预览版：可直接覆盖 0.2.2-beta23（versionCode 20243 > 20242）。"
+      ],
+      "items": [
+        {
+          "module": "内容搜索",
+          "text": "失败提示下加了「重试」按钮（以前网络恢复后只能改条件或重输关键词才能重试）",
+          "kind": "other",
+          "section": null
+        }
+      ],
+      "sections": [],
+      "release": {
+        "tag": "v0.2.2-beta24",
+        "url": "https://github.com/QookiX/QookiX-Launcher-Android/releases/tag/v0.2.2-beta24",
+        "name": "v0.2.2-beta24",
+        "publishedAt": "2026-11-04T13:36:43Z",
+        "prerelease": true,
+        "draft": false,
+        "assets": [
+          {
+            "name": "QookiX-Launcher-Android-v0.2.2-beta24-arm64.apk",
+            "size": 80136270,
+            "url": "https://github.com/QookiX/QookiX-Launcher-Android/releases/download/v0.2.2-beta24/QookiX-Launcher-Android-v0.2.2-beta24-arm64.apk",
+            "downloads": 1,
+            "type": "application/vnd.android.package-archive"
+          },
+          {
+            "name": "QookiX-Launcher-Android-v0.2.2-beta24-x86_64.apk",
+            "size": 76761823,
+            "url": "https://github.com/QookiX/QookiX-Launcher-Android/releases/download/v0.2.2-beta24/QookiX-Launcher-Android-v0.2.2-beta24-x86_64.apk",
+            "downloads": 1,
+            "type": "application/vnd.android.package-archive"
+          },
+          {
+            "name": "SHA256SUMS.txt",
+            "size": 229,
+            "url": "https://github.com/QookiX/QookiX-Launcher-Android/releases/download/v0.2.2-beta24/SHA256SUMS.txt",
+            "downloads": 1,
+            "type": "text/plain"
+          }
+        ]
+      },
+      "url": "https://github.com/QookiX/QookiX-Launcher-Android/releases/tag/v0.2.2-beta24",
+      "changelogUrl": "https://github.com/QookiX/QookiX-Launcher-Android/blob/master/CHANGELOG.md"
+    },
+    {
+      "id": "QookiX-Launcher-Android:0.2.2-beta23",
+      "repo": "QookiX-Launcher-Android",
+      "type": "release",
+      "version": "0.2.2-beta23",
+      "date": "2026-11-04",
+      "notes": [
+        "预览版：可直接覆盖 0.2.2-beta22（versionCode 20242 > 20241）。"
+      ],
+      "items": [
+        {
+          "module": "设置页",
+          "text": "竖屏下顶部只露出 4 个分类（共 8 个），现在右侧渐隐加了一个箭头，一眼能看出「还能往左滑」（设置 / 实例详情 / 服务器详情三处共用同一组件）",
+          "kind": "other",
+          "section": null
+        }
+      ],
+      "sections": [],
+      "release": {
+        "tag": "v0.2.2-beta23",
+        "url": "https://github.com/QookiX/QookiX-Launcher-Android/releases/tag/v0.2.2-beta23",
+        "name": "v0.2.2-beta23",
+        "publishedAt": "2026-11-04T13:29:52Z",
+        "prerelease": true,
+        "draft": false,
+        "assets": [
+          {
+            "name": "QookiX-Launcher-Android-v0.2.2-beta23-arm64.apk",
+            "size": 80136034,
+            "url": "https://github.com/QookiX/QookiX-Launcher-Android/releases/download/v0.2.2-beta23/QookiX-Launcher-Android-v0.2.2-beta23-arm64.apk",
+            "downloads": 1,
+            "type": "application/vnd.android.package-archive"
+          },
+          {
+            "name": "QookiX-Launcher-Android-v0.2.2-beta23-x86_64.apk",
+            "size": 76761883,
+            "url": "https://github.com/QookiX/QookiX-Launcher-Android/releases/download/v0.2.2-beta23/QookiX-Launcher-Android-v0.2.2-beta23-x86_64.apk",
+            "downloads": 1,
+            "type": "application/vnd.android.package-archive"
+          },
+          {
+            "name": "SHA256SUMS.txt",
+            "size": 229,
+            "url": "https://github.com/QookiX/QookiX-Launcher-Android/releases/download/v0.2.2-beta23/SHA256SUMS.txt",
+            "downloads": 1,
+            "type": "text/plain"
+          }
+        ]
+      },
+      "url": "https://github.com/QookiX/QookiX-Launcher-Android/releases/tag/v0.2.2-beta23",
+      "changelogUrl": "https://github.com/QookiX/QookiX-Launcher-Android/blob/master/CHANGELOG.md"
+    },
+    {
+      "id": "QookiX-Launcher-Android:0.2.2-beta22",
+      "repo": "QookiX-Launcher-Android",
+      "type": "release",
+      "version": "0.2.2-beta22",
+      "date": "2026-11-04",
+      "notes": [
+        "预览版：可直接覆盖 0.2.2-beta21（versionCode 20241 > 20240）。"
+      ],
+      "items": [
+        {
+          "module": "通知权限",
+          "text": "首次启动不再直接弹系统框，先用一句话说明「下载进度 / 启动状态会显示在通知栏」，不开也能正常用",
+          "kind": "other",
+          "section": null
+        },
+        {
+          "module": "应用名",
+          "text": "系统里显示为 QookiX（以前是 QookiX Launcher Android，权限弹窗里折三行）",
+          "kind": "other",
+          "section": null
+        },
+        {
+          "module": "离线账号",
+          "text": "用户名输入框实时显示 n/16，超长会标红提示（以前只是按钮变灰）",
+          "kind": "other",
+          "section": null
+        },
+        {
+          "module": "屏幕方向",
+          "text": "修掉设置里「默认锁定横屏」与实际默认值矛盾的说法",
+          "kind": "fix",
+          "section": null
+        }
+      ],
+      "sections": [],
+      "release": {
+        "tag": "v0.2.2-beta22",
+        "url": "https://github.com/QookiX/QookiX-Launcher-Android/releases/tag/v0.2.2-beta22",
+        "name": "v0.2.2-beta22",
+        "publishedAt": "2026-11-04T13:25:39Z",
+        "prerelease": true,
+        "draft": false,
+        "assets": [
+          {
+            "name": "QookiX-Launcher-Android-v0.2.2-beta22-arm64.apk",
+            "size": 80135594,
+            "url": "https://github.com/QookiX/QookiX-Launcher-Android/releases/download/v0.2.2-beta22/QookiX-Launcher-Android-v0.2.2-beta22-arm64.apk",
+            "downloads": 1,
+            "type": "application/vnd.android.package-archive"
+          },
+          {
+            "name": "QookiX-Launcher-Android-v0.2.2-beta22-x86_64.apk",
+            "size": 76761351,
+            "url": "https://github.com/QookiX/QookiX-Launcher-Android/releases/download/v0.2.2-beta22/QookiX-Launcher-Android-v0.2.2-beta22-x86_64.apk",
+            "downloads": 1,
+            "type": "application/vnd.android.package-archive"
+          },
+          {
+            "name": "SHA256SUMS.txt",
+            "size": 229,
+            "url": "https://github.com/QookiX/QookiX-Launcher-Android/releases/download/v0.2.2-beta22/SHA256SUMS.txt",
+            "downloads": 1,
+            "type": "text/plain"
+          }
+        ]
+      },
+      "url": "https://github.com/QookiX/QookiX-Launcher-Android/releases/tag/v0.2.2-beta22",
+      "changelogUrl": "https://github.com/QookiX/QookiX-Launcher-Android/blob/master/CHANGELOG.md"
+    },
+    {
+      "id": "QookiX-Launcher-Android:0.2.2-beta21",
+      "repo": "QookiX-Launcher-Android",
+      "type": "release",
+      "version": "0.2.2-beta21",
+      "date": "2026-11-04",
+      "notes": [
+        "预览版：可直接覆盖 0.2.2-beta20（versionCode 20240 > 20239）。"
+      ],
+      "items": [
+        {
+          "module": "内容筛选",
+          "text": "切换类型/加载器时先清空列表，失败时能看见错误（以前旧结果一直挂着，像没反应）",
+          "kind": "other",
+          "section": null
+        },
+        {
+          "module": "内容筛选",
+          "text": "「重置」现在会连搜索词一起清；切到「插件」时不再保留看不见的加载器过滤",
+          "kind": "other",
+          "section": null
+        },
+        {
+          "module": "导出整合包",
+          "text": "体检还没跑完时导出按钮是禁用的（以前能点，会静默丢掉存档和截图）",
+          "kind": "other",
+          "section": null
+        },
+        {
+          "module": "局域网同步",
+          "text": "上传失败不再显示成「本机还没有实例」，改成错误 + 重试",
+          "kind": "wip",
+          "section": null
+        },
+        {
+          "module": "局域网同步",
+          "text": "多实例同步失败后重试，从断点继续，不再重下已经成功的",
+          "kind": "other",
+          "section": null
+        },
+        {
+          "module": "局域网同步",
+          "text": "横屏下键盘不再挡住手动输入的表单和「连接」按钮",
+          "kind": "other",
+          "section": null
+        }
+      ],
+      "sections": [],
+      "release": {
+        "tag": "v0.2.2-beta21",
+        "url": "https://github.com/QookiX/QookiX-Launcher-Android/releases/tag/v0.2.2-beta21",
+        "name": "v0.2.2-beta21",
+        "publishedAt": "2026-11-04T13:02:48Z",
+        "prerelease": true,
+        "draft": false,
+        "assets": [
+          {
+            "name": "QookiX-Launcher-Android-v0.2.2-beta21-arm64.apk",
+            "size": 80133202,
+            "url": "https://github.com/QookiX/QookiX-Launcher-Android/releases/download/v0.2.2-beta21/QookiX-Launcher-Android-v0.2.2-beta21-arm64.apk",
+            "downloads": 1,
+            "type": "application/vnd.android.package-archive"
+          },
+          {
+            "name": "QookiX-Launcher-Android-v0.2.2-beta21-x86_64.apk",
+            "size": 76759103,
+            "url": "https://github.com/QookiX/QookiX-Launcher-Android/releases/download/v0.2.2-beta21/QookiX-Launcher-Android-v0.2.2-beta21-x86_64.apk",
+            "downloads": 1,
+            "type": "application/vnd.android.package-archive"
+          },
+          {
+            "name": "SHA256SUMS.txt",
+            "size": 229,
+            "url": "https://github.com/QookiX/QookiX-Launcher-Android/releases/download/v0.2.2-beta21/SHA256SUMS.txt",
+            "downloads": 1,
+            "type": "text/plain"
+          }
+        ]
+      },
+      "url": "https://github.com/QookiX/QookiX-Launcher-Android/releases/tag/v0.2.2-beta21",
+      "changelogUrl": "https://github.com/QookiX/QookiX-Launcher-Android/blob/master/CHANGELOG.md"
+    },
+    {
+      "id": "QookiX-Launcher-Android:0.2.2-beta20",
+      "repo": "QookiX-Launcher-Android",
+      "type": "release",
+      "version": "0.2.2-beta20",
+      "date": "2026-11-04",
+      "notes": [
+        "预览版：可直接覆盖 0.2.2-beta19（versionCode 20239 > 20238）。"
+      ],
+      "items": [
+        {
+          "module": "卸载内容",
+          "text": "文件删不掉时不再谎报「已卸载」（以前界面说没了、文件还占着空间）",
+          "kind": "other",
+          "section": null
+        },
+        {
+          "module": "插件下载",
+          "text": "压缩包下载不完整会被当场发现，不再等到解压才报错",
+          "kind": "other",
+          "section": null
+        },
+        {
+          "module": "下载中心",
+          "text": "大文件走分片下载后也能看到进度和完成态（以前查不到任务）",
+          "kind": "other",
+          "section": null
+        },
+        {
+          "module": "更新安装",
+          "text": "只允许安装更新目录里的包（不再接受任意路径）",
+          "kind": "other",
+          "section": null
+        },
+        {
+          "module": "更新下载",
+          "text": "连点「下载更新」不会再互相覆盖，避免下出损坏的安装包",
+          "kind": "other",
+          "section": null
+        }
+      ],
+      "sections": [],
+      "release": {
+        "tag": "v0.2.2-beta20",
+        "url": "https://github.com/QookiX/QookiX-Launcher-Android/releases/tag/v0.2.2-beta20",
+        "name": "v0.2.2-beta20",
+        "publishedAt": "2026-11-04T12:33:17Z",
+        "prerelease": true,
+        "draft": false,
+        "assets": [
+          {
+            "name": "QookiX-Launcher-Android-v0.2.2-beta20-arm64.apk",
+            "size": 80129762,
+            "url": "https://github.com/QookiX/QookiX-Launcher-Android/releases/download/v0.2.2-beta20/QookiX-Launcher-Android-v0.2.2-beta20-arm64.apk",
+            "downloads": 5,
+            "type": "application/vnd.android.package-archive"
+          },
+          {
+            "name": "QookiX-Launcher-Android-v0.2.2-beta20-x86_64.apk",
+            "size": 76756079,
+            "url": "https://github.com/QookiX/QookiX-Launcher-Android/releases/download/v0.2.2-beta20/QookiX-Launcher-Android-v0.2.2-beta20-x86_64.apk",
+            "downloads": 1,
+            "type": "application/vnd.android.package-archive"
+          },
+          {
+            "name": "SHA256SUMS.txt",
+            "size": 229,
+            "url": "https://github.com/QookiX/QookiX-Launcher-Android/releases/download/v0.2.2-beta20/SHA256SUMS.txt",
+            "downloads": 1,
+            "type": "text/plain"
+          }
+        ]
+      },
+      "url": "https://github.com/QookiX/QookiX-Launcher-Android/releases/tag/v0.2.2-beta20",
+      "changelogUrl": "https://github.com/QookiX/QookiX-Launcher-Android/blob/master/CHANGELOG.md"
+    },
+    {
+      "id": "QookiX-Launcher-Android:0.2.2-beta19",
+      "repo": "QookiX-Launcher-Android",
+      "type": "release",
+      "version": "0.2.2-beta19",
+      "date": "2026-11-04",
+      "notes": [
+        "预览版：可直接覆盖 0.2.2-beta18（versionCode 20238 > 20237）。"
+      ],
+      "items": [
+        {
+          "module": "错误提示",
+          "text": "不再把 reqwest 的英文异常（URL、client error (Connect)、tls handshake eof）原样甩给用户，改成「连接超时 / 安全连接失败 / 域名解析失败」这类能照做的说法；完整信息仍在日志里",
+          "kind": "wip",
+          "section": null
+        },
+        {
+          "module": "新建实例",
+          "text": "不再同时弹两处错误（右栏「版本列表加载失败」+ 左栏「创建失败」），只保留右栏一处",
+          "kind": "other",
+          "section": null
+        }
+      ],
+      "sections": [],
+      "release": {
+        "tag": "v0.2.2-beta19",
+        "url": "https://github.com/QookiX/QookiX-Launcher-Android/releases/tag/v0.2.2-beta19",
+        "name": "v0.2.2-beta19",
+        "publishedAt": "2026-11-04T12:29:25Z",
+        "prerelease": true,
+        "draft": false,
+        "assets": [
+          {
+            "name": "QookiX-Launcher-Android-v0.2.2-beta19-arm64.apk",
+            "size": 80127678,
+            "url": "https://github.com/QookiX/QookiX-Launcher-Android/releases/download/v0.2.2-beta19/QookiX-Launcher-Android-v0.2.2-beta19-arm64.apk",
+            "downloads": 1,
+            "type": "application/vnd.android.package-archive"
+          },
+          {
+            "name": "QookiX-Launcher-Android-v0.2.2-beta19-x86_64.apk",
+            "size": 76753439,
+            "url": "https://github.com/QookiX/QookiX-Launcher-Android/releases/download/v0.2.2-beta19/QookiX-Launcher-Android-v0.2.2-beta19-x86_64.apk",
+            "downloads": 1,
+            "type": "application/vnd.android.package-archive"
+          },
+          {
+            "name": "SHA256SUMS.txt",
+            "size": 229,
+            "url": "https://github.com/QookiX/QookiX-Launcher-Android/releases/download/v0.2.2-beta19/SHA256SUMS.txt",
+            "downloads": 1,
+            "type": "text/plain"
+          }
+        ]
+      },
+      "url": "https://github.com/QookiX/QookiX-Launcher-Android/releases/tag/v0.2.2-beta19",
+      "changelogUrl": "https://github.com/QookiX/QookiX-Launcher-Android/blob/master/CHANGELOG.md"
+    },
+    {
+      "id": "QookiX-Launcher-Android:0.2.2-beta18",
+      "repo": "QookiX-Launcher-Android",
+      "type": "release",
+      "version": "0.2.2-beta18",
+      "date": "2026-11-04",
+      "notes": [
+        "预览版：可直接覆盖 0.2.2-beta17（versionCode 20237 > 20236）。"
+      ],
+      "items": [
+        {
+          "module": "新建实例",
+          "text": "版本清单拉不下来时不再卡死 —— 会回退到上次成功缓存的清单，失败态也加了「重试」按钮",
+          "kind": "other",
+          "section": null
+        },
+        {
+          "module": "首页",
+          "text": "空状态里的「创建第一个实例」现在是可点按钮（以前是纯文字，新用户找不到入口）",
+          "kind": "other",
+          "section": null
+        },
+        {
+          "module": "游戏目录",
+          "text": "来源目录非法时不再\"假迁移\"（原来文件没搬却切了配置，实例会全部消失）",
+          "kind": "other",
+          "section": null
+        },
+        {
+          "module": "下载",
+          "text": "分片下载会校验每片实际字节数，CDN 提前断流不再生成\"尾部全是 0\"的假完整文件",
+          "kind": "other",
+          "section": null
+        },
+        {
+          "module": "服务器",
+          "text": "修正运行状态判断（原来运行中报\"未运行\"），并拒绝重复启动",
+          "kind": "fix",
+          "section": null
+        },
+        {
+          "module": "维护",
+          "text": "HomePage 拆出独立卡片文件（664 → 394 行），后续加功能不用再压注释",
+          "kind": "other",
+          "section": null
+        }
+      ],
+      "sections": [],
+      "release": {
+        "tag": "v0.2.2-beta18",
+        "url": "https://github.com/QookiX/QookiX-Launcher-Android/releases/tag/v0.2.2-beta18",
+        "name": "v0.2.2-beta18",
+        "publishedAt": "2026-11-04T12:01:33Z",
+        "prerelease": true,
+        "draft": false,
+        "assets": [
+          {
+            "name": "QookiX-Launcher-Android-v0.2.2-beta18-arm64.apk",
+            "size": 80127866,
+            "url": "https://github.com/QookiX/QookiX-Launcher-Android/releases/download/v0.2.2-beta18/QookiX-Launcher-Android-v0.2.2-beta18-arm64.apk",
+            "downloads": 3,
+            "type": "application/vnd.android.package-archive"
+          },
+          {
+            "name": "QookiX-Launcher-Android-v0.2.2-beta18-x86_64.apk",
+            "size": 76753783,
+            "url": "https://github.com/QookiX/QookiX-Launcher-Android/releases/download/v0.2.2-beta18/QookiX-Launcher-Android-v0.2.2-beta18-x86_64.apk",
+            "downloads": 1,
+            "type": "application/vnd.android.package-archive"
+          },
+          {
+            "name": "SHA256SUMS.txt",
+            "size": 229,
+            "url": "https://github.com/QookiX/QookiX-Launcher-Android/releases/download/v0.2.2-beta18/SHA256SUMS.txt",
+            "downloads": 1,
+            "type": "text/plain"
+          }
+        ]
+      },
+      "url": "https://github.com/QookiX/QookiX-Launcher-Android/releases/tag/v0.2.2-beta18",
+      "changelogUrl": "https://github.com/QookiX/QookiX-Launcher-Android/blob/master/CHANGELOG.md"
+    },
+    {
+      "id": "QookiX-Launcher-Android:0.2.2-beta17",
+      "repo": "QookiX-Launcher-Android",
+      "type": "release",
+      "version": "0.2.2-beta17",
+      "date": "2026-11-04",
+      "notes": [
+        "按 11-04 全量审计修的第一批（16 项），完整清单见本地 docs/audit-2026-11-04/。"
+      ],
+      "items": [
+        {
+          "module": "",
+          "text": "修复：应用内更新下完 APK 却没有「安装」按钮 —— 前后端字段名对不上（camelCase / snake_case），另外无更新时版本号和说明会显示 null",
+          "kind": "fix",
+          "section": null
+        },
+        {
+          "module": "",
+          "text": "修复：更新通道选 RC/Beta 后重进又变回「正式版」 —— get_settings 没把 update_channel 返回给界面",
+          "kind": "fix",
+          "section": null
+        },
+        {
+          "module": "",
+          "text": "修复：缺少渲染器/驱动插件时首启不提示（读的是不存在的 ready 字段）；插件页每张卡片的描述恒为空、未安装插件版本显示 null",
+          "kind": "fix",
+          "section": null
+        },
+        {
+          "module": "",
+          "text": "修复：服务器详情正常运行时「上次退出原因」显示 null；没有披风的账号皮肤页会把 null 当图片地址加载导致破图",
+          "kind": "fix",
+          "section": null
+        },
+        {
+          "module": "",
+          "text": "修复（安全）：整合包清单、内容安装、文本保存三处路径校验缺口 —— 恶意清单的绝对路径可以写到实例目录之外；文本保存现在限定在应用数据目录内并改成原子写",
+          "kind": "fix",
+          "section": null
+        },
+        {
+          "module": "",
+          "text": "修复（安全）：更新包的 SHA256 校验可以被静默跳过（拿不到校验文件 / 写盘失败 / 下载不完整时照样装）。现在遇到这些情况直接报错并删除临时包",
+          "kind": "fix",
+          "section": null
+        },
+        {
+          "module": "",
+          "text": "修复：实例设置读取失败后保存按钮永久点不了也没有重试 —— 现在可以重试、未读成功时禁用保存；改了不保存按返回键会丢数据 —— 现在会先确认",
+          "kind": "fix",
+          "section": null
+        },
+        {
+          "module": "",
+          "text": "修复：文件编辑器顶栏返回要连点两次「放弃修改」才退得出去（内外两层重复确认）",
+          "kind": "fix",
+          "section": null
+        }
+      ],
+      "sections": [],
+      "release": {
+        "tag": "v0.2.2-beta17",
+        "url": "https://github.com/QookiX/QookiX-Launcher-Android/releases/tag/v0.2.2-beta17",
+        "name": "v0.2.2-beta17",
+        "publishedAt": "2026-11-04T09:30:25Z",
+        "prerelease": true,
+        "draft": false,
+        "assets": [
+          {
+            "name": "QookiX-Launcher-Android-v0.2.2-beta17-arm64.apk",
+            "size": 80125666,
+            "url": "https://github.com/QookiX/QookiX-Launcher-Android/releases/download/v0.2.2-beta17/QookiX-Launcher-Android-v0.2.2-beta17-arm64.apk",
+            "downloads": 1,
+            "type": "application/vnd.android.package-archive"
+          },
+          {
+            "name": "QookiX-Launcher-Android-v0.2.2-beta17-x86_64.apk",
+            "size": 76750979,
+            "url": "https://github.com/QookiX/QookiX-Launcher-Android/releases/download/v0.2.2-beta17/QookiX-Launcher-Android-v0.2.2-beta17-x86_64.apk",
+            "downloads": 1,
+            "type": "application/vnd.android.package-archive"
+          },
+          {
+            "name": "SHA256SUMS.txt",
+            "size": 229,
+            "url": "https://github.com/QookiX/QookiX-Launcher-Android/releases/download/v0.2.2-beta17/SHA256SUMS.txt",
+            "downloads": 1,
+            "type": "text/plain"
+          }
+        ]
+      },
+      "url": "https://github.com/QookiX/QookiX-Launcher-Android/releases/tag/v0.2.2-beta17",
+      "changelogUrl": "https://github.com/QookiX/QookiX-Launcher-Android/blob/master/CHANGELOG.md"
+    },
+    {
+      "id": "QookiX-Launcher-Android:0.2.2-beta16",
+      "repo": "QookiX-Launcher-Android",
+      "type": "release",
+      "version": "0.2.2-beta16",
+      "date": "2026-11-02",
+      "notes": [],
+      "items": [
+        {
+          "module": "",
+          "text": "优化：游戏放大镜按反馈重做外观 —— 圆角深色面板（和游戏内工具栏同一套视觉，去掉了原来的土黄直角框），右上角换成两个圆形按钮（⋮ 设置 / × 关闭）",
+          "kind": "wip",
+          "section": null
+        },
+        {
+          "module": "",
+          "text": "新增：放大镜的 ⋮ 菜单 —— 「输入时自动显示」开关、2× / 3× / 4× 倍率、恢复默认取景",
+          "kind": "feat",
+          "section": null
+        },
+        {
+          "module": "",
+          "text": "修复：放大镜默认取景偏上，聊天输入框露不出来（现在默认贴住屏幕最左下角）",
+          "kind": "fix",
+          "section": null
+        },
+        {
+          "module": "",
+          "text": "新增：放大镜记住上次的取景位置，下次弹键盘还停在原处（按比例存，换分辨率/转屏也不跑偏）",
+          "kind": "feat",
+          "section": null
+        }
+      ],
+      "sections": [],
+      "release": {
+        "tag": "v0.2.2-beta16",
+        "url": "https://github.com/QookiX/QookiX-Launcher-Android/releases/tag/v0.2.2-beta16",
+        "name": "v0.2.2-beta16",
+        "publishedAt": "2026-11-02T05:45:39Z",
+        "prerelease": true,
+        "draft": false,
+        "assets": [
+          {
+            "name": "QookiX-Launcher-Android-v0.2.2-beta16-arm64.apk",
+            "size": 80121802,
+            "url": "https://github.com/QookiX/QookiX-Launcher-Android/releases/download/v0.2.2-beta16/QookiX-Launcher-Android-v0.2.2-beta16-arm64.apk",
+            "downloads": 15,
+            "type": "application/vnd.android.package-archive"
+          },
+          {
+            "name": "QookiX-Launcher-Android-v0.2.2-beta16-x86_64.apk",
+            "size": 76747255,
+            "url": "https://github.com/QookiX/QookiX-Launcher-Android/releases/download/v0.2.2-beta16/QookiX-Launcher-Android-v0.2.2-beta16-x86_64.apk",
+            "downloads": 1,
+            "type": "application/vnd.android.package-archive"
+          },
+          {
+            "name": "SHA256SUMS.txt",
+            "size": 229,
+            "url": "https://github.com/QookiX/QookiX-Launcher-Android/releases/download/v0.2.2-beta16/SHA256SUMS.txt",
+            "downloads": 1,
+            "type": "text/plain"
+          }
+        ]
+      },
+      "url": "https://github.com/QookiX/QookiX-Launcher-Android/releases/tag/v0.2.2-beta16",
+      "changelogUrl": "https://github.com/QookiX/QookiX-Launcher-Android/blob/master/CHANGELOG.md"
+    },
+    {
+      "id": "QookiX-Launcher-Android:0.2.2-beta15",
+      "repo": "QookiX-Launcher-Android",
+      "type": "release",
+      "version": "0.2.2-beta15",
+      "date": "2026-11-02",
+      "notes": [],
+      "items": [
+        {
+          "module": "",
+          "text": "新增：游戏放大镜 —— 输入法挡住画面时，屏幕上方自动出现一块放大的游戏画面（默认对着聊天栏），可以拖动平移、双击在 2x / 3x / 4x 之间切换，右上角 × 关闭。对齐 ZL2 / FCL 的同名功能",
+          "kind": "feat",
+          "section": null
+        }
+      ],
+      "sections": [],
+      "release": {
+        "tag": "v0.2.2-beta15",
+        "url": "https://github.com/QookiX/QookiX-Launcher-Android/releases/tag/v0.2.2-beta15",
+        "name": "v0.2.2-beta15",
+        "publishedAt": "2026-11-02T05:20:14Z",
+        "prerelease": true,
+        "draft": false,
+        "assets": [
+          {
+            "name": "QookiX-Launcher-Android-v0.2.2-beta15-arm64.apk",
+            "size": 80118862,
+            "url": "https://github.com/QookiX/QookiX-Launcher-Android/releases/download/v0.2.2-beta15/QookiX-Launcher-Android-v0.2.2-beta15-arm64.apk",
+            "downloads": 1,
+            "type": "application/vnd.android.package-archive"
+          },
+          {
+            "name": "QookiX-Launcher-Android-v0.2.2-beta15-x86_64.apk",
+            "size": 76744279,
+            "url": "https://github.com/QookiX/QookiX-Launcher-Android/releases/download/v0.2.2-beta15/QookiX-Launcher-Android-v0.2.2-beta15-x86_64.apk",
+            "downloads": 1,
+            "type": "application/vnd.android.package-archive"
+          },
+          {
+            "name": "SHA256SUMS.txt",
+            "size": 229,
+            "url": "https://github.com/QookiX/QookiX-Launcher-Android/releases/download/v0.2.2-beta15/SHA256SUMS.txt",
+            "downloads": 1,
+            "type": "text/plain"
+          }
+        ]
+      },
+      "url": "https://github.com/QookiX/QookiX-Launcher-Android/releases/tag/v0.2.2-beta15",
+      "changelogUrl": "https://github.com/QookiX/QookiX-Launcher-Android/blob/master/CHANGELOG.md"
+    },
+    {
+      "id": "QookiX-Launcher-Android:0.2.2-beta14",
+      "repo": "QookiX-Launcher-Android",
+      "type": "release",
+      "version": "0.2.2-beta14",
+      "date": "2026-11-02",
+      "notes": [],
+      "items": [
+        {
+          "module": "",
+          "text": "修复：鼠标 / 左右键 / 控件 / 键盘这几个按键失灵 —— 上一版给控制布局加键码越界防护时，把 -1~-9（这些特殊按键的键码）一起当成了非法值归零。现在只拦截 -9..348 之外的键码",
+          "kind": "fix",
+          "section": null
+        }
+      ],
+      "sections": [],
+      "release": {
+        "tag": "v0.2.2-beta14",
+        "url": "https://github.com/QookiX/QookiX-Launcher-Android/releases/tag/v0.2.2-beta14",
+        "name": "v0.2.2-beta14",
+        "publishedAt": "2026-11-02T04:40:58Z",
+        "prerelease": true,
+        "draft": false,
+        "assets": [
+          {
+            "name": "QookiX-Launcher-Android-v0.2.2-beta14-arm64.apk",
+            "size": 80115634,
+            "url": "https://github.com/QookiX/QookiX-Launcher-Android/releases/download/v0.2.2-beta14/QookiX-Launcher-Android-v0.2.2-beta14-arm64.apk",
+            "downloads": 1,
+            "type": "application/vnd.android.package-archive"
+          },
+          {
+            "name": "QookiX-Launcher-Android-v0.2.2-beta14-x86_64.apk",
+            "size": 76740831,
+            "url": "https://github.com/QookiX/QookiX-Launcher-Android/releases/download/v0.2.2-beta14/QookiX-Launcher-Android-v0.2.2-beta14-x86_64.apk",
+            "downloads": 1,
+            "type": "application/vnd.android.package-archive"
+          },
+          {
+            "name": "SHA256SUMS.txt",
+            "size": 229,
+            "url": "https://github.com/QookiX/QookiX-Launcher-Android/releases/download/v0.2.2-beta14/SHA256SUMS.txt",
+            "downloads": 1,
+            "type": "text/plain"
+          }
+        ]
+      },
+      "url": "https://github.com/QookiX/QookiX-Launcher-Android/releases/tag/v0.2.2-beta14",
+      "changelogUrl": "https://github.com/QookiX/QookiX-Launcher-Android/blob/master/CHANGELOG.md"
+    },
+    {
+      "id": "QookiX-Launcher-Android:0.2.2-beta13",
+      "repo": "QookiX-Launcher-Android",
+      "type": "release",
+      "version": "0.2.2-beta13",
+      "date": "2026-11-02",
+      "notes": [
+        "接 beta12：菜单不崩了，但「进入世界」还会崩，这个版本修掉了。"
+      ],
+      "items": [
+        {
+          "module": "",
+          "text": "修复：进入单人世界崩溃回启动器 —— 16KB 重建的 libgl4es_114.so 与 Adreno GLES 驱动之间的调用地址非法（tombstone 落在 __memcpy ← libGLESv2_adreno ← libgl4es）。菜单界面不走这条渲染路径，所以只在进世界时崩。该库已回滚为原始版本",
+          "kind": "fix",
+          "section": null
+        },
+        {
+          "module": "",
+          "text": "优化：真机验证 1.8.9 原版可正常创建并进入世界（地形 / 血量 / 快捷栏 / 手部渲染正常）",
+          "kind": "wip",
+          "section": null
+        }
+      ],
+      "sections": [],
+      "release": {
+        "tag": "v0.2.2-beta13",
+        "url": "https://github.com/QookiX/QookiX-Launcher-Android/releases/tag/v0.2.2-beta13",
+        "name": "v0.2.2-beta13",
+        "publishedAt": "2026-11-02T04:15:15Z",
+        "prerelease": true,
+        "draft": false,
+        "assets": [
+          {
+            "name": "QookiX-Launcher-Android-v0.2.2-beta13-arm64.apk",
+            "size": 80115770,
+            "url": "https://github.com/QookiX/QookiX-Launcher-Android/releases/download/v0.2.2-beta13/QookiX-Launcher-Android-v0.2.2-beta13-arm64.apk",
+            "downloads": 1,
+            "type": "application/vnd.android.package-archive"
+          },
+          {
+            "name": "QookiX-Launcher-Android-v0.2.2-beta13-x86_64.apk",
+            "size": 76740731,
+            "url": "https://github.com/QookiX/QookiX-Launcher-Android/releases/download/v0.2.2-beta13/QookiX-Launcher-Android-v0.2.2-beta13-x86_64.apk",
+            "downloads": 1,
+            "type": "application/vnd.android.package-archive"
+          },
+          {
+            "name": "SHA256SUMS.txt",
+            "size": 229,
+            "url": "https://github.com/QookiX/QookiX-Launcher-Android/releases/download/v0.2.2-beta13/SHA256SUMS.txt",
+            "downloads": 1,
+            "type": "text/plain"
+          }
+        ]
+      },
+      "url": "https://github.com/QookiX/QookiX-Launcher-Android/releases/tag/v0.2.2-beta13",
+      "changelogUrl": "https://github.com/QookiX/QookiX-Launcher-Android/blob/master/CHANGELOG.md"
+    },
+    {
+      "id": "QookiX-Launcher-Android:0.2.2-beta12",
+      "repo": "QookiX-Launcher-Android",
+      "type": "release",
+      "version": "0.2.2-beta12",
+      "date": "2026-11-02",
+      "notes": [
+        "重要修复版：beta11 上启动游戏后点任何按钮都会崩回启动器，这个版本修好了。"
+      ],
+      "items": [
+        {
+          "module": "",
+          "text": "修复：进游戏后点任何按钮（单人 / 多人 / 设置）直接崩溃回启动器 —— 16KB 原生库重建时，liblwjgl.so 用的是 LWJGL 3.5.2 源码，而启动器的 Java 绑定是 3.4.1，版本不一致导致 JNI 结构对不上，第一次真实交互就跳到无效指针（SIGSEGV）。已把该库回滚为原始版本，其余 9 个重建库保持不变",
+          "kind": "fix",
+          "section": null
+        }
+      ],
+      "sections": [],
+      "release": {
+        "tag": "v0.2.2-beta12",
+        "url": "https://github.com/QookiX/QookiX-Launcher-Android/releases/tag/v0.2.2-beta12",
+        "name": "v0.2.2-beta12",
+        "publishedAt": "2026-11-02T03:44:56Z",
+        "prerelease": true,
+        "draft": false,
+        "assets": [
+          {
+            "name": "QookiX-Launcher-Android-v0.2.2-beta12-arm64.apk",
+            "size": 79740278,
+            "url": "https://github.com/QookiX/QookiX-Launcher-Android/releases/download/v0.2.2-beta12/QookiX-Launcher-Android-v0.2.2-beta12-arm64.apk",
+            "downloads": 1,
+            "type": "application/vnd.android.package-archive"
+          },
+          {
+            "name": "QookiX-Launcher-Android-v0.2.2-beta12-x86_64.apk",
+            "size": 76740783,
+            "url": "https://github.com/QookiX/QookiX-Launcher-Android/releases/download/v0.2.2-beta12/QookiX-Launcher-Android-v0.2.2-beta12-x86_64.apk",
+            "downloads": 1,
+            "type": "application/vnd.android.package-archive"
+          },
+          {
+            "name": "SHA256SUMS.txt",
+            "size": 229,
+            "url": "https://github.com/QookiX/QookiX-Launcher-Android/releases/download/v0.2.2-beta12/SHA256SUMS.txt",
+            "downloads": 1,
+            "type": "text/plain"
+          }
+        ]
+      },
+      "url": "https://github.com/QookiX/QookiX-Launcher-Android/releases/tag/v0.2.2-beta12",
+      "changelogUrl": "https://github.com/QookiX/QookiX-Launcher-Android/blob/master/CHANGELOG.md"
+    },
+    {
+      "id": "QookiX-Docs:commit:6f1a8ad4753e8a9928be181cd7c1363148032828",
+      "repo": "QookiX-Docs",
+      "type": "commit",
+      "version": null,
+      "date": "2026-11-01T15:06:25Z",
+      "sha": "6f1a8ad",
+      "url": "https://github.com/QookiX/QookiX-Docs/commit/6f1a8ad4753e8a9928be181cd7c1363148032828",
+      "notes": [
+        "拆分误粘连的 docs/.vitepress/dist.codeartsdoer 为两行",
+        "新增 nul 忽略规则，防止 git bash 误用 2>nul 创建的文件入库"
+      ],
+      "items": [
+        {
+          "module": "chore",
+          "text": "修复 .gitignore 笔误并忽略 Windows nul 设备名文件",
+          "kind": "fix",
+          "section": null
+        }
+      ],
+      "sections": []
+    },
+    {
+      "id": "QookiX-Docs:commit:595b31ef9bf0060f3eb3cd50e2f930f2a8a6ad88",
+      "repo": "QookiX-Docs",
+      "type": "commit",
+      "version": null,
+      "date": "2026-11-01T14:50:44Z",
+      "sha": "595b31e",
+      "url": "https://github.com/QookiX/QookiX-Docs/commit/595b31ef9bf0060f3eb3cd50e2f930f2a8a6ad88",
+      "notes": [
+        "在下载区块新增百度网盘和GitHub Releases的备用下载链接，提升国内用户的下载体验。同时补充了中英文国际化翻译，并更新了相关的预览图片资源。"
+      ],
+      "items": [
+        {
+          "module": "download",
+          "text": "添加备用下载渠道及更新预览图",
+          "kind": "feat",
+          "section": null
+        }
+      ],
+      "sections": []
+    },
+    {
+      "id": "QookiW-WhatsNew:commit:a4537b17071ea5a7c4c5a8ceb2d74022f0a1676a",
+      "repo": "QookiW-WhatsNew",
+      "type": "commit",
+      "version": null,
+      "date": "2026-11-01T14:48:53Z",
+      "sha": "a4537b1",
+      "url": "https://github.com/QookiX/QookiW-WhatsNew/commit/a4537b17071ea5a7c4c5a8ceb2d74022f0a1676a",
+      "notes": [
+        "保留标题的砸下入场、金箔扫光、字符引力与描边呼吸；",
+        "停用副标题/统计的揭幕、区块遮罩揭示、卡片扫光、名册滑入、"
+      ],
+      "items": [
+        {
+          "module": "refactor",
+          "text": "除大标题外停用所有元素动效",
+          "kind": "wip",
+          "section": null
+        }
+      ],
+      "sections": []
+    },
+    {
+      "id": "QookiW-WhatsNew:commit:4bade307a16ce8aa7d20df54bf9261250c5ae13e",
+      "repo": "QookiW-WhatsNew",
+      "type": "commit",
+      "version": null,
+      "date": "2026-11-01T14:45:00Z",
+      "sha": "4bade30",
+      "url": "https://github.com/QookiX/QookiW-WhatsNew/commit/4bade307a16ce8aa7d20df54bf9261250c5ae13e",
+      "notes": [
+        "muted / muted-dim 整体提亮，描述与条目改为奶白",
+        "模块标签加金色底纹与亮边"
+      ],
+      "items": [
+        {
+          "module": "fix",
+          "text": "提升仓库区文字对比度，并给卡片加入持续动效",
+          "kind": "fix",
+          "section": null
+        }
+      ],
+      "sections": []
+    },
+    {
+      "id": "QookiW-WhatsNew:commit:e4777e838c934aaae744a06a82419e782b899d71",
+      "repo": "QookiW-WhatsNew",
+      "type": "commit",
+      "version": null,
+      "date": "2026-11-01T14:39:03Z",
+      "sha": "e4777e8",
+      "url": "https://github.com/QookiX/QookiW-WhatsNew/commit/e4777e838c934aaae744a06a82419e782b899d71",
+      "notes": [
+        "clip-path 会让 IntersectionObserver 判定元素完全不可见，观察器永不触发。",
+        "揭示改用 mask-image（不参与 IO 计算），并加 scroll 兜底扫描。"
+      ],
+      "items": [
+        {
+          "module": "fix",
+          "text": "滚动揭示改用 mask，修复区块内容整片空白",
+          "kind": "fix",
+          "section": null
+        }
+      ],
+      "sections": []
+    },
+    {
+      "id": "QookiW-WhatsNew:commit:63142ee40c1069063b4f2f72d34203e64795c7b0",
+      "repo": "QookiW-WhatsNew",
+      "type": "commit",
+      "version": null,
+      "date": "2026-11-01T14:22:33Z",
+      "sha": "63142ee",
+      "url": "https://github.com/QookiX/QookiW-WhatsNew/commit/63142ee40c1069063b4f2f72d34203e64795c7b0",
+      "notes": [
+        "标题字符从上砸下并带 skew 形变回弹，每字方向随机",
+        "副标题 / 元信息 / 统计逐段从左撕开（clip-path wipe）"
+      ],
+      "items": [
+        {
+          "module": "feat",
+          "text": "加强入场冲击力，去掉淡入",
+          "kind": "feat",
+          "section": null
+        }
+      ],
+      "sections": []
+    },
+    {
+      "id": "QookiW-WhatsNew:commit:191ec579583d43dc48314f5606eb723187e5f99d",
+      "repo": "QookiW-WhatsNew",
+      "type": "commit",
+      "version": null,
+      "date": "2026-11-01T14:18:14Z",
+      "sha": "191ec57",
+      "url": "https://github.com/QookiX/QookiW-WhatsNew/commit/191ec579583d43dc48314f5606eb723187e5f99d",
+      "notes": [
+        "圣光柱：四道锥形光从顶部倾泻，错开呼吸",
+        "圣像光环：主视觉外三层光波持续扩散"
+      ],
+      "items": [
+        {
+          "module": "feat",
+          "text": "加入神圣层动效",
+          "kind": "feat",
+          "section": null
+        }
+      ],
+      "sections": []
+    },
+    {
       "id": "QookiW-WhatsNew:commit:0593eb8b984e0e91eb089a8ad8147fa8b155b74f",
       "repo": "QookiW-WhatsNew",
       "type": "commit",
@@ -330,6 +1541,151 @@
         }
       ],
       "sections": []
+    },
+    {
+      "id": "QookiX-Launcher:0.19.1",
+      "repo": "QookiX-Launcher",
+      "type": "release",
+      "version": "0.19.1",
+      "date": "2026-11-01",
+      "notes": [],
+      "items": [
+        {
+          "module": "系统托盘",
+          "text": "新增「最近游玩」分区，右键菜单直接列出最近玩过的 5 个实例，点击即启动（自动把主窗口叫回前台，启动进度与失败原因都在窗口里可见）",
+          "kind": "feat",
+          "section": null
+        },
+        {
+          "module": "系统托盘",
+          "text": "启动成功、实例改名或删除后菜单立即刷新；实例名里的 & 换成全角、超长自动截断，避免 Windows 把菜单项当成快捷键前缀",
+          "kind": "drop",
+          "section": null
+        },
+        {
+          "module": "界面",
+          "text": "把「关闭所有实例」按钮移出底部导航条，改为标题栏的红色图标按钮（游戏运行时才出现，多实例时带数量，悬停向左滑出文字）；位置固定在页面操作按钮与账号/窗口控制之间，切换页面时不移动",
+          "kind": "wip",
+          "section": null
+        },
+        {
+          "module": "发布",
+          "text": "修复 GitHub Release 下载表格里大部分链接点开就是 404 的问题——上传的附件名会把空格换成 .，正文改为按真实附件名生成，并在发布后自动核对修复",
+          "kind": "fix",
+          "section": null
+        }
+      ],
+      "sections": [],
+      "release": {
+        "tag": "v0.19.1",
+        "url": "https://github.com/QookiX/QookiX-Launcher/releases/tag/v0.19.1",
+        "name": "QookiX Launcher v0.19.1",
+        "publishedAt": "2026-11-01T15:29:22Z",
+        "prerelease": false,
+        "draft": false,
+        "assets": [
+          {
+            "name": "changelog.json",
+            "size": 15282,
+            "url": "https://github.com/QookiX/QookiX-Launcher/releases/download/v0.19.1/changelog.json",
+            "downloads": 10,
+            "type": "application/json"
+          },
+          {
+            "name": "latest.json",
+            "size": 4806,
+            "url": "https://github.com/QookiX/QookiX-Launcher/releases/download/v0.19.1/latest.json",
+            "downloads": 4,
+            "type": "application/octet-stream"
+          },
+          {
+            "name": "QookiX.Launcher-0.19.1-1.x86_64.rpm",
+            "size": 11926415,
+            "url": "https://github.com/QookiX/QookiX-Launcher/releases/download/v0.19.1/QookiX.Launcher-0.19.1-1.x86_64.rpm",
+            "downloads": 8,
+            "type": "application/x-redhat-package-manager"
+          },
+          {
+            "name": "QookiX.Launcher-0.19.1-1.x86_64.rpm.sig",
+            "size": 428,
+            "url": "https://github.com/QookiX/QookiX-Launcher/releases/download/v0.19.1/QookiX.Launcher-0.19.1-1.x86_64.rpm.sig",
+            "downloads": 2,
+            "type": "application/pgp-signature"
+          },
+          {
+            "name": "QookiX.Launcher.app.tar.gz",
+            "size": 10127335,
+            "url": "https://github.com/QookiX/QookiX-Launcher/releases/download/v0.19.1/QookiX.Launcher.app.tar.gz",
+            "downloads": 7,
+            "type": "application/gzip"
+          },
+          {
+            "name": "QookiX.Launcher.app.tar.gz.sig",
+            "size": 416,
+            "url": "https://github.com/QookiX/QookiX-Launcher/releases/download/v0.19.1/QookiX.Launcher.app.tar.gz.sig",
+            "downloads": 3,
+            "type": "application/pgp-signature"
+          },
+          {
+            "name": "QookiX.Launcher_0.19.1_aarch64.dmg",
+            "size": 9969265,
+            "url": "https://github.com/QookiX/QookiX-Launcher/releases/download/v0.19.1/QookiX.Launcher_0.19.1_aarch64.dmg",
+            "downloads": 7,
+            "type": "application/x-apple-diskimage"
+          },
+          {
+            "name": "QookiX.Launcher_0.19.1_amd64.AppImage",
+            "size": 89369080,
+            "url": "https://github.com/QookiX/QookiX-Launcher/releases/download/v0.19.1/QookiX.Launcher_0.19.1_amd64.AppImage",
+            "downloads": 33,
+            "type": "application/octet-stream"
+          },
+          {
+            "name": "QookiX.Launcher_0.19.1_amd64.AppImage.sig",
+            "size": 432,
+            "url": "https://github.com/QookiX/QookiX-Launcher/releases/download/v0.19.1/QookiX.Launcher_0.19.1_amd64.AppImage.sig",
+            "downloads": 3,
+            "type": "application/pgp-signature"
+          },
+          {
+            "name": "QookiX.Launcher_0.19.1_amd64.deb",
+            "size": 11923554,
+            "url": "https://github.com/QookiX/QookiX-Launcher/releases/download/v0.19.1/QookiX.Launcher_0.19.1_amd64.deb",
+            "downloads": 7,
+            "type": "application/x-debian-package"
+          },
+          {
+            "name": "QookiX.Launcher_0.19.1_amd64.deb.sig",
+            "size": 424,
+            "url": "https://github.com/QookiX/QookiX-Launcher/releases/download/v0.19.1/QookiX.Launcher_0.19.1_amd64.deb.sig",
+            "downloads": 2,
+            "type": "application/pgp-signature"
+          },
+          {
+            "name": "QookiX.Launcher_0.19.1_x64-setup.exe",
+            "size": 8037381,
+            "url": "https://github.com/QookiX/QookiX-Launcher/releases/download/v0.19.1/QookiX.Launcher_0.19.1_x64-setup.exe",
+            "downloads": 27,
+            "type": "application/x-msdos-program"
+          },
+          {
+            "name": "QookiX.Launcher_0.19.1_x64-setup.exe.sig",
+            "size": 428,
+            "url": "https://github.com/QookiX/QookiX-Launcher/releases/download/v0.19.1/QookiX.Launcher_0.19.1_x64-setup.exe.sig",
+            "downloads": 3,
+            "type": "application/pgp-signature"
+          },
+          {
+            "name": "QookiX_0.19.1_x64_portable.zip",
+            "size": 10462127,
+            "url": "https://github.com/QookiX/QookiX-Launcher/releases/download/v0.19.1/QookiX_0.19.1_x64_portable.zip",
+            "downloads": 19,
+            "type": "application/zip"
+          }
+        ]
+      },
+      "url": "https://github.com/QookiX/QookiX-Launcher/releases/tag/v0.19.1",
+      "changelogUrl": "https://github.com/QookiX/QookiX-Launcher/blob/main/CHANGELOG.md"
     },
     {
       "id": "QookiX-Launcher:0.19.0",
@@ -479,21 +1835,21 @@
             "name": "changelog.json",
             "size": 15131,
             "url": "https://github.com/QookiX/QookiX-Launcher/releases/download/v0.19.0/changelog.json",
-            "downloads": 9,
+            "downloads": 16,
             "type": "application/json"
           },
           {
             "name": "latest.json",
             "size": 7598,
             "url": "https://github.com/QookiX/QookiX-Launcher/releases/download/v0.19.0/latest.json",
-            "downloads": 6,
+            "downloads": 7,
             "type": "application/octet-stream"
           },
           {
             "name": "QookiX.Launcher-0.19.0-1.x86_64.rpm",
             "size": 11895811,
             "url": "https://github.com/QookiX/QookiX-Launcher/releases/download/v0.19.0/QookiX.Launcher-0.19.0-1.x86_64.rpm",
-            "downloads": 4,
+            "downloads": 5,
             "type": "application/x-redhat-package-manager"
           },
           {
@@ -521,14 +1877,14 @@
             "name": "QookiX.Launcher_0.19.0_aarch64.dmg",
             "size": 9935948,
             "url": "https://github.com/QookiX/QookiX-Launcher/releases/download/v0.19.0/QookiX.Launcher_0.19.0_aarch64.dmg",
-            "downloads": 4,
+            "downloads": 5,
             "type": "application/x-apple-diskimage"
           },
           {
             "name": "QookiX.Launcher_0.19.0_amd64.AppImage",
             "size": 89332216,
             "url": "https://github.com/QookiX/QookiX-Launcher/releases/download/v0.19.0/QookiX.Launcher_0.19.0_amd64.AppImage",
-            "downloads": 5,
+            "downloads": 8,
             "type": "application/octet-stream"
           },
           {
@@ -542,7 +1898,7 @@
             "name": "QookiX.Launcher_0.19.0_amd64.deb",
             "size": 11894600,
             "url": "https://github.com/QookiX/QookiX-Launcher/releases/download/v0.19.0/QookiX.Launcher_0.19.0_amd64.deb",
-            "downloads": 4,
+            "downloads": 5,
             "type": "application/x-debian-package"
           },
           {
@@ -556,7 +1912,7 @@
             "name": "QookiX.Launcher_0.19.0_x64-setup.exe",
             "size": 8019588,
             "url": "https://github.com/QookiX/QookiX-Launcher/releases/download/v0.19.0/QookiX.Launcher_0.19.0_x64-setup.exe",
-            "downloads": 11,
+            "downloads": 18,
             "type": "application/x-msdos-program"
           },
           {
@@ -570,7 +1926,7 @@
             "name": "QookiX_0.19.0_x64_portable.zip",
             "size": 10426790,
             "url": "https://github.com/QookiX/QookiX-Launcher/releases/download/v0.19.0/QookiX_0.19.0_x64_portable.zip",
-            "downloads": 4,
+            "downloads": 6,
             "type": "application/zip"
           }
         ]
@@ -608,7 +1964,7 @@
             "name": "QookiX-Launcher-Android-v0.2.2-beta11-arm64.apk",
             "size": 79826242,
             "url": "https://github.com/QookiX/QookiX-Launcher-Android/releases/download/v0.2.2-beta11/QookiX-Launcher-Android-v0.2.2-beta11-arm64.apk",
-            "downloads": 5,
+            "downloads": 7,
             "type": "application/vnd.android.package-archive"
           },
           {
@@ -842,7 +2198,7 @@
             "name": "QookiX-Launcher-Android-v0.2.2-beta8-arm64.apk",
             "size": 51140652,
             "url": "https://github.com/QookiX/QookiX-Launcher-Android/releases/download/v0.2.2-beta8/QookiX-Launcher-Android-v0.2.2-beta8-arm64.apk",
-            "downloads": 4,
+            "downloads": 6,
             "type": "application/vnd.android.package-archive"
           },
           {
@@ -2227,14 +3583,14 @@
             "name": "QookiX-Launcher-Android-v0.2.1-arm64.apk",
             "size": 50264184,
             "url": "https://github.com/QookiX/QookiX-Launcher-Android/releases/download/v0.2.1/QookiX-Launcher-Android-v0.2.1-arm64.apk",
-            "downloads": 49,
+            "downloads": 60,
             "type": "application/vnd.android.package-archive"
           },
           {
             "name": "QookiX-Launcher-Android-v0.2.1-x86_64.apk",
             "size": 47776165,
             "url": "https://github.com/QookiX/QookiX-Launcher-Android/releases/download/v0.2.1/QookiX-Launcher-Android-v0.2.1-x86_64.apk",
-            "downloads": 13,
+            "downloads": 16,
             "type": "application/vnd.android.package-archive"
           },
           {
@@ -3694,301 +5050,6 @@
       "sections": []
     },
     {
-      "id": "QookiX-Launcher:0.17.0",
-      "repo": "QookiX-Launcher",
-      "type": "release",
-      "version": "0.17.0",
-      "date": "2026-10-26",
-      "notes": [],
-      "items": [
-        {
-          "module": "账号",
-          "text": "新增 LittleSkin OAuth2 授权登录，在系统浏览器完成授权即可添加账号，无需把密码交给启动器，支持两步验证",
-          "kind": "feat",
-          "section": null
-        },
-        {
-          "module": "账号",
-          "text": "优化了 OAuth2 授权后的角色处理，只有一个角色时自动添加并切换，多个角色时在弹窗内选择",
-          "kind": "feat",
-          "section": null
-        },
-        {
-          "module": "账号",
-          "text": "优化了添加账号弹窗的授权等待状态，显示「等待浏览器授权」并可随时取消",
-          "kind": "feat",
-          "section": null
-        },
-        {
-          "module": "账号",
-          "text": "修复了切换账号后各处头像短暂变空白的问题，改为先读本地缓存再后台刷新",
-          "kind": "fix",
-          "section": null
-        },
-        {
-          "module": "账号",
-          "text": "优化了账号类型徽章的配色，改用主题语义色，浅色主题下不再看不清",
-          "kind": "wip",
-          "section": null
-        },
-        {
-          "module": "设置",
-          "text": "开发者工具新增「OAuth2 接入凭证」，开发版可直接填写 LittleSkin client_id / client_secret 并即时生效，无需重新构建",
-          "kind": "feat",
-          "section": null
-        },
-        {
-          "module": "联机",
-          "text": "服务器 MOTD 支持游戏内格式，颜色码、粗体、斜体、下划线、删除线与 §k 混淆动画均可正常显示",
-          "kind": "feat",
-          "section": null
-        },
-        {
-          "module": "联机",
-          "text": "优化了服务器卡片的样式，与实例卡统一为「图标 + 名称 + 核心 / 版本 / 端口」结构，运行中显示呼吸状态灯，开始与删除改为图标按钮",
-          "kind": "wip",
-          "section": null
-        },
-        {
-          "module": "联机",
-          "text": "服务器 MOTD 改为以各服务器 server.properties 中的 motd 为准，文件缺失时回退到原有记录",
-          "kind": "wip",
-          "section": null
-        },
-        {
-          "module": "服务器详情",
-          "text": "MOTD 输入框下方新增实时彩色预览与颜色码用法说明",
-          "kind": "feat",
-          "section": null
-        },
-        {
-          "module": "联机",
-          "text": "修复了自定义 JVM 参数里带空格的路径被拆碎导致服务器无法启动的问题，支持引号包裹与一行一个参数",
-          "kind": "fix",
-          "section": null
-        },
-        {
-          "module": "安装",
-          "text": "修复了 Forge / NeoForge 安装处理器在非 Windows 系统上 classpath 分隔符错误导致安装失败的问题",
-          "kind": "fix",
-          "section": null
-        },
-        {
-          "module": "发现页",
-          "text": "新闻并入「发现」页，作为「数据包」右侧的独立标签页，以卡片展示缩略图、标题、摘要、作者与日期",
-          "kind": "other",
-          "section": null
-        },
-        {
-          "module": "界面",
-          "text": "移除独立的「新闻」页面与导航项，旧地址与深链自动跳转到「发现」页，对应设置项改为「发现页新闻入口」",
-          "kind": "wip",
-          "section": null
-        },
-        {
-          "module": "界面",
-          "text": "导航栏与页面名「内容」统一改为「发现」",
-          "kind": "wip",
-          "section": null
-        },
-        {
-          "module": "发现页",
-          "text": "优化了搜索加载体验，改用 8 张骨架屏卡片，无结果时显示图标空态；新闻标签页在标题栏提供「刷新」按钮",
-          "kind": "wip",
-          "section": null
-        },
-        {
-          "module": "皮肤站",
-          "text": "修复了 authlib-injector 下载失败导致皮肤站登录不可用的问题，改为镜像 / 加速 / 官方多源依次尝试，全部失败时提示手动放置 jar",
-          "kind": "fix",
-          "section": null
-        },
-        {
-          "module": "皮肤",
-          "text": "修复了本地皮肤文件名含斜杠时被误判为绝对路径导致读取失败的问题",
-          "kind": "fix",
-          "section": null
-        },
-        {
-          "module": "界面",
-          "text": "修复了浅色主题下大量「白底白块」问题，叠加色与 20 余处硬编码颜色改为主题变量",
-          "kind": "fix",
-          "section": null
-        },
-        {
-          "module": "界面",
-          "text": "修复了浅色主题偶发瞬间跳回深色并卡住的问题，页面转场后不再出现内容发暗",
-          "kind": "fix",
-          "section": null
-        },
-        {
-          "module": "界面",
-          "text": "修复了代码编辑器在浅色主题下语法高亮不可读的问题",
-          "kind": "fix",
-          "section": null
-        },
-        {
-          "module": "界面",
-          "text": "优化了浅色主题的背景图遮盖强度，启动屏进度条改为磨砂并修复浅色下不可见的问题",
-          "kind": "fix",
-          "section": null
-        },
-        {
-          "module": "界面",
-          "text": "新增键盘焦点环、主题色选中文本、模态与抽屉遮罩磨砂，并支持系统「减少动效」偏好",
-          "kind": "feat",
-          "section": null
-        },
-        {
-          "module": "界面",
-          "text": "优化了卡片悬停效果，实例卡、首页固定卡、服务器卡与截图卡统一阴影风格",
-          "kind": "wip",
-          "section": null
-        },
-        {
-          "module": "界面",
-          "text": "修复了内容区滚动条无法拖动的问题，内容区不再承担窗口拖拽",
-          "kind": "fix",
-          "section": null
-        },
-        {
-          "module": "界面",
-          "text": "修复了页面转场时先跳到顶部再转场的突兀感",
-          "kind": "fix",
-          "section": null
-        },
-        {
-          "module": "文件管理",
-          "text": "不再拦截 F5 键；「复制日志 / 复制路径」统一到同一套剪贴板逻辑与失败提示",
-          "kind": "wip",
-          "section": null
-        },
-        {
-          "module": "安全",
-          "text": "修复了恶意实例名、文件名、存档名与 maven 坐标可读写数据目录之外文件的问题",
-          "kind": "fix",
-          "section": null
-        },
-        {
-          "module": "稳定性",
-          "text": "修复了投影在极端坐标或尺寸下溢出导致的崩溃，并补充了相关单元测试",
-          "kind": "fix",
-          "section": null
-        }
-      ],
-      "sections": [],
-      "release": {
-        "tag": "v0.17.0",
-        "url": "https://github.com/QookiX/QookiX-Launcher/releases/tag/v0.17.0",
-        "name": "QookiX Launcher v0.17.0",
-        "publishedAt": "2026-10-25T16:50:40Z",
-        "prerelease": false,
-        "draft": false,
-        "assets": [
-          {
-            "name": "changelog.json",
-            "size": 12048,
-            "url": "https://github.com/QookiX/QookiX-Launcher/releases/download/v0.17.0/changelog.json",
-            "downloads": 36,
-            "type": "application/json"
-          },
-          {
-            "name": "latest.json",
-            "size": 7756,
-            "url": "https://github.com/QookiX/QookiX-Launcher/releases/download/v0.17.0/latest.json",
-            "downloads": 49,
-            "type": "application/octet-stream"
-          },
-          {
-            "name": "QookiX.Launcher-0.17.0-1.x86_64.rpm",
-            "size": 11594719,
-            "url": "https://github.com/QookiX/QookiX-Launcher/releases/download/v0.17.0/QookiX.Launcher-0.17.0-1.x86_64.rpm",
-            "downloads": 5,
-            "type": "application/x-redhat-package-manager"
-          },
-          {
-            "name": "QookiX.Launcher-0.17.0-1.x86_64.rpm.sig",
-            "size": 428,
-            "url": "https://github.com/QookiX/QookiX-Launcher/releases/download/v0.17.0/QookiX.Launcher-0.17.0-1.x86_64.rpm.sig",
-            "downloads": 3,
-            "type": "application/pgp-signature"
-          },
-          {
-            "name": "QookiX.Launcher.app.tar.gz",
-            "size": 9816071,
-            "url": "https://github.com/QookiX/QookiX-Launcher/releases/download/v0.17.0/QookiX.Launcher.app.tar.gz",
-            "downloads": 4,
-            "type": "application/gzip"
-          },
-          {
-            "name": "QookiX.Launcher.app.tar.gz.sig",
-            "size": 416,
-            "url": "https://github.com/QookiX/QookiX-Launcher/releases/download/v0.17.0/QookiX.Launcher.app.tar.gz.sig",
-            "downloads": 4,
-            "type": "application/pgp-signature"
-          },
-          {
-            "name": "QookiX.Launcher_0.17.0_aarch64.dmg",
-            "size": 9666285,
-            "url": "https://github.com/QookiX/QookiX-Launcher/releases/download/v0.17.0/QookiX.Launcher_0.17.0_aarch64.dmg",
-            "downloads": 4,
-            "type": "application/x-apple-diskimage"
-          },
-          {
-            "name": "QookiX.Launcher_0.17.0_amd64.AppImage",
-            "size": 89053688,
-            "url": "https://github.com/QookiX/QookiX-Launcher/releases/download/v0.17.0/QookiX.Launcher_0.17.0_amd64.AppImage",
-            "downloads": 4,
-            "type": "application/octet-stream"
-          },
-          {
-            "name": "QookiX.Launcher_0.17.0_amd64.AppImage.sig",
-            "size": 432,
-            "url": "https://github.com/QookiX/QookiX-Launcher/releases/download/v0.17.0/QookiX.Launcher_0.17.0_amd64.AppImage.sig",
-            "downloads": 3,
-            "type": "application/pgp-signature"
-          },
-          {
-            "name": "QookiX.Launcher_0.17.0_amd64.deb",
-            "size": 11593558,
-            "url": "https://github.com/QookiX/QookiX-Launcher/releases/download/v0.17.0/QookiX.Launcher_0.17.0_amd64.deb",
-            "downloads": 5,
-            "type": "application/x-debian-package"
-          },
-          {
-            "name": "QookiX.Launcher_0.17.0_amd64.deb.sig",
-            "size": 424,
-            "url": "https://github.com/QookiX/QookiX-Launcher/releases/download/v0.17.0/QookiX.Launcher_0.17.0_amd64.deb.sig",
-            "downloads": 3,
-            "type": "application/pgp-signature"
-          },
-          {
-            "name": "QookiX.Launcher_0.17.0_x64-setup.exe",
-            "size": 7821290,
-            "url": "https://github.com/QookiX/QookiX-Launcher/releases/download/v0.17.0/QookiX.Launcher_0.17.0_x64-setup.exe",
-            "downloads": 14,
-            "type": "application/x-msdos-program"
-          },
-          {
-            "name": "QookiX.Launcher_0.17.0_x64-setup.exe.sig",
-            "size": 428,
-            "url": "https://github.com/QookiX/QookiX-Launcher/releases/download/v0.17.0/QookiX.Launcher_0.17.0_x64-setup.exe.sig",
-            "downloads": 5,
-            "type": "application/pgp-signature"
-          },
-          {
-            "name": "QookiX_0.17.0_x64_portable.zip",
-            "size": 10133228,
-            "url": "https://github.com/QookiX/QookiX-Launcher/releases/download/v0.17.0/QookiX_0.17.0_x64_portable.zip",
-            "downloads": 27,
-            "type": "application/zip"
-          }
-        ]
-      },
-      "url": "https://github.com/QookiX/QookiX-Launcher/releases/tag/v0.17.0",
-      "changelogUrl": "https://github.com/QookiX/QookiX-Launcher/blob/main/CHANGELOG.md"
-    },
-    {
       "id": "QookiX-Launcher-Android:0.2.1-beta4",
       "repo": "QookiX-Launcher-Android",
       "type": "release",
@@ -4521,6 +5582,301 @@
       "changelogUrl": "https://github.com/QookiX/QookiX-Launcher-Android/blob/master/CHANGELOG.md"
     },
     {
+      "id": "QookiX-Launcher:0.17.0",
+      "repo": "QookiX-Launcher",
+      "type": "release",
+      "version": "0.17.0",
+      "date": "2026-10-26",
+      "notes": [],
+      "items": [
+        {
+          "module": "账号",
+          "text": "新增 LittleSkin OAuth2 授权登录，在系统浏览器完成授权即可添加账号，无需把密码交给启动器，支持两步验证",
+          "kind": "feat",
+          "section": null
+        },
+        {
+          "module": "账号",
+          "text": "优化了 OAuth2 授权后的角色处理，只有一个角色时自动添加并切换，多个角色时在弹窗内选择",
+          "kind": "feat",
+          "section": null
+        },
+        {
+          "module": "账号",
+          "text": "优化了添加账号弹窗的授权等待状态，显示「等待浏览器授权」并可随时取消",
+          "kind": "feat",
+          "section": null
+        },
+        {
+          "module": "账号",
+          "text": "修复了切换账号后各处头像短暂变空白的问题，改为先读本地缓存再后台刷新",
+          "kind": "fix",
+          "section": null
+        },
+        {
+          "module": "账号",
+          "text": "优化了账号类型徽章的配色，改用主题语义色，浅色主题下不再看不清",
+          "kind": "wip",
+          "section": null
+        },
+        {
+          "module": "设置",
+          "text": "开发者工具新增「OAuth2 接入凭证」，开发版可直接填写 LittleSkin client_id / client_secret 并即时生效，无需重新构建",
+          "kind": "feat",
+          "section": null
+        },
+        {
+          "module": "联机",
+          "text": "服务器 MOTD 支持游戏内格式，颜色码、粗体、斜体、下划线、删除线与 §k 混淆动画均可正常显示",
+          "kind": "feat",
+          "section": null
+        },
+        {
+          "module": "联机",
+          "text": "优化了服务器卡片的样式，与实例卡统一为「图标 + 名称 + 核心 / 版本 / 端口」结构，运行中显示呼吸状态灯，开始与删除改为图标按钮",
+          "kind": "wip",
+          "section": null
+        },
+        {
+          "module": "联机",
+          "text": "服务器 MOTD 改为以各服务器 server.properties 中的 motd 为准，文件缺失时回退到原有记录",
+          "kind": "wip",
+          "section": null
+        },
+        {
+          "module": "服务器详情",
+          "text": "MOTD 输入框下方新增实时彩色预览与颜色码用法说明",
+          "kind": "feat",
+          "section": null
+        },
+        {
+          "module": "联机",
+          "text": "修复了自定义 JVM 参数里带空格的路径被拆碎导致服务器无法启动的问题，支持引号包裹与一行一个参数",
+          "kind": "fix",
+          "section": null
+        },
+        {
+          "module": "安装",
+          "text": "修复了 Forge / NeoForge 安装处理器在非 Windows 系统上 classpath 分隔符错误导致安装失败的问题",
+          "kind": "fix",
+          "section": null
+        },
+        {
+          "module": "发现页",
+          "text": "新闻并入「发现」页，作为「数据包」右侧的独立标签页，以卡片展示缩略图、标题、摘要、作者与日期",
+          "kind": "other",
+          "section": null
+        },
+        {
+          "module": "界面",
+          "text": "移除独立的「新闻」页面与导航项，旧地址与深链自动跳转到「发现」页，对应设置项改为「发现页新闻入口」",
+          "kind": "wip",
+          "section": null
+        },
+        {
+          "module": "界面",
+          "text": "导航栏与页面名「内容」统一改为「发现」",
+          "kind": "wip",
+          "section": null
+        },
+        {
+          "module": "发现页",
+          "text": "优化了搜索加载体验，改用 8 张骨架屏卡片，无结果时显示图标空态；新闻标签页在标题栏提供「刷新」按钮",
+          "kind": "wip",
+          "section": null
+        },
+        {
+          "module": "皮肤站",
+          "text": "修复了 authlib-injector 下载失败导致皮肤站登录不可用的问题，改为镜像 / 加速 / 官方多源依次尝试，全部失败时提示手动放置 jar",
+          "kind": "fix",
+          "section": null
+        },
+        {
+          "module": "皮肤",
+          "text": "修复了本地皮肤文件名含斜杠时被误判为绝对路径导致读取失败的问题",
+          "kind": "fix",
+          "section": null
+        },
+        {
+          "module": "界面",
+          "text": "修复了浅色主题下大量「白底白块」问题，叠加色与 20 余处硬编码颜色改为主题变量",
+          "kind": "fix",
+          "section": null
+        },
+        {
+          "module": "界面",
+          "text": "修复了浅色主题偶发瞬间跳回深色并卡住的问题，页面转场后不再出现内容发暗",
+          "kind": "fix",
+          "section": null
+        },
+        {
+          "module": "界面",
+          "text": "修复了代码编辑器在浅色主题下语法高亮不可读的问题",
+          "kind": "fix",
+          "section": null
+        },
+        {
+          "module": "界面",
+          "text": "优化了浅色主题的背景图遮盖强度，启动屏进度条改为磨砂并修复浅色下不可见的问题",
+          "kind": "fix",
+          "section": null
+        },
+        {
+          "module": "界面",
+          "text": "新增键盘焦点环、主题色选中文本、模态与抽屉遮罩磨砂，并支持系统「减少动效」偏好",
+          "kind": "feat",
+          "section": null
+        },
+        {
+          "module": "界面",
+          "text": "优化了卡片悬停效果，实例卡、首页固定卡、服务器卡与截图卡统一阴影风格",
+          "kind": "wip",
+          "section": null
+        },
+        {
+          "module": "界面",
+          "text": "修复了内容区滚动条无法拖动的问题，内容区不再承担窗口拖拽",
+          "kind": "fix",
+          "section": null
+        },
+        {
+          "module": "界面",
+          "text": "修复了页面转场时先跳到顶部再转场的突兀感",
+          "kind": "fix",
+          "section": null
+        },
+        {
+          "module": "文件管理",
+          "text": "不再拦截 F5 键；「复制日志 / 复制路径」统一到同一套剪贴板逻辑与失败提示",
+          "kind": "wip",
+          "section": null
+        },
+        {
+          "module": "安全",
+          "text": "修复了恶意实例名、文件名、存档名与 maven 坐标可读写数据目录之外文件的问题",
+          "kind": "fix",
+          "section": null
+        },
+        {
+          "module": "稳定性",
+          "text": "修复了投影在极端坐标或尺寸下溢出导致的崩溃，并补充了相关单元测试",
+          "kind": "fix",
+          "section": null
+        }
+      ],
+      "sections": [],
+      "release": {
+        "tag": "v0.17.0",
+        "url": "https://github.com/QookiX/QookiX-Launcher/releases/tag/v0.17.0",
+        "name": "QookiX Launcher v0.17.0",
+        "publishedAt": "2026-10-25T16:50:40Z",
+        "prerelease": false,
+        "draft": false,
+        "assets": [
+          {
+            "name": "changelog.json",
+            "size": 12048,
+            "url": "https://github.com/QookiX/QookiX-Launcher/releases/download/v0.17.0/changelog.json",
+            "downloads": 41,
+            "type": "application/json"
+          },
+          {
+            "name": "latest.json",
+            "size": 7756,
+            "url": "https://github.com/QookiX/QookiX-Launcher/releases/download/v0.17.0/latest.json",
+            "downloads": 49,
+            "type": "application/octet-stream"
+          },
+          {
+            "name": "QookiX.Launcher-0.17.0-1.x86_64.rpm",
+            "size": 11594719,
+            "url": "https://github.com/QookiX/QookiX-Launcher/releases/download/v0.17.0/QookiX.Launcher-0.17.0-1.x86_64.rpm",
+            "downloads": 5,
+            "type": "application/x-redhat-package-manager"
+          },
+          {
+            "name": "QookiX.Launcher-0.17.0-1.x86_64.rpm.sig",
+            "size": 428,
+            "url": "https://github.com/QookiX/QookiX-Launcher/releases/download/v0.17.0/QookiX.Launcher-0.17.0-1.x86_64.rpm.sig",
+            "downloads": 3,
+            "type": "application/pgp-signature"
+          },
+          {
+            "name": "QookiX.Launcher.app.tar.gz",
+            "size": 9816071,
+            "url": "https://github.com/QookiX/QookiX-Launcher/releases/download/v0.17.0/QookiX.Launcher.app.tar.gz",
+            "downloads": 4,
+            "type": "application/gzip"
+          },
+          {
+            "name": "QookiX.Launcher.app.tar.gz.sig",
+            "size": 416,
+            "url": "https://github.com/QookiX/QookiX-Launcher/releases/download/v0.17.0/QookiX.Launcher.app.tar.gz.sig",
+            "downloads": 4,
+            "type": "application/pgp-signature"
+          },
+          {
+            "name": "QookiX.Launcher_0.17.0_aarch64.dmg",
+            "size": 9666285,
+            "url": "https://github.com/QookiX/QookiX-Launcher/releases/download/v0.17.0/QookiX.Launcher_0.17.0_aarch64.dmg",
+            "downloads": 4,
+            "type": "application/x-apple-diskimage"
+          },
+          {
+            "name": "QookiX.Launcher_0.17.0_amd64.AppImage",
+            "size": 89053688,
+            "url": "https://github.com/QookiX/QookiX-Launcher/releases/download/v0.17.0/QookiX.Launcher_0.17.0_amd64.AppImage",
+            "downloads": 4,
+            "type": "application/octet-stream"
+          },
+          {
+            "name": "QookiX.Launcher_0.17.0_amd64.AppImage.sig",
+            "size": 432,
+            "url": "https://github.com/QookiX/QookiX-Launcher/releases/download/v0.17.0/QookiX.Launcher_0.17.0_amd64.AppImage.sig",
+            "downloads": 3,
+            "type": "application/pgp-signature"
+          },
+          {
+            "name": "QookiX.Launcher_0.17.0_amd64.deb",
+            "size": 11593558,
+            "url": "https://github.com/QookiX/QookiX-Launcher/releases/download/v0.17.0/QookiX.Launcher_0.17.0_amd64.deb",
+            "downloads": 5,
+            "type": "application/x-debian-package"
+          },
+          {
+            "name": "QookiX.Launcher_0.17.0_amd64.deb.sig",
+            "size": 424,
+            "url": "https://github.com/QookiX/QookiX-Launcher/releases/download/v0.17.0/QookiX.Launcher_0.17.0_amd64.deb.sig",
+            "downloads": 3,
+            "type": "application/pgp-signature"
+          },
+          {
+            "name": "QookiX.Launcher_0.17.0_x64-setup.exe",
+            "size": 7821290,
+            "url": "https://github.com/QookiX/QookiX-Launcher/releases/download/v0.17.0/QookiX.Launcher_0.17.0_x64-setup.exe",
+            "downloads": 14,
+            "type": "application/x-msdos-program"
+          },
+          {
+            "name": "QookiX.Launcher_0.17.0_x64-setup.exe.sig",
+            "size": 428,
+            "url": "https://github.com/QookiX/QookiX-Launcher/releases/download/v0.17.0/QookiX.Launcher_0.17.0_x64-setup.exe.sig",
+            "downloads": 5,
+            "type": "application/pgp-signature"
+          },
+          {
+            "name": "QookiX_0.17.0_x64_portable.zip",
+            "size": 10133228,
+            "url": "https://github.com/QookiX/QookiX-Launcher/releases/download/v0.17.0/QookiX_0.17.0_x64_portable.zip",
+            "downloads": 27,
+            "type": "application/zip"
+          }
+        ]
+      },
+      "url": "https://github.com/QookiX/QookiX-Launcher/releases/tag/v0.17.0",
+      "changelogUrl": "https://github.com/QookiX/QookiX-Launcher/blob/main/CHANGELOG.md"
+    },
+    {
       "id": "QookiX-Docs:commit:832019d02ea71c780ddf2ba9a05f2c3580c76a4b",
       "repo": "QookiX-Docs",
       "type": "commit",
@@ -4853,7 +6209,7 @@
             "name": "changelog.json",
             "size": 7393,
             "url": "https://github.com/QookiX/QookiX-Launcher/releases/download/v0.16.0/changelog.json",
-            "downloads": 62,
+            "downloads": 67,
             "type": "application/json"
           },
           {
@@ -4950,139 +6306,6 @@
         ]
       },
       "url": "https://github.com/QookiX/QookiX-Launcher/releases/tag/v0.16.0",
-      "changelogUrl": "https://github.com/QookiX/QookiX-Launcher/blob/main/CHANGELOG.md"
-    },
-    {
-      "id": "QookiX-Launcher:0.15.5",
-      "repo": "QookiX-Launcher",
-      "type": "release",
-      "version": "0.15.5",
-      "date": "2026-10-22",
-      "notes": [],
-      "items": [
-        {
-          "module": "数据目录",
-          "text": "修复了迁移到非空目录时覆盖混入已有文件的问题，移动与复制模式现在要求目标目录为空",
-          "kind": "fix",
-          "section": null
-        },
-        {
-          "module": "数据目录",
-          "text": "优化了迁移弹窗的宽度，不再占满整个窗口",
-          "kind": "wip",
-          "section": null
-        }
-      ],
-      "sections": [],
-      "release": {
-        "tag": "v0.15.5",
-        "url": "https://github.com/QookiX/QookiX-Launcher/releases/tag/v0.15.5",
-        "name": "QookiX Launcher v0.15.5",
-        "publishedAt": "2026-10-21T17:06:01Z",
-        "prerelease": false,
-        "draft": false,
-        "assets": [
-          {
-            "name": "changelog.json",
-            "size": 6167,
-            "url": "https://github.com/QookiX/QookiX-Launcher/releases/download/v0.15.5/changelog.json",
-            "downloads": 40,
-            "type": "application/json"
-          },
-          {
-            "name": "latest.json",
-            "size": 4140,
-            "url": "https://github.com/QookiX/QookiX-Launcher/releases/download/v0.15.5/latest.json",
-            "downloads": 2,
-            "type": "application/octet-stream"
-          },
-          {
-            "name": "QookiX.Launcher-0.15.5-1.x86_64.rpm",
-            "size": 11503212,
-            "url": "https://github.com/QookiX/QookiX-Launcher/releases/download/v0.15.5/QookiX.Launcher-0.15.5-1.x86_64.rpm",
-            "downloads": 3,
-            "type": "application/x-redhat-package-manager"
-          },
-          {
-            "name": "QookiX.Launcher-0.15.5-1.x86_64.rpm.sig",
-            "size": 428,
-            "url": "https://github.com/QookiX/QookiX-Launcher/releases/download/v0.15.5/QookiX.Launcher-0.15.5-1.x86_64.rpm.sig",
-            "downloads": 2,
-            "type": "application/pgp-signature"
-          },
-          {
-            "name": "QookiX.Launcher.app.tar.gz",
-            "size": 9757226,
-            "url": "https://github.com/QookiX/QookiX-Launcher/releases/download/v0.15.5/QookiX.Launcher.app.tar.gz",
-            "downloads": 4,
-            "type": "application/gzip"
-          },
-          {
-            "name": "QookiX.Launcher.app.tar.gz.sig",
-            "size": 416,
-            "url": "https://github.com/QookiX/QookiX-Launcher/releases/download/v0.15.5/QookiX.Launcher.app.tar.gz.sig",
-            "downloads": 3,
-            "type": "application/pgp-signature"
-          },
-          {
-            "name": "QookiX.Launcher_0.15.5_aarch64.dmg",
-            "size": 9604903,
-            "url": "https://github.com/QookiX/QookiX-Launcher/releases/download/v0.15.5/QookiX.Launcher_0.15.5_aarch64.dmg",
-            "downloads": 2,
-            "type": "application/x-apple-diskimage"
-          },
-          {
-            "name": "QookiX.Launcher_0.15.5_amd64.AppImage",
-            "size": 88979960,
-            "url": "https://github.com/QookiX/QookiX-Launcher/releases/download/v0.15.5/QookiX.Launcher_0.15.5_amd64.AppImage",
-            "downloads": 5,
-            "type": "application/octet-stream"
-          },
-          {
-            "name": "QookiX.Launcher_0.15.5_amd64.AppImage.sig",
-            "size": 432,
-            "url": "https://github.com/QookiX/QookiX-Launcher/releases/download/v0.15.5/QookiX.Launcher_0.15.5_amd64.AppImage.sig",
-            "downloads": 3,
-            "type": "application/pgp-signature"
-          },
-          {
-            "name": "QookiX.Launcher_0.15.5_amd64.deb",
-            "size": 11499406,
-            "url": "https://github.com/QookiX/QookiX-Launcher/releases/download/v0.15.5/QookiX.Launcher_0.15.5_amd64.deb",
-            "downloads": 4,
-            "type": "application/x-debian-package"
-          },
-          {
-            "name": "QookiX.Launcher_0.15.5_amd64.deb.sig",
-            "size": 424,
-            "url": "https://github.com/QookiX/QookiX-Launcher/releases/download/v0.15.5/QookiX.Launcher_0.15.5_amd64.deb.sig",
-            "downloads": 2,
-            "type": "application/pgp-signature"
-          },
-          {
-            "name": "QookiX.Launcher_0.15.5_x64-setup.exe",
-            "size": 7789511,
-            "url": "https://github.com/QookiX/QookiX-Launcher/releases/download/v0.15.5/QookiX.Launcher_0.15.5_x64-setup.exe",
-            "downloads": 9,
-            "type": "application/x-msdos-program"
-          },
-          {
-            "name": "QookiX.Launcher_0.15.5_x64-setup.exe.sig",
-            "size": 428,
-            "url": "https://github.com/QookiX/QookiX-Launcher/releases/download/v0.15.5/QookiX.Launcher_0.15.5_x64-setup.exe.sig",
-            "downloads": 3,
-            "type": "application/pgp-signature"
-          },
-          {
-            "name": "QookiX_0.15.5_x64_portable.zip",
-            "size": 10077786,
-            "url": "https://github.com/QookiX/QookiX-Launcher/releases/download/v0.15.5/QookiX_0.15.5_x64_portable.zip",
-            "downloads": 26,
-            "type": "application/zip"
-          }
-        ]
-      },
-      "url": "https://github.com/QookiX/QookiX-Launcher/releases/tag/v0.15.5",
       "changelogUrl": "https://github.com/QookiX/QookiX-Launcher/blob/main/CHANGELOG.md"
     },
     {
@@ -5337,6 +6560,329 @@
         ]
       },
       "url": "https://github.com/QookiX/QookiX-Launcher-Android/releases/tag/v1.8.0",
+      "changelogUrl": "https://github.com/QookiX/QookiX-Launcher-Android/blob/master/CHANGELOG.md"
+    },
+    {
+      "id": "QookiX-Launcher:0.15.5",
+      "repo": "QookiX-Launcher",
+      "type": "release",
+      "version": "0.15.5",
+      "date": "2026-10-22",
+      "notes": [],
+      "items": [
+        {
+          "module": "数据目录",
+          "text": "修复了迁移到非空目录时覆盖混入已有文件的问题，移动与复制模式现在要求目标目录为空",
+          "kind": "fix",
+          "section": null
+        },
+        {
+          "module": "数据目录",
+          "text": "优化了迁移弹窗的宽度，不再占满整个窗口",
+          "kind": "wip",
+          "section": null
+        }
+      ],
+      "sections": [],
+      "release": {
+        "tag": "v0.15.5",
+        "url": "https://github.com/QookiX/QookiX-Launcher/releases/tag/v0.15.5",
+        "name": "QookiX Launcher v0.15.5",
+        "publishedAt": "2026-10-21T17:06:01Z",
+        "prerelease": false,
+        "draft": false,
+        "assets": [
+          {
+            "name": "changelog.json",
+            "size": 6167,
+            "url": "https://github.com/QookiX/QookiX-Launcher/releases/download/v0.15.5/changelog.json",
+            "downloads": 45,
+            "type": "application/json"
+          },
+          {
+            "name": "latest.json",
+            "size": 4140,
+            "url": "https://github.com/QookiX/QookiX-Launcher/releases/download/v0.15.5/latest.json",
+            "downloads": 2,
+            "type": "application/octet-stream"
+          },
+          {
+            "name": "QookiX.Launcher-0.15.5-1.x86_64.rpm",
+            "size": 11503212,
+            "url": "https://github.com/QookiX/QookiX-Launcher/releases/download/v0.15.5/QookiX.Launcher-0.15.5-1.x86_64.rpm",
+            "downloads": 3,
+            "type": "application/x-redhat-package-manager"
+          },
+          {
+            "name": "QookiX.Launcher-0.15.5-1.x86_64.rpm.sig",
+            "size": 428,
+            "url": "https://github.com/QookiX/QookiX-Launcher/releases/download/v0.15.5/QookiX.Launcher-0.15.5-1.x86_64.rpm.sig",
+            "downloads": 2,
+            "type": "application/pgp-signature"
+          },
+          {
+            "name": "QookiX.Launcher.app.tar.gz",
+            "size": 9757226,
+            "url": "https://github.com/QookiX/QookiX-Launcher/releases/download/v0.15.5/QookiX.Launcher.app.tar.gz",
+            "downloads": 4,
+            "type": "application/gzip"
+          },
+          {
+            "name": "QookiX.Launcher.app.tar.gz.sig",
+            "size": 416,
+            "url": "https://github.com/QookiX/QookiX-Launcher/releases/download/v0.15.5/QookiX.Launcher.app.tar.gz.sig",
+            "downloads": 3,
+            "type": "application/pgp-signature"
+          },
+          {
+            "name": "QookiX.Launcher_0.15.5_aarch64.dmg",
+            "size": 9604903,
+            "url": "https://github.com/QookiX/QookiX-Launcher/releases/download/v0.15.5/QookiX.Launcher_0.15.5_aarch64.dmg",
+            "downloads": 2,
+            "type": "application/x-apple-diskimage"
+          },
+          {
+            "name": "QookiX.Launcher_0.15.5_amd64.AppImage",
+            "size": 88979960,
+            "url": "https://github.com/QookiX/QookiX-Launcher/releases/download/v0.15.5/QookiX.Launcher_0.15.5_amd64.AppImage",
+            "downloads": 5,
+            "type": "application/octet-stream"
+          },
+          {
+            "name": "QookiX.Launcher_0.15.5_amd64.AppImage.sig",
+            "size": 432,
+            "url": "https://github.com/QookiX/QookiX-Launcher/releases/download/v0.15.5/QookiX.Launcher_0.15.5_amd64.AppImage.sig",
+            "downloads": 3,
+            "type": "application/pgp-signature"
+          },
+          {
+            "name": "QookiX.Launcher_0.15.5_amd64.deb",
+            "size": 11499406,
+            "url": "https://github.com/QookiX/QookiX-Launcher/releases/download/v0.15.5/QookiX.Launcher_0.15.5_amd64.deb",
+            "downloads": 4,
+            "type": "application/x-debian-package"
+          },
+          {
+            "name": "QookiX.Launcher_0.15.5_amd64.deb.sig",
+            "size": 424,
+            "url": "https://github.com/QookiX/QookiX-Launcher/releases/download/v0.15.5/QookiX.Launcher_0.15.5_amd64.deb.sig",
+            "downloads": 2,
+            "type": "application/pgp-signature"
+          },
+          {
+            "name": "QookiX.Launcher_0.15.5_x64-setup.exe",
+            "size": 7789511,
+            "url": "https://github.com/QookiX/QookiX-Launcher/releases/download/v0.15.5/QookiX.Launcher_0.15.5_x64-setup.exe",
+            "downloads": 9,
+            "type": "application/x-msdos-program"
+          },
+          {
+            "name": "QookiX.Launcher_0.15.5_x64-setup.exe.sig",
+            "size": 428,
+            "url": "https://github.com/QookiX/QookiX-Launcher/releases/download/v0.15.5/QookiX.Launcher_0.15.5_x64-setup.exe.sig",
+            "downloads": 3,
+            "type": "application/pgp-signature"
+          },
+          {
+            "name": "QookiX_0.15.5_x64_portable.zip",
+            "size": 10077786,
+            "url": "https://github.com/QookiX/QookiX-Launcher/releases/download/v0.15.5/QookiX_0.15.5_x64_portable.zip",
+            "downloads": 26,
+            "type": "application/zip"
+          }
+        ]
+      },
+      "url": "https://github.com/QookiX/QookiX-Launcher/releases/tag/v0.15.5",
+      "changelogUrl": "https://github.com/QookiX/QookiX-Launcher/blob/main/CHANGELOG.md"
+    },
+    {
+      "id": "QookiX-Launcher-Android:1.7.4",
+      "repo": "QookiX-Launcher-Android",
+      "type": "release",
+      "version": "1.7.4",
+      "date": "2026-10-21",
+      "notes": [],
+      "items": [
+        {
+          "module": "插件",
+          "text": "新增了插件启用/禁用开关、单件卸载与插件清单地址切换",
+          "kind": "feat",
+          "section": null
+        },
+        {
+          "module": "实例",
+          "text": "新增了实例分组的新建、重命名、删除与上下重排",
+          "kind": "feat",
+          "section": null
+        },
+        {
+          "module": "首页",
+          "text": "新增了实例置顶功能与置顶区展示",
+          "kind": "feat",
+          "section": null
+        },
+        {
+          "module": "多人游戏",
+          "text": "新增了直接连接服务器并测试延迟与在线人数",
+          "kind": "feat",
+          "section": null
+        },
+        {
+          "module": "服务器",
+          "text": "新增了开服辅助卡片，显示建议内存与电池优化白名单申请",
+          "kind": "feat",
+          "section": null
+        },
+        {
+          "module": "内容中心",
+          "text": "新增了项目详情对话框，显示作者、下载量与正文摘要",
+          "kind": "feat",
+          "section": null
+        },
+        {
+          "module": "实例",
+          "text": "新增了崩溃报告查看原文按钮",
+          "kind": "feat",
+          "section": null
+        },
+        {
+          "module": "实例",
+          "text": "新增了创建实例时的预计下载体积显示",
+          "kind": "feat",
+          "section": null
+        }
+      ],
+      "sections": [],
+      "release": {
+        "tag": "v1.7.4",
+        "url": "https://github.com/QookiX/QookiX-Launcher-Android/releases/tag/v1.7.4",
+        "name": "v1.7.4",
+        "publishedAt": "2026-10-21T15:03:15Z",
+        "prerelease": false,
+        "draft": false,
+        "assets": [
+          {
+            "name": "QookiX-Launcher-Android-v1.7.4-arm64.apk",
+            "size": 51932575,
+            "url": "https://github.com/QookiX/QookiX-Launcher-Android/releases/download/v1.7.4/QookiX-Launcher-Android-v1.7.4-arm64.apk",
+            "downloads": 13,
+            "type": "application/vnd.android.package-archive"
+          },
+          {
+            "name": "QookiX-Launcher-Android-v1.7.4-x86_64.apk",
+            "size": 49592061,
+            "url": "https://github.com/QookiX/QookiX-Launcher-Android/releases/download/v1.7.4/QookiX-Launcher-Android-v1.7.4-x86_64.apk",
+            "downloads": 2,
+            "type": "application/vnd.android.package-archive"
+          },
+          {
+            "name": "SHA256SUMS.txt",
+            "size": 215,
+            "url": "https://github.com/QookiX/QookiX-Launcher-Android/releases/download/v1.7.4/SHA256SUMS.txt",
+            "downloads": 3,
+            "type": "text/plain"
+          }
+        ]
+      },
+      "url": "https://github.com/QookiX/QookiX-Launcher-Android/releases/tag/v1.7.4",
+      "changelogUrl": "https://github.com/QookiX/QookiX-Launcher-Android/blob/master/CHANGELOG.md"
+    },
+    {
+      "id": "QookiX-Launcher-Android:1.7.3",
+      "repo": "QookiX-Launcher-Android",
+      "type": "release",
+      "version": "1.7.3",
+      "date": "2026-10-21",
+      "notes": [],
+      "items": [
+        {
+          "module": "启动器",
+          "text": "修复了安装游戏文件耗时较长时被误判为失败的问题",
+          "kind": "fix",
+          "section": null
+        },
+        {
+          "module": "启动器",
+          "text": "修复了创建实例时版本列表加载失败的问题",
+          "kind": "fix",
+          "section": null
+        },
+        {
+          "module": "加载器",
+          "text": "修复了加载器版本列表在官方源缓慢时获取失败的问题",
+          "kind": "fix",
+          "section": null
+        },
+        {
+          "module": "实例",
+          "text": "修复了模组启用/禁用开关点击后没有反应的问题",
+          "kind": "fix",
+          "section": null
+        },
+        {
+          "module": "实例",
+          "text": "修复了模组删除后需要切走再切回才生效的问题",
+          "kind": "fix",
+          "section": null
+        },
+        {
+          "module": "实例",
+          "text": "修复了模组更新后列表不刷新、更新按钮不消失的问题",
+          "kind": "fix",
+          "section": null
+        },
+        {
+          "module": "实例",
+          "text": "新增了日志页「导出」按钮，可把启动日志分享出去",
+          "kind": "feat",
+          "section": null
+        },
+        {
+          "module": "多人",
+          "text": "新增了服务器列表搜索栏",
+          "kind": "feat",
+          "section": null
+        },
+        {
+          "module": "多人",
+          "text": "新增了服务器详情页连接地址卡片，显示局域网 IP 与端口并可复制",
+          "kind": "feat",
+          "section": null
+        }
+      ],
+      "sections": [],
+      "release": {
+        "tag": "v1.7.3",
+        "url": "https://github.com/QookiX/QookiX-Launcher-Android/releases/tag/v1.7.3",
+        "name": "v1.7.3",
+        "publishedAt": "2026-10-21T08:57:17Z",
+        "prerelease": false,
+        "draft": false,
+        "assets": [
+          {
+            "name": "QookiX-Launcher-Android-v1.7.3-arm64.apk",
+            "size": 51895411,
+            "url": "https://github.com/QookiX/QookiX-Launcher-Android/releases/download/v1.7.3/QookiX-Launcher-Android-v1.7.3-arm64.apk",
+            "downloads": 22,
+            "type": "application/vnd.android.package-archive"
+          },
+          {
+            "name": "QookiX-Launcher-Android-v1.7.3-x86_64.apk",
+            "size": 49554865,
+            "url": "https://github.com/QookiX/QookiX-Launcher-Android/releases/download/v1.7.3/QookiX-Launcher-Android-v1.7.3-x86_64.apk",
+            "downloads": 5,
+            "type": "application/vnd.android.package-archive"
+          },
+          {
+            "name": "SHA256SUMS.txt",
+            "size": 215,
+            "url": "https://github.com/QookiX/QookiX-Launcher-Android/releases/download/v1.7.3/SHA256SUMS.txt",
+            "downloads": 3,
+            "type": "text/plain"
+          }
+        ]
+      },
+      "url": "https://github.com/QookiX/QookiX-Launcher-Android/releases/tag/v1.7.3",
       "changelogUrl": "https://github.com/QookiX/QookiX-Launcher-Android/blob/master/CHANGELOG.md"
     },
     {
@@ -5598,7 +7144,7 @@
             "name": "QookiX.Launcher-0.15.3-1.x86_64.rpm",
             "size": 11503791,
             "url": "https://github.com/QookiX/QookiX-Launcher/releases/download/v0.15.3/QookiX.Launcher-0.15.3-1.x86_64.rpm",
-            "downloads": 5,
+            "downloads": 6,
             "type": "application/x-redhat-package-manager"
           },
           {
@@ -5626,14 +7172,14 @@
             "name": "QookiX.Launcher_0.15.3_aarch64.dmg",
             "size": 9630053,
             "url": "https://github.com/QookiX/QookiX-Launcher/releases/download/v0.15.3/QookiX.Launcher_0.15.3_aarch64.dmg",
-            "downloads": 7,
+            "downloads": 8,
             "type": "application/x-apple-diskimage"
           },
           {
             "name": "QookiX.Launcher_0.15.3_amd64.AppImage",
             "size": 88967672,
             "url": "https://github.com/QookiX/QookiX-Launcher/releases/download/v0.15.3/QookiX.Launcher_0.15.3_amd64.AppImage",
-            "downloads": 5,
+            "downloads": 6,
             "type": "application/octet-stream"
           },
           {
@@ -5647,7 +7193,7 @@
             "name": "QookiX.Launcher_0.15.3_amd64.deb",
             "size": 11499370,
             "url": "https://github.com/QookiX/QookiX-Launcher/releases/download/v0.15.3/QookiX.Launcher_0.15.3_amd64.deb",
-            "downloads": 5,
+            "downloads": 6,
             "type": "application/x-debian-package"
           },
           {
@@ -5661,7 +7207,7 @@
             "name": "QookiX.Launcher_0.15.3_x64-setup.exe",
             "size": 7779195,
             "url": "https://github.com/QookiX/QookiX-Launcher/releases/download/v0.15.3/QookiX.Launcher_0.15.3_x64-setup.exe",
-            "downloads": 5,
+            "downloads": 6,
             "type": "application/x-msdos-program"
           },
           {
@@ -5675,203 +7221,13 @@
             "name": "QookiX_0.15.3_x64_portable.zip",
             "size": 10077500,
             "url": "https://github.com/QookiX/QookiX-Launcher/releases/download/v0.15.3/QookiX_0.15.3_x64_portable.zip",
-            "downloads": 6,
+            "downloads": 7,
             "type": "application/zip"
           }
         ]
       },
       "url": "https://github.com/QookiX/QookiX-Launcher/releases/tag/v0.15.3",
       "changelogUrl": "https://github.com/QookiX/QookiX-Launcher/blob/main/CHANGELOG.md"
-    },
-    {
-      "id": "QookiX-Launcher-Android:1.7.4",
-      "repo": "QookiX-Launcher-Android",
-      "type": "release",
-      "version": "1.7.4",
-      "date": "2026-10-21",
-      "notes": [],
-      "items": [
-        {
-          "module": "插件",
-          "text": "新增了插件启用/禁用开关、单件卸载与插件清单地址切换",
-          "kind": "feat",
-          "section": null
-        },
-        {
-          "module": "实例",
-          "text": "新增了实例分组的新建、重命名、删除与上下重排",
-          "kind": "feat",
-          "section": null
-        },
-        {
-          "module": "首页",
-          "text": "新增了实例置顶功能与置顶区展示",
-          "kind": "feat",
-          "section": null
-        },
-        {
-          "module": "多人游戏",
-          "text": "新增了直接连接服务器并测试延迟与在线人数",
-          "kind": "feat",
-          "section": null
-        },
-        {
-          "module": "服务器",
-          "text": "新增了开服辅助卡片，显示建议内存与电池优化白名单申请",
-          "kind": "feat",
-          "section": null
-        },
-        {
-          "module": "内容中心",
-          "text": "新增了项目详情对话框，显示作者、下载量与正文摘要",
-          "kind": "feat",
-          "section": null
-        },
-        {
-          "module": "实例",
-          "text": "新增了崩溃报告查看原文按钮",
-          "kind": "feat",
-          "section": null
-        },
-        {
-          "module": "实例",
-          "text": "新增了创建实例时的预计下载体积显示",
-          "kind": "feat",
-          "section": null
-        }
-      ],
-      "sections": [],
-      "release": {
-        "tag": "v1.7.4",
-        "url": "https://github.com/QookiX/QookiX-Launcher-Android/releases/tag/v1.7.4",
-        "name": "v1.7.4",
-        "publishedAt": "2026-10-21T15:03:15Z",
-        "prerelease": false,
-        "draft": false,
-        "assets": [
-          {
-            "name": "QookiX-Launcher-Android-v1.7.4-arm64.apk",
-            "size": 51932575,
-            "url": "https://github.com/QookiX/QookiX-Launcher-Android/releases/download/v1.7.4/QookiX-Launcher-Android-v1.7.4-arm64.apk",
-            "downloads": 13,
-            "type": "application/vnd.android.package-archive"
-          },
-          {
-            "name": "QookiX-Launcher-Android-v1.7.4-x86_64.apk",
-            "size": 49592061,
-            "url": "https://github.com/QookiX/QookiX-Launcher-Android/releases/download/v1.7.4/QookiX-Launcher-Android-v1.7.4-x86_64.apk",
-            "downloads": 2,
-            "type": "application/vnd.android.package-archive"
-          },
-          {
-            "name": "SHA256SUMS.txt",
-            "size": 215,
-            "url": "https://github.com/QookiX/QookiX-Launcher-Android/releases/download/v1.7.4/SHA256SUMS.txt",
-            "downloads": 3,
-            "type": "text/plain"
-          }
-        ]
-      },
-      "url": "https://github.com/QookiX/QookiX-Launcher-Android/releases/tag/v1.7.4",
-      "changelogUrl": "https://github.com/QookiX/QookiX-Launcher-Android/blob/master/CHANGELOG.md"
-    },
-    {
-      "id": "QookiX-Launcher-Android:1.7.3",
-      "repo": "QookiX-Launcher-Android",
-      "type": "release",
-      "version": "1.7.3",
-      "date": "2026-10-21",
-      "notes": [],
-      "items": [
-        {
-          "module": "启动器",
-          "text": "修复了安装游戏文件耗时较长时被误判为失败的问题",
-          "kind": "fix",
-          "section": null
-        },
-        {
-          "module": "启动器",
-          "text": "修复了创建实例时版本列表加载失败的问题",
-          "kind": "fix",
-          "section": null
-        },
-        {
-          "module": "加载器",
-          "text": "修复了加载器版本列表在官方源缓慢时获取失败的问题",
-          "kind": "fix",
-          "section": null
-        },
-        {
-          "module": "实例",
-          "text": "修复了模组启用/禁用开关点击后没有反应的问题",
-          "kind": "fix",
-          "section": null
-        },
-        {
-          "module": "实例",
-          "text": "修复了模组删除后需要切走再切回才生效的问题",
-          "kind": "fix",
-          "section": null
-        },
-        {
-          "module": "实例",
-          "text": "修复了模组更新后列表不刷新、更新按钮不消失的问题",
-          "kind": "fix",
-          "section": null
-        },
-        {
-          "module": "实例",
-          "text": "新增了日志页「导出」按钮，可把启动日志分享出去",
-          "kind": "feat",
-          "section": null
-        },
-        {
-          "module": "多人",
-          "text": "新增了服务器列表搜索栏",
-          "kind": "feat",
-          "section": null
-        },
-        {
-          "module": "多人",
-          "text": "新增了服务器详情页连接地址卡片，显示局域网 IP 与端口并可复制",
-          "kind": "feat",
-          "section": null
-        }
-      ],
-      "sections": [],
-      "release": {
-        "tag": "v1.7.3",
-        "url": "https://github.com/QookiX/QookiX-Launcher-Android/releases/tag/v1.7.3",
-        "name": "v1.7.3",
-        "publishedAt": "2026-10-21T08:57:17Z",
-        "prerelease": false,
-        "draft": false,
-        "assets": [
-          {
-            "name": "QookiX-Launcher-Android-v1.7.3-arm64.apk",
-            "size": 51895411,
-            "url": "https://github.com/QookiX/QookiX-Launcher-Android/releases/download/v1.7.3/QookiX-Launcher-Android-v1.7.3-arm64.apk",
-            "downloads": 22,
-            "type": "application/vnd.android.package-archive"
-          },
-          {
-            "name": "QookiX-Launcher-Android-v1.7.3-x86_64.apk",
-            "size": 49554865,
-            "url": "https://github.com/QookiX/QookiX-Launcher-Android/releases/download/v1.7.3/QookiX-Launcher-Android-v1.7.3-x86_64.apk",
-            "downloads": 5,
-            "type": "application/vnd.android.package-archive"
-          },
-          {
-            "name": "SHA256SUMS.txt",
-            "size": 215,
-            "url": "https://github.com/QookiX/QookiX-Launcher-Android/releases/download/v1.7.3/SHA256SUMS.txt",
-            "downloads": 3,
-            "type": "text/plain"
-          }
-        ]
-      },
-      "url": "https://github.com/QookiX/QookiX-Launcher-Android/releases/tag/v1.7.3",
-      "changelogUrl": "https://github.com/QookiX/QookiX-Launcher-Android/blob/master/CHANGELOG.md"
     },
     {
       "id": "QookiX-Launcher-Android:1.7.2",
@@ -6505,6 +7861,244 @@
       "sections": []
     },
     {
+      "id": "QookiX-Launcher-Android:1.7.1",
+      "repo": "QookiX-Launcher-Android",
+      "type": "release",
+      "version": "1.7.1",
+      "date": "2026-10-18",
+      "notes": [],
+      "items": [
+        {
+          "module": "内容中心",
+          "text": "修复了筛选器点击无反应的问题",
+          "kind": "fix",
+          "section": null
+        },
+        {
+          "module": "内容中心",
+          "text": "修复了打开筛选面板时系统状态栏弹出、下方内容跳动的问题",
+          "kind": "fix",
+          "section": null
+        },
+        {
+          "module": "实例",
+          "text": "修复了点击按键布局「编辑」按钮导致应用闪退的问题",
+          "kind": "fix",
+          "section": null
+        },
+        {
+          "module": "实例",
+          "text": "修复了按键布局「导入」选择文件后无反应的问题",
+          "kind": "fix",
+          "section": null
+        },
+        {
+          "module": "实例",
+          "text": "修复了导入整合包选择文件后无反应的问题",
+          "kind": "fix",
+          "section": null
+        },
+        {
+          "module": "实例",
+          "text": "修复了按键布局「重命名」对话框缺少确认按钮的问题",
+          "kind": "fix",
+          "section": null
+        },
+        {
+          "module": "首页",
+          "text": "修复了实例主卡片在部分机型上可能溢出的问题",
+          "kind": "fix",
+          "section": null
+        },
+        {
+          "module": "多人",
+          "text": "修复了「新建服务器」页面左上角返回按钮无效的问题",
+          "kind": "fix",
+          "section": null
+        },
+        {
+          "module": "多人",
+          "text": "修复了服务端因未同意 EULA 无法启动、但界面找不到勾选入口的问题",
+          "kind": "fix",
+          "section": null
+        },
+        {
+          "module": "多人",
+          "text": "修复了修改服务器名称、端口、内存等设置不生效的问题",
+          "kind": "fix",
+          "section": null
+        },
+        {
+          "module": "账号",
+          "text": "修复了微软账号登录不自动复制设备码的问题",
+          "kind": "fix",
+          "section": null
+        },
+        {
+          "module": "皮肤",
+          "text": "修复了正版账号进入皮肤页显示「未选择皮肤」的问题",
+          "kind": "fix",
+          "section": null
+        },
+        {
+          "module": "皮肤",
+          "text": "修复了保存皮肤后无法自动选中新皮肤的问题",
+          "kind": "fix",
+          "section": null
+        },
+        {
+          "module": "自更新",
+          "text": "修复了下载更新时没有进度显示的问题",
+          "kind": "fix",
+          "section": null
+        },
+        {
+          "module": "自更新",
+          "text": "修复了切换页面后更新状态丢失的问题",
+          "kind": "fix",
+          "section": null
+        },
+        {
+          "module": "自更新",
+          "text": "修复了重复检查更新时可能下载到错误版本的问题",
+          "kind": "fix",
+          "section": null
+        },
+        {
+          "module": "多人",
+          "text": "新增了服务器详情页的「服务器设置」页签",
+          "kind": "feat",
+          "section": null
+        },
+        {
+          "module": "界面",
+          "text": "优化了整体沉浸式显示，隐藏系统状态栏",
+          "kind": "wip",
+          "section": null
+        },
+        {
+          "module": "内容中心",
+          "text": "优化了筛选面板的呈现方式",
+          "kind": "wip",
+          "section": null
+        },
+        {
+          "module": "实例",
+          "text": "优化了「新建实例」按钮的位置",
+          "kind": "wip",
+          "section": null
+        },
+        {
+          "module": "首页",
+          "text": "优化了左右分栏的宽度策略，改为按屏幕比例自适应",
+          "kind": "wip",
+          "section": null
+        },
+        {
+          "module": "多人",
+          "text": "优化了「对外开放（陶瓦联机）」的位置",
+          "kind": "wip",
+          "section": null
+        },
+        {
+          "module": "账号",
+          "text": "优化了微软账号登录流程",
+          "kind": "wip",
+          "section": null
+        },
+        {
+          "module": "皮肤",
+          "text": "优化了皮肤页的加载逻辑",
+          "kind": "wip",
+          "section": null
+        }
+      ],
+      "sections": [],
+      "release": {
+        "tag": "v1.7.1",
+        "url": "https://github.com/QookiX/QookiX-Launcher-Android/releases/tag/v1.7.1",
+        "name": "v1.7.1",
+        "publishedAt": "2026-10-18T13:48:54Z",
+        "prerelease": false,
+        "draft": false,
+        "assets": [
+          {
+            "name": "QookiX-Launcher-Android-v1.7.1-arm64.apk",
+            "size": 50876565,
+            "url": "https://github.com/QookiX/QookiX-Launcher-Android/releases/download/v1.7.1/QookiX-Launcher-Android-v1.7.1-arm64.apk",
+            "downloads": 10,
+            "type": "application/vnd.android.package-archive"
+          },
+          {
+            "name": "QookiX-Launcher-Android-v1.7.1-x86_64.apk",
+            "size": 48528127,
+            "url": "https://github.com/QookiX/QookiX-Launcher-Android/releases/download/v1.7.1/QookiX-Launcher-Android-v1.7.1-x86_64.apk",
+            "downloads": 1,
+            "type": "application/vnd.android.package-archive"
+          },
+          {
+            "name": "SHA256SUMS.txt",
+            "size": 215,
+            "url": "https://github.com/QookiX/QookiX-Launcher-Android/releases/download/v1.7.1/SHA256SUMS.txt",
+            "downloads": 3,
+            "type": "text/plain"
+          }
+        ]
+      },
+      "url": "https://github.com/QookiX/QookiX-Launcher-Android/releases/tag/v1.7.1",
+      "changelogUrl": "https://github.com/QookiX/QookiX-Launcher-Android/blob/master/CHANGELOG.md"
+    },
+    {
+      "id": "QookiX-Launcher-Android:1.7.0",
+      "repo": "QookiX-Launcher-Android",
+      "type": "release",
+      "version": "1.7.0",
+      "date": "2026-10-18",
+      "notes": [],
+      "items": [
+        {
+          "module": "UI",
+          "text": "完全重构了所有前端 UI，更符合手机操作逻辑",
+          "kind": "wip",
+          "section": null
+        }
+      ],
+      "sections": [],
+      "release": {
+        "tag": "v1.7.0",
+        "url": "https://github.com/QookiX/QookiX-Launcher-Android/releases/tag/v1.7.0",
+        "name": "v1.7.0",
+        "publishedAt": "2026-10-18T08:42:45Z",
+        "prerelease": false,
+        "draft": false,
+        "assets": [
+          {
+            "name": "QookiX-Launcher-Android-v1.7.0-arm64.apk",
+            "size": 50884997,
+            "url": "https://github.com/QookiX/QookiX-Launcher-Android/releases/download/v1.7.0/QookiX-Launcher-Android-v1.7.0-arm64.apk",
+            "downloads": 12,
+            "type": "application/vnd.android.package-archive"
+          },
+          {
+            "name": "QookiX-Launcher-Android-v1.7.0-x86_64.apk",
+            "size": 48536227,
+            "url": "https://github.com/QookiX/QookiX-Launcher-Android/releases/download/v1.7.0/QookiX-Launcher-Android-v1.7.0-x86_64.apk",
+            "downloads": 1,
+            "type": "application/vnd.android.package-archive"
+          },
+          {
+            "name": "SHA256SUMS.txt",
+            "size": 215,
+            "url": "https://github.com/QookiX/QookiX-Launcher-Android/releases/download/v1.7.0/SHA256SUMS.txt",
+            "downloads": 4,
+            "type": "text/plain"
+          }
+        ]
+      },
+      "url": "https://github.com/QookiX/QookiX-Launcher-Android/releases/tag/v1.7.0",
+      "changelogUrl": "https://github.com/QookiX/QookiX-Launcher-Android/blob/master/CHANGELOG.md"
+    },
+    {
       "id": "QookiX-Launcher:0.15.1",
       "repo": "QookiX-Launcher",
       "type": "release",
@@ -6837,244 +8431,6 @@
       "changelogUrl": "https://github.com/QookiX/QookiX-Launcher/blob/main/CHANGELOG.md"
     },
     {
-      "id": "QookiX-Launcher-Android:1.7.1",
-      "repo": "QookiX-Launcher-Android",
-      "type": "release",
-      "version": "1.7.1",
-      "date": "2026-10-18",
-      "notes": [],
-      "items": [
-        {
-          "module": "内容中心",
-          "text": "修复了筛选器点击无反应的问题",
-          "kind": "fix",
-          "section": null
-        },
-        {
-          "module": "内容中心",
-          "text": "修复了打开筛选面板时系统状态栏弹出、下方内容跳动的问题",
-          "kind": "fix",
-          "section": null
-        },
-        {
-          "module": "实例",
-          "text": "修复了点击按键布局「编辑」按钮导致应用闪退的问题",
-          "kind": "fix",
-          "section": null
-        },
-        {
-          "module": "实例",
-          "text": "修复了按键布局「导入」选择文件后无反应的问题",
-          "kind": "fix",
-          "section": null
-        },
-        {
-          "module": "实例",
-          "text": "修复了导入整合包选择文件后无反应的问题",
-          "kind": "fix",
-          "section": null
-        },
-        {
-          "module": "实例",
-          "text": "修复了按键布局「重命名」对话框缺少确认按钮的问题",
-          "kind": "fix",
-          "section": null
-        },
-        {
-          "module": "首页",
-          "text": "修复了实例主卡片在部分机型上可能溢出的问题",
-          "kind": "fix",
-          "section": null
-        },
-        {
-          "module": "多人",
-          "text": "修复了「新建服务器」页面左上角返回按钮无效的问题",
-          "kind": "fix",
-          "section": null
-        },
-        {
-          "module": "多人",
-          "text": "修复了服务端因未同意 EULA 无法启动、但界面找不到勾选入口的问题",
-          "kind": "fix",
-          "section": null
-        },
-        {
-          "module": "多人",
-          "text": "修复了修改服务器名称、端口、内存等设置不生效的问题",
-          "kind": "fix",
-          "section": null
-        },
-        {
-          "module": "账号",
-          "text": "修复了微软账号登录不自动复制设备码的问题",
-          "kind": "fix",
-          "section": null
-        },
-        {
-          "module": "皮肤",
-          "text": "修复了正版账号进入皮肤页显示「未选择皮肤」的问题",
-          "kind": "fix",
-          "section": null
-        },
-        {
-          "module": "皮肤",
-          "text": "修复了保存皮肤后无法自动选中新皮肤的问题",
-          "kind": "fix",
-          "section": null
-        },
-        {
-          "module": "自更新",
-          "text": "修复了下载更新时没有进度显示的问题",
-          "kind": "fix",
-          "section": null
-        },
-        {
-          "module": "自更新",
-          "text": "修复了切换页面后更新状态丢失的问题",
-          "kind": "fix",
-          "section": null
-        },
-        {
-          "module": "自更新",
-          "text": "修复了重复检查更新时可能下载到错误版本的问题",
-          "kind": "fix",
-          "section": null
-        },
-        {
-          "module": "多人",
-          "text": "新增了服务器详情页的「服务器设置」页签",
-          "kind": "feat",
-          "section": null
-        },
-        {
-          "module": "界面",
-          "text": "优化了整体沉浸式显示，隐藏系统状态栏",
-          "kind": "wip",
-          "section": null
-        },
-        {
-          "module": "内容中心",
-          "text": "优化了筛选面板的呈现方式",
-          "kind": "wip",
-          "section": null
-        },
-        {
-          "module": "实例",
-          "text": "优化了「新建实例」按钮的位置",
-          "kind": "wip",
-          "section": null
-        },
-        {
-          "module": "首页",
-          "text": "优化了左右分栏的宽度策略，改为按屏幕比例自适应",
-          "kind": "wip",
-          "section": null
-        },
-        {
-          "module": "多人",
-          "text": "优化了「对外开放（陶瓦联机）」的位置",
-          "kind": "wip",
-          "section": null
-        },
-        {
-          "module": "账号",
-          "text": "优化了微软账号登录流程",
-          "kind": "wip",
-          "section": null
-        },
-        {
-          "module": "皮肤",
-          "text": "优化了皮肤页的加载逻辑",
-          "kind": "wip",
-          "section": null
-        }
-      ],
-      "sections": [],
-      "release": {
-        "tag": "v1.7.1",
-        "url": "https://github.com/QookiX/QookiX-Launcher-Android/releases/tag/v1.7.1",
-        "name": "v1.7.1",
-        "publishedAt": "2026-10-18T13:48:54Z",
-        "prerelease": false,
-        "draft": false,
-        "assets": [
-          {
-            "name": "QookiX-Launcher-Android-v1.7.1-arm64.apk",
-            "size": 50876565,
-            "url": "https://github.com/QookiX/QookiX-Launcher-Android/releases/download/v1.7.1/QookiX-Launcher-Android-v1.7.1-arm64.apk",
-            "downloads": 10,
-            "type": "application/vnd.android.package-archive"
-          },
-          {
-            "name": "QookiX-Launcher-Android-v1.7.1-x86_64.apk",
-            "size": 48528127,
-            "url": "https://github.com/QookiX/QookiX-Launcher-Android/releases/download/v1.7.1/QookiX-Launcher-Android-v1.7.1-x86_64.apk",
-            "downloads": 1,
-            "type": "application/vnd.android.package-archive"
-          },
-          {
-            "name": "SHA256SUMS.txt",
-            "size": 215,
-            "url": "https://github.com/QookiX/QookiX-Launcher-Android/releases/download/v1.7.1/SHA256SUMS.txt",
-            "downloads": 3,
-            "type": "text/plain"
-          }
-        ]
-      },
-      "url": "https://github.com/QookiX/QookiX-Launcher-Android/releases/tag/v1.7.1",
-      "changelogUrl": "https://github.com/QookiX/QookiX-Launcher-Android/blob/master/CHANGELOG.md"
-    },
-    {
-      "id": "QookiX-Launcher-Android:1.7.0",
-      "repo": "QookiX-Launcher-Android",
-      "type": "release",
-      "version": "1.7.0",
-      "date": "2026-10-18",
-      "notes": [],
-      "items": [
-        {
-          "module": "UI",
-          "text": "完全重构了所有前端 UI，更符合手机操作逻辑",
-          "kind": "wip",
-          "section": null
-        }
-      ],
-      "sections": [],
-      "release": {
-        "tag": "v1.7.0",
-        "url": "https://github.com/QookiX/QookiX-Launcher-Android/releases/tag/v1.7.0",
-        "name": "v1.7.0",
-        "publishedAt": "2026-10-18T08:42:45Z",
-        "prerelease": false,
-        "draft": false,
-        "assets": [
-          {
-            "name": "QookiX-Launcher-Android-v1.7.0-arm64.apk",
-            "size": 50884997,
-            "url": "https://github.com/QookiX/QookiX-Launcher-Android/releases/download/v1.7.0/QookiX-Launcher-Android-v1.7.0-arm64.apk",
-            "downloads": 12,
-            "type": "application/vnd.android.package-archive"
-          },
-          {
-            "name": "QookiX-Launcher-Android-v1.7.0-x86_64.apk",
-            "size": 48536227,
-            "url": "https://github.com/QookiX/QookiX-Launcher-Android/releases/download/v1.7.0/QookiX-Launcher-Android-v1.7.0-x86_64.apk",
-            "downloads": 1,
-            "type": "application/vnd.android.package-archive"
-          },
-          {
-            "name": "SHA256SUMS.txt",
-            "size": 215,
-            "url": "https://github.com/QookiX/QookiX-Launcher-Android/releases/download/v1.7.0/SHA256SUMS.txt",
-            "downloads": 4,
-            "type": "text/plain"
-          }
-        ]
-      },
-      "url": "https://github.com/QookiX/QookiX-Launcher-Android/releases/tag/v1.7.0",
-      "changelogUrl": "https://github.com/QookiX/QookiX-Launcher-Android/blob/master/CHANGELOG.md"
-    },
-    {
       "id": "QookiX-Docs:commit:3e3f8f21aa3330de3f9b448656dd040bc2d4fe81",
       "repo": "QookiX-Docs",
       "type": "commit",
@@ -7179,6 +8535,128 @@
       "sections": []
     },
     {
+      "id": "QookiX-Launcher-Android:1.6.0",
+      "repo": "QookiX-Launcher-Android",
+      "type": "release",
+      "version": "1.6.0",
+      "date": "2026-10-11",
+      "notes": [],
+      "items": [
+        {
+          "module": "实例",
+          "text": "修复了「补全游戏文件」补全失败的问题",
+          "kind": "fix",
+          "section": null
+        },
+        {
+          "module": "设置",
+          "text": "修复了改动未保存的问题",
+          "kind": "fix",
+          "section": null
+        },
+        {
+          "module": "实例",
+          "text": "修复了「正在下载 Java 运行时」的进度条永久停住的问题",
+          "kind": "fix",
+          "section": null
+        },
+        {
+          "module": "实例",
+          "text": "修复了补全游戏文件时界面被全屏遮罩挡住、点不动的问题",
+          "kind": "fix",
+          "section": null
+        },
+        {
+          "module": "服务端",
+          "text": "修复了新增「插件」页签后控制台内容显示到其它页签下面的问题",
+          "kind": "fix",
+          "section": null
+        },
+        {
+          "module": "界面",
+          "text": "修复了渲染进程异常退出后只能强杀重开的问题，现在会自动重建界面",
+          "kind": "fix",
+          "section": null
+        },
+        {
+          "module": "内网穿透",
+          "text": "新增了「内网穿透」功能，该功能由 MohuaFrp 提供支持，包含隧道与联机房间功能",
+          "kind": "feat",
+          "section": null
+        },
+        {
+          "module": "存储",
+          "text": "新增了游戏资源文件占用说明",
+          "kind": "feat",
+          "section": null
+        },
+        {
+          "module": "实例",
+          "text": "新增了清理游戏文件功能",
+          "kind": "feat",
+          "section": null
+        },
+        {
+          "module": "多人",
+          "text": "优化了入口结构",
+          "kind": "wip",
+          "section": null
+        },
+        {
+          "module": "下载",
+          "text": "优化了整合包内容的下载",
+          "kind": "wip",
+          "section": null
+        },
+        {
+          "module": "实例",
+          "text": "优化了游戏素材的完整性判定",
+          "kind": "wip",
+          "section": null
+        },
+        {
+          "module": "性能",
+          "text": "优化了设置配置文件的读取",
+          "kind": "wip",
+          "section": null
+        }
+      ],
+      "sections": [],
+      "release": {
+        "tag": "v1.6.0",
+        "url": "https://github.com/QookiX/QookiX-Launcher-Android/releases/tag/v1.6.0",
+        "name": "v1.6.0",
+        "publishedAt": "2026-10-11T14:30:34Z",
+        "prerelease": false,
+        "draft": false,
+        "assets": [
+          {
+            "name": "QookiX-Launcher-Android-v1.6.0-arm64.apk",
+            "size": 49261351,
+            "url": "https://github.com/QookiX/QookiX-Launcher-Android/releases/download/v1.6.0/QookiX-Launcher-Android-v1.6.0-arm64.apk",
+            "downloads": 19,
+            "type": "application/vnd.android.package-archive"
+          },
+          {
+            "name": "QookiX-Launcher-Android-v1.6.0-x86_64.apk",
+            "size": 46912112,
+            "url": "https://github.com/QookiX/QookiX-Launcher-Android/releases/download/v1.6.0/QookiX-Launcher-Android-v1.6.0-x86_64.apk",
+            "downloads": 3,
+            "type": "application/vnd.android.package-archive"
+          },
+          {
+            "name": "SHA256SUMS.txt",
+            "size": 215,
+            "url": "https://github.com/QookiX/QookiX-Launcher-Android/releases/download/v1.6.0/SHA256SUMS.txt",
+            "downloads": 2,
+            "type": "text/plain"
+          }
+        ]
+      },
+      "url": "https://github.com/QookiX/QookiX-Launcher-Android/releases/tag/v1.6.0",
+      "changelogUrl": "https://github.com/QookiX/QookiX-Launcher-Android/blob/master/CHANGELOG.md"
+    },
+    {
       "id": "QookiX-Launcher:0.14.1",
       "repo": "QookiX-Launcher",
       "type": "release",
@@ -7273,7 +8751,7 @@
             "name": "QookiX.Launcher_0.14.1_amd64.AppImage",
             "size": 89016824,
             "url": "https://github.com/QookiX/QookiX-Launcher/releases/download/v0.14.1/QookiX.Launcher_0.14.1_amd64.AppImage",
-            "downloads": 13,
+            "downloads": 30,
             "type": "application/octet-stream"
           },
           {
@@ -7818,7 +9296,7 @@
             "name": "QookiX.Launcher-0.12.0-1.x86_64.rpm",
             "size": 11547845,
             "url": "https://github.com/QookiX/QookiX-Launcher/releases/download/v0.12.0/QookiX.Launcher-0.12.0-1.x86_64.rpm",
-            "downloads": 1,
+            "downloads": 2,
             "type": "application/x-redhat-package-manager"
           },
           {
@@ -7846,14 +9324,14 @@
             "name": "QookiX.Launcher_0.12.0_aarch64.dmg",
             "size": 9657461,
             "url": "https://github.com/QookiX/QookiX-Launcher/releases/download/v0.12.0/QookiX.Launcher_0.12.0_aarch64.dmg",
-            "downloads": 1,
+            "downloads": 2,
             "type": "application/x-apple-diskimage"
           },
           {
             "name": "QookiX.Launcher_0.12.0_amd64.AppImage",
             "size": 89016824,
             "url": "https://github.com/QookiX/QookiX-Launcher/releases/download/v0.12.0/QookiX.Launcher_0.12.0_amd64.AppImage",
-            "downloads": 1,
+            "downloads": 2,
             "type": "application/octet-stream"
           },
           {
@@ -7867,7 +9345,7 @@
             "name": "QookiX.Launcher_0.12.0_amd64.deb",
             "size": 11546742,
             "url": "https://github.com/QookiX/QookiX-Launcher/releases/download/v0.12.0/QookiX.Launcher_0.12.0_amd64.deb",
-            "downloads": 1,
+            "downloads": 2,
             "type": "application/x-debian-package"
           },
           {
@@ -7881,7 +9359,7 @@
             "name": "QookiX.Launcher_0.12.0_x64-setup.exe",
             "size": 7811138,
             "url": "https://github.com/QookiX/QookiX-Launcher/releases/download/v0.12.0/QookiX.Launcher_0.12.0_x64-setup.exe",
-            "downloads": 2,
+            "downloads": 3,
             "type": "application/x-msdos-program"
           },
           {
@@ -7895,135 +9373,13 @@
             "name": "QookiX_0.12.0_x64_portable.zip",
             "size": 10092579,
             "url": "https://github.com/QookiX/QookiX-Launcher/releases/download/v0.12.0/QookiX_0.12.0_x64_portable.zip",
-            "downloads": 4,
+            "downloads": 5,
             "type": "application/zip"
           }
         ]
       },
       "url": "https://github.com/QookiX/QookiX-Launcher/releases/tag/v0.12.0",
       "changelogUrl": "https://github.com/QookiX/QookiX-Launcher/blob/main/CHANGELOG.md"
-    },
-    {
-      "id": "QookiX-Launcher-Android:1.6.0",
-      "repo": "QookiX-Launcher-Android",
-      "type": "release",
-      "version": "1.6.0",
-      "date": "2026-10-11",
-      "notes": [],
-      "items": [
-        {
-          "module": "实例",
-          "text": "修复了「补全游戏文件」补全失败的问题",
-          "kind": "fix",
-          "section": null
-        },
-        {
-          "module": "设置",
-          "text": "修复了改动未保存的问题",
-          "kind": "fix",
-          "section": null
-        },
-        {
-          "module": "实例",
-          "text": "修复了「正在下载 Java 运行时」的进度条永久停住的问题",
-          "kind": "fix",
-          "section": null
-        },
-        {
-          "module": "实例",
-          "text": "修复了补全游戏文件时界面被全屏遮罩挡住、点不动的问题",
-          "kind": "fix",
-          "section": null
-        },
-        {
-          "module": "服务端",
-          "text": "修复了新增「插件」页签后控制台内容显示到其它页签下面的问题",
-          "kind": "fix",
-          "section": null
-        },
-        {
-          "module": "界面",
-          "text": "修复了渲染进程异常退出后只能强杀重开的问题，现在会自动重建界面",
-          "kind": "fix",
-          "section": null
-        },
-        {
-          "module": "内网穿透",
-          "text": "新增了「内网穿透」功能，该功能由 MohuaFrp 提供支持，包含隧道与联机房间功能",
-          "kind": "feat",
-          "section": null
-        },
-        {
-          "module": "存储",
-          "text": "新增了游戏资源文件占用说明",
-          "kind": "feat",
-          "section": null
-        },
-        {
-          "module": "实例",
-          "text": "新增了清理游戏文件功能",
-          "kind": "feat",
-          "section": null
-        },
-        {
-          "module": "多人",
-          "text": "优化了入口结构",
-          "kind": "wip",
-          "section": null
-        },
-        {
-          "module": "下载",
-          "text": "优化了整合包内容的下载",
-          "kind": "wip",
-          "section": null
-        },
-        {
-          "module": "实例",
-          "text": "优化了游戏素材的完整性判定",
-          "kind": "wip",
-          "section": null
-        },
-        {
-          "module": "性能",
-          "text": "优化了设置配置文件的读取",
-          "kind": "wip",
-          "section": null
-        }
-      ],
-      "sections": [],
-      "release": {
-        "tag": "v1.6.0",
-        "url": "https://github.com/QookiX/QookiX-Launcher-Android/releases/tag/v1.6.0",
-        "name": "v1.6.0",
-        "publishedAt": "2026-10-11T14:30:34Z",
-        "prerelease": false,
-        "draft": false,
-        "assets": [
-          {
-            "name": "QookiX-Launcher-Android-v1.6.0-arm64.apk",
-            "size": 49261351,
-            "url": "https://github.com/QookiX/QookiX-Launcher-Android/releases/download/v1.6.0/QookiX-Launcher-Android-v1.6.0-arm64.apk",
-            "downloads": 19,
-            "type": "application/vnd.android.package-archive"
-          },
-          {
-            "name": "QookiX-Launcher-Android-v1.6.0-x86_64.apk",
-            "size": 46912112,
-            "url": "https://github.com/QookiX/QookiX-Launcher-Android/releases/download/v1.6.0/QookiX-Launcher-Android-v1.6.0-x86_64.apk",
-            "downloads": 3,
-            "type": "application/vnd.android.package-archive"
-          },
-          {
-            "name": "SHA256SUMS.txt",
-            "size": 215,
-            "url": "https://github.com/QookiX/QookiX-Launcher-Android/releases/download/v1.6.0/SHA256SUMS.txt",
-            "downloads": 2,
-            "type": "text/plain"
-          }
-        ]
-      },
-      "url": "https://github.com/QookiX/QookiX-Launcher-Android/releases/tag/v1.6.0",
-      "changelogUrl": "https://github.com/QookiX/QookiX-Launcher-Android/blob/master/CHANGELOG.md"
     },
     {
       "id": "QookiV:commit:aade58aa6bcdfe3fa820aba10180403e5b787073",
@@ -8448,132 +9804,6 @@
       "changelogUrl": "https://github.com/QookiX/QookiX-Launcher-Android/blob/master/CHANGELOG.md"
     },
     {
-      "id": "QookiX-Launcher:0.11.2",
-      "repo": "QookiX-Launcher",
-      "type": "release",
-      "version": "0.11.2",
-      "date": "2026-10-08",
-      "notes": [],
-      "items": [
-        {
-          "module": "时光机",
-          "text": "时间轴新增「世界快照」，本地备份与云端快照会出现在对应日期的时间轴上，可在时间轴上把世界一键恢复到任意快照时间点",
-          "kind": "feat",
-          "section": null
-        },
-        {
-          "module": "修复安装",
-          "text": "修复 Forge 加载器下载 404 的问题",
-          "kind": "fix",
-          "section": null
-        }
-      ],
-      "sections": [],
-      "release": {
-        "tag": "v0.11.2",
-        "url": "https://github.com/QookiX/QookiX-Launcher/releases/tag/v0.11.2",
-        "name": "QookiX Launcher v0.11.2",
-        "publishedAt": "2026-10-08T12:05:55Z",
-        "prerelease": false,
-        "draft": false,
-        "assets": [
-          {
-            "name": "latest.json",
-            "size": 4210,
-            "url": "https://github.com/QookiX/QookiX-Launcher/releases/download/v0.11.2/latest.json",
-            "downloads": 12,
-            "type": "application/octet-stream"
-          },
-          {
-            "name": "QookiX.Launcher-0.11.2-1.x86_64.rpm",
-            "size": 11538881,
-            "url": "https://github.com/QookiX/QookiX-Launcher/releases/download/v0.11.2/QookiX.Launcher-0.11.2-1.x86_64.rpm",
-            "downloads": 1,
-            "type": "application/x-redhat-package-manager"
-          },
-          {
-            "name": "QookiX.Launcher-0.11.2-1.x86_64.rpm.sig",
-            "size": 428,
-            "url": "https://github.com/QookiX/QookiX-Launcher/releases/download/v0.11.2/QookiX.Launcher-0.11.2-1.x86_64.rpm.sig",
-            "downloads": 1,
-            "type": "application/pgp-signature"
-          },
-          {
-            "name": "QookiX.Launcher.app.tar.gz",
-            "size": 9853571,
-            "url": "https://github.com/QookiX/QookiX-Launcher/releases/download/v0.11.2/QookiX.Launcher.app.tar.gz",
-            "downloads": 3,
-            "type": "application/gzip"
-          },
-          {
-            "name": "QookiX.Launcher.app.tar.gz.sig",
-            "size": 416,
-            "url": "https://github.com/QookiX/QookiX-Launcher/releases/download/v0.11.2/QookiX.Launcher.app.tar.gz.sig",
-            "downloads": 2,
-            "type": "application/pgp-signature"
-          },
-          {
-            "name": "QookiX.Launcher_0.11.2_aarch64.dmg",
-            "size": 9817581,
-            "url": "https://github.com/QookiX/QookiX-Launcher/releases/download/v0.11.2/QookiX.Launcher_0.11.2_aarch64.dmg",
-            "downloads": 2,
-            "type": "application/x-apple-diskimage"
-          },
-          {
-            "name": "QookiX.Launcher_0.11.2_amd64.AppImage",
-            "size": 89025016,
-            "url": "https://github.com/QookiX/QookiX-Launcher/releases/download/v0.11.2/QookiX.Launcher_0.11.2_amd64.AppImage",
-            "downloads": 1,
-            "type": "application/octet-stream"
-          },
-          {
-            "name": "QookiX.Launcher_0.11.2_amd64.AppImage.sig",
-            "size": 432,
-            "url": "https://github.com/QookiX/QookiX-Launcher/releases/download/v0.11.2/QookiX.Launcher_0.11.2_amd64.AppImage.sig",
-            "downloads": 3,
-            "type": "application/pgp-signature"
-          },
-          {
-            "name": "QookiX.Launcher_0.11.2_amd64.deb",
-            "size": 11537964,
-            "url": "https://github.com/QookiX/QookiX-Launcher/releases/download/v0.11.2/QookiX.Launcher_0.11.2_amd64.deb",
-            "downloads": 2,
-            "type": "application/x-debian-package"
-          },
-          {
-            "name": "QookiX.Launcher_0.11.2_amd64.deb.sig",
-            "size": 424,
-            "url": "https://github.com/QookiX/QookiX-Launcher/releases/download/v0.11.2/QookiX.Launcher_0.11.2_amd64.deb.sig",
-            "downloads": 1,
-            "type": "application/pgp-signature"
-          },
-          {
-            "name": "QookiX.Launcher_0.11.2_x64-setup.exe",
-            "size": 7790314,
-            "url": "https://github.com/QookiX/QookiX-Launcher/releases/download/v0.11.2/QookiX.Launcher_0.11.2_x64-setup.exe",
-            "downloads": 3,
-            "type": "application/x-msdos-program"
-          },
-          {
-            "name": "QookiX.Launcher_0.11.2_x64-setup.exe.sig",
-            "size": 428,
-            "url": "https://github.com/QookiX/QookiX-Launcher/releases/download/v0.11.2/QookiX.Launcher_0.11.2_x64-setup.exe.sig",
-            "downloads": 2,
-            "type": "application/pgp-signature"
-          },
-          {
-            "name": "QookiX_0.11.2_x64_portable.zip",
-            "size": 10032666,
-            "url": "https://github.com/QookiX/QookiX-Launcher/releases/download/v0.11.2/QookiX_0.11.2_x64_portable.zip",
-            "downloads": 7,
-            "type": "application/zip"
-          }
-        ]
-      },
-      "url": "https://github.com/QookiX/QookiX-Launcher/releases/tag/v0.11.2",
-      "changelogUrl": "https://github.com/QookiX/QookiX-Launcher/blob/main/CHANGELOG.md"
-    },
-    {
       "id": "QookiX-Launcher-Android:1.3.3",
       "repo": "QookiX-Launcher-Android",
       "type": "release",
@@ -8914,6 +10144,132 @@
       },
       "url": "https://github.com/QookiX/QookiX-Launcher-Android/releases/tag/v1.3.1",
       "changelogUrl": "https://github.com/QookiX/QookiX-Launcher-Android/blob/master/CHANGELOG.md"
+    },
+    {
+      "id": "QookiX-Launcher:0.11.2",
+      "repo": "QookiX-Launcher",
+      "type": "release",
+      "version": "0.11.2",
+      "date": "2026-10-08",
+      "notes": [],
+      "items": [
+        {
+          "module": "时光机",
+          "text": "时间轴新增「世界快照」，本地备份与云端快照会出现在对应日期的时间轴上，可在时间轴上把世界一键恢复到任意快照时间点",
+          "kind": "feat",
+          "section": null
+        },
+        {
+          "module": "修复安装",
+          "text": "修复 Forge 加载器下载 404 的问题",
+          "kind": "fix",
+          "section": null
+        }
+      ],
+      "sections": [],
+      "release": {
+        "tag": "v0.11.2",
+        "url": "https://github.com/QookiX/QookiX-Launcher/releases/tag/v0.11.2",
+        "name": "QookiX Launcher v0.11.2",
+        "publishedAt": "2026-10-08T12:05:55Z",
+        "prerelease": false,
+        "draft": false,
+        "assets": [
+          {
+            "name": "latest.json",
+            "size": 4210,
+            "url": "https://github.com/QookiX/QookiX-Launcher/releases/download/v0.11.2/latest.json",
+            "downloads": 12,
+            "type": "application/octet-stream"
+          },
+          {
+            "name": "QookiX.Launcher-0.11.2-1.x86_64.rpm",
+            "size": 11538881,
+            "url": "https://github.com/QookiX/QookiX-Launcher/releases/download/v0.11.2/QookiX.Launcher-0.11.2-1.x86_64.rpm",
+            "downloads": 1,
+            "type": "application/x-redhat-package-manager"
+          },
+          {
+            "name": "QookiX.Launcher-0.11.2-1.x86_64.rpm.sig",
+            "size": 428,
+            "url": "https://github.com/QookiX/QookiX-Launcher/releases/download/v0.11.2/QookiX.Launcher-0.11.2-1.x86_64.rpm.sig",
+            "downloads": 1,
+            "type": "application/pgp-signature"
+          },
+          {
+            "name": "QookiX.Launcher.app.tar.gz",
+            "size": 9853571,
+            "url": "https://github.com/QookiX/QookiX-Launcher/releases/download/v0.11.2/QookiX.Launcher.app.tar.gz",
+            "downloads": 3,
+            "type": "application/gzip"
+          },
+          {
+            "name": "QookiX.Launcher.app.tar.gz.sig",
+            "size": 416,
+            "url": "https://github.com/QookiX/QookiX-Launcher/releases/download/v0.11.2/QookiX.Launcher.app.tar.gz.sig",
+            "downloads": 2,
+            "type": "application/pgp-signature"
+          },
+          {
+            "name": "QookiX.Launcher_0.11.2_aarch64.dmg",
+            "size": 9817581,
+            "url": "https://github.com/QookiX/QookiX-Launcher/releases/download/v0.11.2/QookiX.Launcher_0.11.2_aarch64.dmg",
+            "downloads": 2,
+            "type": "application/x-apple-diskimage"
+          },
+          {
+            "name": "QookiX.Launcher_0.11.2_amd64.AppImage",
+            "size": 89025016,
+            "url": "https://github.com/QookiX/QookiX-Launcher/releases/download/v0.11.2/QookiX.Launcher_0.11.2_amd64.AppImage",
+            "downloads": 1,
+            "type": "application/octet-stream"
+          },
+          {
+            "name": "QookiX.Launcher_0.11.2_amd64.AppImage.sig",
+            "size": 432,
+            "url": "https://github.com/QookiX/QookiX-Launcher/releases/download/v0.11.2/QookiX.Launcher_0.11.2_amd64.AppImage.sig",
+            "downloads": 3,
+            "type": "application/pgp-signature"
+          },
+          {
+            "name": "QookiX.Launcher_0.11.2_amd64.deb",
+            "size": 11537964,
+            "url": "https://github.com/QookiX/QookiX-Launcher/releases/download/v0.11.2/QookiX.Launcher_0.11.2_amd64.deb",
+            "downloads": 2,
+            "type": "application/x-debian-package"
+          },
+          {
+            "name": "QookiX.Launcher_0.11.2_amd64.deb.sig",
+            "size": 424,
+            "url": "https://github.com/QookiX/QookiX-Launcher/releases/download/v0.11.2/QookiX.Launcher_0.11.2_amd64.deb.sig",
+            "downloads": 1,
+            "type": "application/pgp-signature"
+          },
+          {
+            "name": "QookiX.Launcher_0.11.2_x64-setup.exe",
+            "size": 7790314,
+            "url": "https://github.com/QookiX/QookiX-Launcher/releases/download/v0.11.2/QookiX.Launcher_0.11.2_x64-setup.exe",
+            "downloads": 3,
+            "type": "application/x-msdos-program"
+          },
+          {
+            "name": "QookiX.Launcher_0.11.2_x64-setup.exe.sig",
+            "size": 428,
+            "url": "https://github.com/QookiX/QookiX-Launcher/releases/download/v0.11.2/QookiX.Launcher_0.11.2_x64-setup.exe.sig",
+            "downloads": 2,
+            "type": "application/pgp-signature"
+          },
+          {
+            "name": "QookiX_0.11.2_x64_portable.zip",
+            "size": 10032666,
+            "url": "https://github.com/QookiX/QookiX-Launcher/releases/download/v0.11.2/QookiX_0.11.2_x64_portable.zip",
+            "downloads": 7,
+            "type": "application/zip"
+          }
+        ]
+      },
+      "url": "https://github.com/QookiX/QookiX-Launcher/releases/tag/v0.11.2",
+      "changelogUrl": "https://github.com/QookiX/QookiX-Launcher/blob/main/CHANGELOG.md"
     },
     {
       "id": "QookiV:commit:583b0c66d07485e0ff9f481e9521d8c8bdd758bb",
@@ -9331,6 +10687,86 @@
       "changelogUrl": "https://github.com/QookiX/QookiX-Launcher-Android/blob/master/CHANGELOG.md"
     },
     {
+      "id": "QookiX-Launcher-Android:1.2.2",
+      "repo": "QookiX-Launcher-Android",
+      "type": "release",
+      "version": "1.2.2",
+      "date": "2026-10-05",
+      "notes": [],
+      "items": [
+        {
+          "module": "启动",
+          "text": "修复了 MC 26.3 在全新安装的机器上启动失败的问题",
+          "kind": "fix",
+          "section": null
+        },
+        {
+          "module": "多任务",
+          "text": "游戏界面改为独立任务，可在多任务界面返回游戏/启动器",
+          "kind": "wip",
+          "section": null
+        },
+        {
+          "module": "下载",
+          "text": "新增了下载进度显示与取消按钮",
+          "kind": "feat",
+          "section": null
+        },
+        {
+          "module": "i18n",
+          "text": "补回了缺失的翻译",
+          "kind": "other",
+          "section": null
+        },
+        {
+          "module": "启动",
+          "text": "修复了已有一个实例运行时，启动另一个实例会打开旧实例的问题",
+          "kind": "fix",
+          "section": null
+        },
+        {
+          "module": "从最近任务划掉启动器会连带结束游戏",
+          "text": "这是当前架构的限制，以后可能不一定会有更好的解决方案",
+          "kind": "fix",
+          "section": "已知问题"
+        }
+      ],
+      "sections": [],
+      "release": {
+        "tag": "v1.2.2",
+        "url": "https://github.com/QookiX/QookiX-Launcher-Android/releases/tag/v1.2.2",
+        "name": "v1.2.2",
+        "publishedAt": "2026-10-05T14:10:57Z",
+        "prerelease": false,
+        "draft": false,
+        "assets": [
+          {
+            "name": "QookiX-Launcher-Android-v1.2.2-arm64.apk",
+            "size": 43171397,
+            "url": "https://github.com/QookiX/QookiX-Launcher-Android/releases/download/v1.2.2/QookiX-Launcher-Android-v1.2.2-arm64.apk",
+            "downloads": 21,
+            "type": "application/vnd.android.package-archive"
+          },
+          {
+            "name": "QookiX-Launcher-Android-v1.2.2-x86_64.apk",
+            "size": 40073285,
+            "url": "https://github.com/QookiX/QookiX-Launcher-Android/releases/download/v1.2.2/QookiX-Launcher-Android-v1.2.2-x86_64.apk",
+            "downloads": 1,
+            "type": "application/vnd.android.package-archive"
+          },
+          {
+            "name": "SHA256SUMS.txt",
+            "size": 215,
+            "url": "https://github.com/QookiX/QookiX-Launcher-Android/releases/download/v1.2.2/SHA256SUMS.txt",
+            "downloads": 2,
+            "type": "text/plain"
+          }
+        ]
+      },
+      "url": "https://github.com/QookiX/QookiX-Launcher-Android/releases/tag/v1.2.2",
+      "changelogUrl": "https://github.com/QookiX/QookiX-Launcher-Android/blob/master/CHANGELOG.md"
+    },
+    {
       "id": "QookiX-Launcher:0.11.1",
       "repo": "QookiX-Launcher",
       "type": "release",
@@ -9479,86 +10915,6 @@
       },
       "url": "https://github.com/QookiX/QookiX-Launcher/releases/tag/v0.11.1",
       "changelogUrl": "https://github.com/QookiX/QookiX-Launcher/blob/main/CHANGELOG.md"
-    },
-    {
-      "id": "QookiX-Launcher-Android:1.2.2",
-      "repo": "QookiX-Launcher-Android",
-      "type": "release",
-      "version": "1.2.2",
-      "date": "2026-10-05",
-      "notes": [],
-      "items": [
-        {
-          "module": "启动",
-          "text": "修复了 MC 26.3 在全新安装的机器上启动失败的问题",
-          "kind": "fix",
-          "section": null
-        },
-        {
-          "module": "多任务",
-          "text": "游戏界面改为独立任务，可在多任务界面返回游戏/启动器",
-          "kind": "wip",
-          "section": null
-        },
-        {
-          "module": "下载",
-          "text": "新增了下载进度显示与取消按钮",
-          "kind": "feat",
-          "section": null
-        },
-        {
-          "module": "i18n",
-          "text": "补回了缺失的翻译",
-          "kind": "other",
-          "section": null
-        },
-        {
-          "module": "启动",
-          "text": "修复了已有一个实例运行时，启动另一个实例会打开旧实例的问题",
-          "kind": "fix",
-          "section": null
-        },
-        {
-          "module": "从最近任务划掉启动器会连带结束游戏",
-          "text": "这是当前架构的限制，以后可能不一定会有更好的解决方案",
-          "kind": "fix",
-          "section": "已知问题"
-        }
-      ],
-      "sections": [],
-      "release": {
-        "tag": "v1.2.2",
-        "url": "https://github.com/QookiX/QookiX-Launcher-Android/releases/tag/v1.2.2",
-        "name": "v1.2.2",
-        "publishedAt": "2026-10-05T14:10:57Z",
-        "prerelease": false,
-        "draft": false,
-        "assets": [
-          {
-            "name": "QookiX-Launcher-Android-v1.2.2-arm64.apk",
-            "size": 43171397,
-            "url": "https://github.com/QookiX/QookiX-Launcher-Android/releases/download/v1.2.2/QookiX-Launcher-Android-v1.2.2-arm64.apk",
-            "downloads": 21,
-            "type": "application/vnd.android.package-archive"
-          },
-          {
-            "name": "QookiX-Launcher-Android-v1.2.2-x86_64.apk",
-            "size": 40073285,
-            "url": "https://github.com/QookiX/QookiX-Launcher-Android/releases/download/v1.2.2/QookiX-Launcher-Android-v1.2.2-x86_64.apk",
-            "downloads": 1,
-            "type": "application/vnd.android.package-archive"
-          },
-          {
-            "name": "SHA256SUMS.txt",
-            "size": 215,
-            "url": "https://github.com/QookiX/QookiX-Launcher-Android/releases/download/v1.2.2/SHA256SUMS.txt",
-            "downloads": 2,
-            "type": "text/plain"
-          }
-        ]
-      },
-      "url": "https://github.com/QookiX/QookiX-Launcher-Android/releases/tag/v1.2.2",
-      "changelogUrl": "https://github.com/QookiX/QookiX-Launcher-Android/blob/master/CHANGELOG.md"
     },
     {
       "id": "QookiT:commit:cd51d96d8626099b2b77b0bfb7714edde29f7c26",
@@ -11251,7 +12607,7 @@
             "name": "QookiX.Launcher-0.8.0-1.x86_64.rpm",
             "size": 10133687,
             "url": "https://github.com/QookiX/QookiX-Launcher/releases/download/v0.8.0/QookiX.Launcher-0.8.0-1.x86_64.rpm",
-            "downloads": 2,
+            "downloads": 3,
             "type": "application/x-redhat-package-manager"
           },
           {
@@ -11279,14 +12635,14 @@
             "name": "QookiX.Launcher_0.8.0_aarch64.dmg",
             "size": 8675918,
             "url": "https://github.com/QookiX/QookiX-Launcher/releases/download/v0.8.0/QookiX.Launcher_0.8.0_aarch64.dmg",
-            "downloads": 1,
+            "downloads": 2,
             "type": "application/x-apple-diskimage"
           },
           {
             "name": "QookiX.Launcher_0.8.0_amd64.AppImage",
             "size": 87124472,
             "url": "https://github.com/QookiX/QookiX-Launcher/releases/download/v0.8.0/QookiX.Launcher_0.8.0_amd64.AppImage",
-            "downloads": 2,
+            "downloads": 3,
             "type": "application/octet-stream"
           },
           {
@@ -11300,7 +12656,7 @@
             "name": "QookiX.Launcher_0.8.0_amd64.deb",
             "size": 10132546,
             "url": "https://github.com/QookiX/QookiX-Launcher/releases/download/v0.8.0/QookiX.Launcher_0.8.0_amd64.deb",
-            "downloads": 1,
+            "downloads": 2,
             "type": "application/x-debian-package"
           },
           {
@@ -11314,7 +12670,7 @@
             "name": "QookiX.Launcher_0.8.0_x64-setup.exe",
             "size": 6748516,
             "url": "https://github.com/QookiX/QookiX-Launcher/releases/download/v0.8.0/QookiX.Launcher_0.8.0_x64-setup.exe",
-            "downloads": 3,
+            "downloads": 4,
             "type": "application/x-msdos-program"
           },
           {
@@ -11328,7 +12684,7 @@
             "name": "QookiX_0.8.0_x64_portable.zip",
             "size": 8730757,
             "url": "https://github.com/QookiX/QookiX-Launcher/releases/download/v0.8.0/QookiX_0.8.0_x64_portable.zip",
-            "downloads": 4,
+            "downloads": 5,
             "type": "application/zip"
           }
         ]
@@ -12023,25 +13379,6 @@
       },
       "url": "https://github.com/QookiX/QookiX-Launcher/releases/tag/v0.6.4",
       "changelogUrl": "https://github.com/QookiX/QookiX-Launcher/blob/main/CHANGELOG.md"
-    },
-    {
-      "id": "QookiX-Docs:commit:fd226dba0b70f25aee881a69d633c52664fe034b",
-      "repo": "QookiX-Docs",
-      "type": "commit",
-      "version": null,
-      "date": "2026-09-12T12:57:19Z",
-      "sha": "fd226db",
-      "url": "https://github.com/QookiX/QookiX-Docs/commit/fd226dba0b70f25aee881a69d633c52664fe034b",
-      "notes": [],
-      "items": [
-        {
-          "module": "i18n",
-          "text": "添加国际化支持并提取硬编码文本",
-          "kind": "feat",
-          "section": null
-        }
-      ],
-      "sections": []
     },
     {
       "id": "QookiX-Launcher:0.6.3",
@@ -12922,25 +14259,6 @@
       "changelogUrl": "https://github.com/QookiX/QookiX-Launcher/blob/main/CHANGELOG.md"
     },
     {
-      "id": "QookiX-Docs:commit:b13b9e061949587b3af9fe60b04231fe767cba10",
-      "repo": "QookiX-Docs",
-      "type": "commit",
-      "version": null,
-      "date": "2026-09-06T07:56:33Z",
-      "sha": "b13b9e0",
-      "url": "https://github.com/QookiX/QookiX-Docs/commit/b13b9e061949587b3af9fe60b04231fe767cba10",
-      "notes": [],
-      "items": [
-        {
-          "module": "docs",
-          "text": "更新用户指南文档",
-          "kind": "other",
-          "section": null
-        }
-      ],
-      "sections": []
-    },
-    {
       "id": "QookiX-Launcher:0.5.12",
       "repo": "QookiX-Launcher",
       "type": "release",
@@ -13010,7 +14328,7 @@
             "name": "QookiX.Launcher_0.5.12_amd64.AppImage",
             "size": 84523512,
             "url": "https://github.com/QookiX/QookiX-Launcher/releases/download/v0.5.12/QookiX.Launcher_0.5.12_amd64.AppImage",
-            "downloads": 5,
+            "downloads": 6,
             "type": "application/octet-stream"
           },
           {
@@ -16244,7 +17562,7 @@
             "name": "QookiX.Launcher-0.3.1-1.x86_64.rpm",
             "size": 8967148,
             "url": "https://github.com/QookiX/QookiX-Launcher/releases/download/v0.3.2/QookiX.Launcher-0.3.1-1.x86_64.rpm",
-            "downloads": 1,
+            "downloads": 2,
             "type": "application/x-redhat-package-manager"
           },
           {
@@ -16272,14 +17590,14 @@
             "name": "QookiX.Launcher_0.3.1_aarch64.dmg",
             "size": 7575653,
             "url": "https://github.com/QookiX/QookiX-Launcher/releases/download/v0.3.2/QookiX.Launcher_0.3.1_aarch64.dmg",
-            "downloads": 1,
+            "downloads": 2,
             "type": "application/x-apple-diskimage"
           },
           {
             "name": "QookiX.Launcher_0.3.1_amd64.AppImage",
             "size": 85912056,
             "url": "https://github.com/QookiX/QookiX-Launcher/releases/download/v0.3.2/QookiX.Launcher_0.3.1_amd64.AppImage",
-            "downloads": 2,
+            "downloads": 3,
             "type": "application/octet-stream"
           },
           {
@@ -16293,7 +17611,7 @@
             "name": "QookiX.Launcher_0.3.1_amd64.deb",
             "size": 8966930,
             "url": "https://github.com/QookiX/QookiX-Launcher/releases/download/v0.3.2/QookiX.Launcher_0.3.1_amd64.deb",
-            "downloads": 2,
+            "downloads": 3,
             "type": "application/x-debian-package"
           },
           {
@@ -16307,7 +17625,7 @@
             "name": "QookiX.Launcher_0.3.1_x64-setup.exe",
             "size": 5440274,
             "url": "https://github.com/QookiX/QookiX-Launcher/releases/download/v0.3.2/QookiX.Launcher_0.3.1_x64-setup.exe",
-            "downloads": 2,
+            "downloads": 3,
             "type": "application/x-msdos-program"
           },
           {
@@ -16335,7 +17653,7 @@
             "name": "QookiX_0.3.2_x64_portable.zip",
             "size": 7351899,
             "url": "https://github.com/QookiX/QookiX-Launcher/releases/download/v0.3.2/QookiX_0.3.2_x64_portable.zip",
-            "downloads": 2,
+            "downloads": 3,
             "type": "application/zip"
           }
         ]
