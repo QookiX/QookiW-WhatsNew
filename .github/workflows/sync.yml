@@ -2,9 +2,12 @@ name: Refresh data
 
 on:
   schedule:
-    # 每 10 分钟检查一次（GitHub 在高峰期可能延迟或跳过）
+    # 每 10 分钟检查一次。注意：GitHub 的 schedule 队列高峰时会延迟数小时，
+    # 实际频率取决于平台负载，不是精确时钟。
     - cron: '*/10 * * * *'
   workflow_dispatch:
+  repository_dispatch:
+    types: [refresh]
 
 permissions:
   contents: read
@@ -33,8 +36,10 @@ jobs:
           HOOK: ${{ secrets.VERCEL_DEPLOY_HOOK }}
         run: |
           if [ -z "$HOOK" ]; then
-            echo "未配置 VERCEL_DEPLOY_HOOK，跳过。"
-            echo "在 Vercel 项目 Settings → Git → Deploy Hooks 里创建后，把 URL 加到仓库 Secrets。"
+            echo "::warning::未配置 VERCEL_DEPLOY_HOOK，本次不会触发 Vercel 部署。"
+            echo "::warning::在 Vercel 项目 Settings → Git → Deploy Hooks 创建一个 hook（分支填 main），"
+            echo "::warning::再把 URL 加到仓库 Settings → Secrets and variables → Actions。"
+            echo "::warning::临时方案：Vercel 项目页点 Redeploy，或本地 npm run sync:full 后 push。"
             exit 0
           fi
 

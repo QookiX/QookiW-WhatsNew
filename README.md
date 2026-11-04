@@ -85,12 +85,13 @@ Vercel 上的构建不会自己跑，需要一个定时器去踢它。用 Deploy
 
 所以一天通常只部署 0～3 次，远低于 Vercel Hobby 每天 100 次的上限。
 
-没配 secret 的话 workflow 只会打印一条提示然后正常退出，不会报红。
+没配 secret 的话 workflow 会在日志里打一条黄色警告然后正常退出，不会报红。
 
-两点限制：
+三个限制要提前知道：
 
-- GitHub 的 schedule 在高峰期会延迟甚至跳过，10 分钟是「大约每 10 分钟」
-- 公开仓库如果连续 60 天没有任何 commit，GitHub 会自动停掉定时任务，需要有人 push 一次才会恢复
+- **GitHub 的 schedule 不是精确时钟**。实测这个仓库每 6～8 小时才真正触发一次，高峰期可能再延迟。定时任务本身会在仓库连续 60 天没有 commit 时被 GitHub 自动停掉。
+- 想更准一点的刷新频率，可以到 https://cron-job.org 之类的免费服务建一个定时任务，调 GitHub 的 `repository_dispatch` 接口（仓库 → Settings → Actions → General → Workflow permissions 里的 token 即可），绕开 GitHub 自己的排队。
+- **Deploy Hook 是单向开关**：它只负责“叫醒 Vercel 重新构建”，Vercel 构建时自己会再跑一次 `sync`（用 Vercel 环境变量里的 `GITHUB_TOKEN`），所以数据永远是构建那一刻的。
 
 ## 数据更新
 
