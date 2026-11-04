@@ -1,0 +1,228 @@
+/* =========================================================
+   移动端适配（≤ 760px）
+   规则集中在这里，方便按设备逐条调
+   ========================================================= */
+
+@media (max-width: 760px) {
+  /* ---------- 版心与区块间距 ---------- */
+  .section {
+    padding-block: 54px;
+  }
+
+  .section--tight {
+    padding-block: 40px;
+  }
+
+  .section__head {
+    margin-bottom: 26px;
+    gap: 8px 18px;
+  }
+
+  .section__ghost {
+    font-size: clamp(3rem, 16vw, 4.2rem);
+    margin-bottom: -0.06em;
+  }
+
+  .section__title {
+    font-size: clamp(1.4rem, 6.2vw, 1.85rem);
+  }
+
+  .section__aside {
+    grid-column: 1;
+    grid-row: 3;
+    gap: 8px;
+  }
+
+  .section__hint {
+    font-size: 12.5px;
+    line-height: 1.7;
+  }
+
+  /* ---------- Hero ---------- */
+  .hero {
+    padding-top: 96px;
+    padding-bottom: 46px;
+  }
+
+  .hero__title {
+    font-size: clamp(2.45rem, 11.6vw, 3.4rem);
+  }
+
+  .hero__desc {
+    font-size: 13.5px;
+    line-height: 1.78;
+  }
+
+  /* 分隔点在换行时会孤立在行尾，改成纯间距 */
+  .hero__meta {
+    font-size: 9.5px;
+    letter-spacing: 0.08em;
+    gap: 5px 13px;
+  }
+
+  .hero__meta-dot {
+    display: none;
+  }
+
+  .hero__stats {
+    margin-top: 26px;
+    gap: 16px 0;
+  }
+
+  .hero__ticks {
+    margin-top: 12px;
+  }
+
+  /* 曲奇读数行：允许两行，不再溢出 */
+  .cookie__meta {
+    font-size: 8.5px;
+    letter-spacing: 0.1em;
+    gap: 6px;
+    bottom: -20%;
+  }
+
+  .cookie__meta-row > span + span::before {
+    margin: 0 8px;
+  }
+
+  /* ---------- 导航：保留两个跳转，GitHub 只留图标 ---------- */
+  .nav__links {
+    display: flex;
+    gap: 0;
+  }
+
+  .nav__link {
+    padding: 6px 9px;
+    font-size: 11.5px;
+  }
+
+  /* 「数据说明」在窄屏先藏起来 */
+  .nav__link:nth-child(3) {
+    display: none;
+  }
+
+  .nav__gh-text {
+    display: none;
+  }
+
+  .nav__gh {
+    padding: 6px 9px;
+  }
+
+  /* ---------- 仓库卡：条目换行展示，不再省略 ---------- */
+  .feature__sample {
+    align-items: flex-start;
+    line-height: 1.55;
+  }
+
+  .feature__sample-tag {
+    margin-top: 2px;
+  }
+
+  .feature__sample-text {
+    white-space: normal;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+
+  /* ---------- 仓库筛选：竖排列表，名字不被截断 ---------- */
+  .rail__repos {
+    display: flex;
+    flex-direction: column;
+    gap: 1px;
+  }
+
+  .rail__repo {
+    width: 100%;
+    justify-content: flex-start;
+    gap: 8px;
+    border: 0;
+    border-radius: 8px;
+    padding: 8px 12px;
+    font-size: 12.5px;
+  }
+
+  .rail__repo-count {
+    margin-left: auto;
+    flex: none;
+  }
+
+  /* ---------- 更新卡片 ---------- */
+  .update {
+    padding: 16px 16px;
+  }
+
+  .update__foot {
+    gap: 6px 12px;
+    flex-wrap: wrap;
+  }
+
+  .update__peek {
+    order: 3;
+    width: 100%;
+    font-size: 10.5px;
+  }
+
+  .update__cta {
+    margin-left: auto;
+  }
+
+  /* ---------- 数据带 ---------- */
+  .databand__inner {
+    gap: 18px 0;
+    padding-block: 20px;
+  }
+
+  .databand__value {
+    font-size: clamp(1.7rem, 8vw, 2.2rem);
+  }
+
+  .databand__hint {
+    font-size: 11px;
+  }
+
+  /* ---------- 详情页 ---------- */
+  .u-page {
+    padding-top: 88px;
+  }
+
+  .u-page__crumb {
+    margin-bottom: 24px;
+  }
+
+  .u-page__head {
+    margin-bottom: 32px;
+  }
+
+  .u-page__title {
+    font-size: clamp(2rem, 9vw, 2.8rem);
+  }
+
+  .u-page__stats {
+    gap: 8px 20px;
+  }
+
+  .u-page__grid {
+    gap: 28px;
+  }
+
+  /* ---------- 页脚 ---------- */
+  .footer__bottom {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 6px;
+  }
+
+  .footer__mega {
+    margin-top: 26px;
+    font-size: clamp(2.8rem, 17vw, 5rem);
+  }
+
+  .footer__credit {
+    margin-top: 16px;
+    font-size: 10.5px;
+    line-height: 1.75;
+  }
+}

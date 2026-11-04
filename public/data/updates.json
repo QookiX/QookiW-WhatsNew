@@ -1,6 +1,6 @@
 {
   "org": "QookiX",
-  "generatedAt": "2026-11-04T14:45:59.040Z",
+  "generatedAt": "2026-11-04T14:54:24.373Z",
   "repos": [
     {
       "name": "QookiX-Launcher-Android",
@@ -15,16 +15,49 @@
       "topics": [],
       "htmlUrl": "https://github.com/QookiX/QookiX-Launcher-Android",
       "homepage": "",
-      "pushedAt": "2026-11-04T14:35:42Z",
+      "pushedAt": "2026-11-04T14:47:55Z",
       "createdAt": "2026-09-05T10:42:38Z",
       "archived": false,
       "source": "changelog",
-      "changelogPath": "CHANGELOG.md",
+      "changelogPath": null,
       "tone": "#F0C98A",
-      "releaseCount": 71,
-      "latestVersion": "0.2.2-beta28",
-      "latestDate": "2026-11-04",
-      "updateCount": 71
+      "releaseCount": 72,
+      "latestVersion": "0.2.2-beta27",
+      "latestDate": "2026-11-04T14:35:43Z",
+      "updateCount": 72,
+      "failed": true,
+      "stale": true
+    },
+    {
+      "name": "QookiW-WhatsNew",
+      "fullName": "QookiX/QookiW-WhatsNew",
+      "displayName": "QookiW-WhatsNew",
+      "description": "QookiX 组织所有仓库的更新汇总 —— CHANGELOG 与提交记录，一炉端出",
+      "language": "CSS",
+      "languageColor": "#C99A4E",
+      "stars": 0,
+      "forks": 0,
+      "openIssues": 0,
+      "topics": [
+        "changelog",
+        "dashboard",
+        "react",
+        "vite"
+      ],
+      "htmlUrl": "https://github.com/QookiX/QookiW-WhatsNew",
+      "homepage": "https://qooki-w-whats-new.vercel.app",
+      "pushedAt": "2026-11-04T14:47:05Z",
+      "createdAt": "2026-11-01T13:01:44Z",
+      "archived": false,
+      "source": "commits",
+      "changelogPath": null,
+      "tone": "#E3A863",
+      "releaseCount": 0,
+      "latestVersion": null,
+      "latestDate": "2026-11-01T14:48:53Z",
+      "updateCount": 9,
+      "failed": true,
+      "stale": true
     },
     {
       "name": "QookiX-Docs",
@@ -44,11 +77,13 @@
       "archived": false,
       "source": "commits",
       "changelogPath": null,
-      "tone": "#E3A863",
+      "tone": "#D08A45",
       "releaseCount": 0,
       "latestVersion": null,
       "latestDate": "2026-11-01T15:06:25Z",
-      "updateCount": 29
+      "updateCount": 29,
+      "failed": true,
+      "stale": true
     },
     {
       "name": "QookiX-Launcher",
@@ -72,41 +107,14 @@
       "createdAt": "2026-08-20T15:36:43Z",
       "archived": false,
       "source": "changelog",
-      "changelogPath": "CHANGELOG.md",
-      "tone": "#D08A45",
+      "changelogPath": null,
+      "tone": "#B96F35",
       "releaseCount": 71,
       "latestVersion": "0.19.1",
       "latestDate": "2026-11-01",
-      "updateCount": 71
-    },
-    {
-      "name": "QookiW-WhatsNew",
-      "fullName": "QookiX/QookiW-WhatsNew",
-      "displayName": "QookiW-WhatsNew",
-      "description": "QookiX 组织所有仓库的更新汇总 —— CHANGELOG 与提交记录，一炉端出",
-      "language": "CSS",
-      "languageColor": "#C99A4E",
-      "stars": 0,
-      "forks": 0,
-      "openIssues": 0,
-      "topics": [
-        "changelog",
-        "dashboard",
-        "react",
-        "vite"
-      ],
-      "htmlUrl": "https://github.com/QookiX/QookiW-WhatsNew",
-      "homepage": "https://qooki-w-whats-new.vercel.app",
-      "pushedAt": "2026-11-01T14:48:55Z",
-      "createdAt": "2026-11-01T13:01:44Z",
-      "archived": false,
-      "source": "commits",
-      "changelogPath": null,
-      "tone": "#B96F35",
-      "releaseCount": 0,
-      "latestVersion": null,
-      "latestDate": "2026-11-01T14:48:53Z",
-      "updateCount": 9
+      "updateCount": 71,
+      "failed": true,
+      "stale": true
     },
     {
       "name": "QookiX-Video",
@@ -130,7 +138,9 @@
       "releaseCount": 0,
       "latestVersion": null,
       "latestDate": "2026-10-30T17:27:41Z",
-      "updateCount": 5
+      "updateCount": 5,
+      "failed": true,
+      "stale": true
     },
     {
       "name": "QookiL",
@@ -154,7 +164,9 @@
       "releaseCount": 0,
       "latestVersion": null,
       "latestDate": "2026-10-18T15:36:33Z",
-      "updateCount": 17
+      "updateCount": 17,
+      "failed": true,
+      "stale": true
     },
     {
       "name": "QookiV",
@@ -178,7 +190,9 @@
       "releaseCount": 0,
       "latestVersion": null,
       "latestDate": "2026-10-10T14:49:42Z",
-      "updateCount": 2
+      "updateCount": 2,
+      "failed": true,
+      "stale": true
     },
     {
       "name": "QookiT",
@@ -196,7 +210,11 @@
         "russh",
         "rust",
         "sftp",
-        "ssh"
+        "ssh",
+        "ssh-client",
+        "tauri",
+        "typescript",
+        "xterm"
       ],
       "htmlUrl": "https://github.com/QookiX/QookiT",
       "homepage": "",
@@ -209,7 +227,9 @@
       "releaseCount": 0,
       "latestVersion": null,
       "latestDate": "2026-10-07T04:02:56Z",
-      "updateCount": 25
+      "updateCount": 25,
+      "failed": true,
+      "stale": true
     },
     {
       "name": "Qookix-Translate-Platform",
@@ -240,38 +260,19 @@
       "releaseCount": 0,
       "latestVersion": null,
       "latestDate": "2026-09-15T15:42:17Z",
-      "updateCount": 1
+      "updateCount": 1,
+      "failed": true,
+      "stale": true
     }
   ],
   "updates": [
-    {
-      "id": "QookiX-Launcher-Android:0.2.2-beta28",
-      "repo": "QookiX-Launcher-Android",
-      "type": "release",
-      "version": "0.2.2-beta28",
-      "date": "2026-11-04",
-      "notes": [
-        "预览版：可直接覆盖 0.2.2-beta27（versionCode 20247 > 20246）。"
-      ],
-      "items": [
-        {
-          "module": "",
-          "text": "修掉两处内存相关缺陷：屏幕旋转后不再重复订阅「游戏退出」事件；进程级单例不再强引用 Activity（旋转屏幕会泄漏一个 Activity）",
-          "kind": "fix",
-          "section": null
-        }
-      ],
-      "sections": [],
-      "release": null,
-      "url": "https://github.com/QookiX/QookiX-Launcher-Android/blob/master/CHANGELOG.md",
-      "changelogUrl": "https://github.com/QookiX/QookiX-Launcher-Android/blob/master/CHANGELOG.md"
-    },
     {
       "id": "QookiX-Launcher-Android:0.2.2-beta27",
       "repo": "QookiX-Launcher-Android",
       "type": "release",
       "version": "0.2.2-beta27",
-      "date": "2026-11-04",
+      "date": "2026-11-04T14:35:43Z",
+      "changelogDate": "2026-11-04",
       "notes": [
         "预览版：可直接覆盖 0.2.2-beta26（versionCode 20246 > 20245）。"
       ],
@@ -340,14 +341,16 @@
         ]
       },
       "url": "https://github.com/QookiX/QookiX-Launcher-Android/releases/tag/v0.2.2-beta27",
-      "changelogUrl": "https://github.com/QookiX/QookiX-Launcher-Android/blob/master/CHANGELOG.md"
+      "changelogUrl": "https://github.com/QookiX/QookiX-Launcher-Android/blob/master/CHANGELOG.md",
+      "publishedAt": "2026-11-04T14:35:43Z"
     },
     {
       "id": "QookiX-Launcher-Android:0.2.2-beta26",
       "repo": "QookiX-Launcher-Android",
       "type": "release",
       "version": "0.2.2-beta26",
-      "date": "2026-11-04",
+      "date": "2026-11-04T14:14:01Z",
+      "changelogDate": "2026-11-04",
       "notes": [
         "预览版：可直接覆盖 0.2.2-beta25（versionCode 20245 > 20244）。"
       ],
@@ -404,14 +407,16 @@
         ]
       },
       "url": "https://github.com/QookiX/QookiX-Launcher-Android/releases/tag/v0.2.2-beta26",
-      "changelogUrl": "https://github.com/QookiX/QookiX-Launcher-Android/blob/master/CHANGELOG.md"
+      "changelogUrl": "https://github.com/QookiX/QookiX-Launcher-Android/blob/master/CHANGELOG.md",
+      "publishedAt": "2026-11-04T14:14:01Z"
     },
     {
       "id": "QookiX-Launcher-Android:0.2.2-beta25",
       "repo": "QookiX-Launcher-Android",
       "type": "release",
       "version": "0.2.2-beta25",
-      "date": "2026-11-04",
+      "date": "2026-11-04T13:57:22Z",
+      "changelogDate": "2026-11-04",
       "notes": [
         "预览版：可直接覆盖 0.2.2-beta24（versionCode 20244 > 20243）。"
       ],
@@ -456,14 +461,16 @@
         ]
       },
       "url": "https://github.com/QookiX/QookiX-Launcher-Android/releases/tag/v0.2.2-beta25",
-      "changelogUrl": "https://github.com/QookiX/QookiX-Launcher-Android/blob/master/CHANGELOG.md"
+      "changelogUrl": "https://github.com/QookiX/QookiX-Launcher-Android/blob/master/CHANGELOG.md",
+      "publishedAt": "2026-11-04T13:57:22Z"
     },
     {
       "id": "QookiX-Launcher-Android:0.2.2-beta24",
       "repo": "QookiX-Launcher-Android",
       "type": "release",
       "version": "0.2.2-beta24",
-      "date": "2026-11-04",
+      "date": "2026-11-04T13:36:43Z",
+      "changelogDate": "2026-11-04",
       "notes": [
         "预览版：可直接覆盖 0.2.2-beta23（versionCode 20243 > 20242）。"
       ],
@@ -508,14 +515,16 @@
         ]
       },
       "url": "https://github.com/QookiX/QookiX-Launcher-Android/releases/tag/v0.2.2-beta24",
-      "changelogUrl": "https://github.com/QookiX/QookiX-Launcher-Android/blob/master/CHANGELOG.md"
+      "changelogUrl": "https://github.com/QookiX/QookiX-Launcher-Android/blob/master/CHANGELOG.md",
+      "publishedAt": "2026-11-04T13:36:43Z"
     },
     {
       "id": "QookiX-Launcher-Android:0.2.2-beta23",
       "repo": "QookiX-Launcher-Android",
       "type": "release",
       "version": "0.2.2-beta23",
-      "date": "2026-11-04",
+      "date": "2026-11-04T13:29:52Z",
+      "changelogDate": "2026-11-04",
       "notes": [
         "预览版：可直接覆盖 0.2.2-beta22（versionCode 20242 > 20241）。"
       ],
@@ -560,14 +569,16 @@
         ]
       },
       "url": "https://github.com/QookiX/QookiX-Launcher-Android/releases/tag/v0.2.2-beta23",
-      "changelogUrl": "https://github.com/QookiX/QookiX-Launcher-Android/blob/master/CHANGELOG.md"
+      "changelogUrl": "https://github.com/QookiX/QookiX-Launcher-Android/blob/master/CHANGELOG.md",
+      "publishedAt": "2026-11-04T13:29:52Z"
     },
     {
       "id": "QookiX-Launcher-Android:0.2.2-beta22",
       "repo": "QookiX-Launcher-Android",
       "type": "release",
       "version": "0.2.2-beta22",
-      "date": "2026-11-04",
+      "date": "2026-11-04T13:25:39Z",
+      "changelogDate": "2026-11-04",
       "notes": [
         "预览版：可直接覆盖 0.2.2-beta21（versionCode 20241 > 20240）。"
       ],
@@ -630,14 +641,16 @@
         ]
       },
       "url": "https://github.com/QookiX/QookiX-Launcher-Android/releases/tag/v0.2.2-beta22",
-      "changelogUrl": "https://github.com/QookiX/QookiX-Launcher-Android/blob/master/CHANGELOG.md"
+      "changelogUrl": "https://github.com/QookiX/QookiX-Launcher-Android/blob/master/CHANGELOG.md",
+      "publishedAt": "2026-11-04T13:25:39Z"
     },
     {
       "id": "QookiX-Launcher-Android:0.2.2-beta21",
       "repo": "QookiX-Launcher-Android",
       "type": "release",
       "version": "0.2.2-beta21",
-      "date": "2026-11-04",
+      "date": "2026-11-04T13:02:48Z",
+      "changelogDate": "2026-11-04",
       "notes": [
         "预览版：可直接覆盖 0.2.2-beta20（versionCode 20240 > 20239）。"
       ],
@@ -712,14 +725,16 @@
         ]
       },
       "url": "https://github.com/QookiX/QookiX-Launcher-Android/releases/tag/v0.2.2-beta21",
-      "changelogUrl": "https://github.com/QookiX/QookiX-Launcher-Android/blob/master/CHANGELOG.md"
+      "changelogUrl": "https://github.com/QookiX/QookiX-Launcher-Android/blob/master/CHANGELOG.md",
+      "publishedAt": "2026-11-04T13:02:48Z"
     },
     {
       "id": "QookiX-Launcher-Android:0.2.2-beta20",
       "repo": "QookiX-Launcher-Android",
       "type": "release",
       "version": "0.2.2-beta20",
-      "date": "2026-11-04",
+      "date": "2026-11-04T12:33:17Z",
+      "changelogDate": "2026-11-04",
       "notes": [
         "预览版：可直接覆盖 0.2.2-beta19（versionCode 20239 > 20238）。"
       ],
@@ -788,14 +803,16 @@
         ]
       },
       "url": "https://github.com/QookiX/QookiX-Launcher-Android/releases/tag/v0.2.2-beta20",
-      "changelogUrl": "https://github.com/QookiX/QookiX-Launcher-Android/blob/master/CHANGELOG.md"
+      "changelogUrl": "https://github.com/QookiX/QookiX-Launcher-Android/blob/master/CHANGELOG.md",
+      "publishedAt": "2026-11-04T12:33:17Z"
     },
     {
       "id": "QookiX-Launcher-Android:0.2.2-beta19",
       "repo": "QookiX-Launcher-Android",
       "type": "release",
       "version": "0.2.2-beta19",
-      "date": "2026-11-04",
+      "date": "2026-11-04T12:29:25Z",
+      "changelogDate": "2026-11-04",
       "notes": [
         "预览版：可直接覆盖 0.2.2-beta18（versionCode 20238 > 20237）。"
       ],
@@ -846,14 +863,16 @@
         ]
       },
       "url": "https://github.com/QookiX/QookiX-Launcher-Android/releases/tag/v0.2.2-beta19",
-      "changelogUrl": "https://github.com/QookiX/QookiX-Launcher-Android/blob/master/CHANGELOG.md"
+      "changelogUrl": "https://github.com/QookiX/QookiX-Launcher-Android/blob/master/CHANGELOG.md",
+      "publishedAt": "2026-11-04T12:29:25Z"
     },
     {
       "id": "QookiX-Launcher-Android:0.2.2-beta18",
       "repo": "QookiX-Launcher-Android",
       "type": "release",
       "version": "0.2.2-beta18",
-      "date": "2026-11-04",
+      "date": "2026-11-04T12:01:33Z",
+      "changelogDate": "2026-11-04",
       "notes": [
         "预览版：可直接覆盖 0.2.2-beta17（versionCode 20237 > 20236）。"
       ],
@@ -928,14 +947,16 @@
         ]
       },
       "url": "https://github.com/QookiX/QookiX-Launcher-Android/releases/tag/v0.2.2-beta18",
-      "changelogUrl": "https://github.com/QookiX/QookiX-Launcher-Android/blob/master/CHANGELOG.md"
+      "changelogUrl": "https://github.com/QookiX/QookiX-Launcher-Android/blob/master/CHANGELOG.md",
+      "publishedAt": "2026-11-04T12:01:33Z"
     },
     {
       "id": "QookiX-Launcher-Android:0.2.2-beta17",
       "repo": "QookiX-Launcher-Android",
       "type": "release",
       "version": "0.2.2-beta17",
-      "date": "2026-11-04",
+      "date": "2026-11-04T09:30:25Z",
+      "changelogDate": "2026-11-04",
       "notes": [
         "按 11-04 全量审计修的第一批（16 项），完整清单见本地 docs/audit-2026-11-04/。"
       ],
@@ -1022,6 +1043,59 @@
         ]
       },
       "url": "https://github.com/QookiX/QookiX-Launcher-Android/releases/tag/v0.2.2-beta17",
+      "changelogUrl": "https://github.com/QookiX/QookiX-Launcher-Android/blob/master/CHANGELOG.md",
+      "publishedAt": "2026-11-04T09:30:25Z"
+    },
+    {
+      "id": "QookiX-Launcher-Android:0.2.2-beta29",
+      "repo": "QookiX-Launcher-Android",
+      "type": "release",
+      "version": "0.2.2-beta29",
+      "date": "2026-11-04",
+      "changelogDate": "2026-11-04",
+      "notes": [
+        "预览版：可直接覆盖 0.2.2-beta28（versionCode 20248 > 20247）。"
+      ],
+      "items": [
+        {
+          "module": "离线账号 UUID 修复（重要）",
+          "text": "以前生成的 UUID 与官方启动器不一致，导致服务器白名单、背包存档、皮肤全部对不上。现在按 Minecraft / Java 的规则计算，并自动迁移已有的离线账号（文件名和内容一起改，删除功能不受影响）",
+          "kind": "fix",
+          "section": null
+        },
+        {
+          "module": "",
+          "text": "加回归测试锁定 Java 的期望值，防止以后改错",
+          "kind": "other",
+          "section": null
+        }
+      ],
+      "sections": [],
+      "release": null,
+      "url": "https://github.com/QookiX/QookiX-Launcher-Android/blob/master/CHANGELOG.md",
+      "changelogUrl": "https://github.com/QookiX/QookiX-Launcher-Android/blob/master/CHANGELOG.md"
+    },
+    {
+      "id": "QookiX-Launcher-Android:0.2.2-beta28",
+      "repo": "QookiX-Launcher-Android",
+      "type": "release",
+      "version": "0.2.2-beta28",
+      "date": "2026-11-04",
+      "changelogDate": "2026-11-04",
+      "notes": [
+        "预览版：可直接覆盖 0.2.2-beta27（versionCode 20247 > 20246）。"
+      ],
+      "items": [
+        {
+          "module": "",
+          "text": "修掉两处内存相关缺陷：屏幕旋转后不再重复订阅「游戏退出」事件；进程级单例不再强引用 Activity（旋转屏幕会泄漏一个 Activity）",
+          "kind": "fix",
+          "section": null
+        }
+      ],
+      "sections": [],
+      "release": null,
+      "url": "https://github.com/QookiX/QookiX-Launcher-Android/blob/master/CHANGELOG.md",
       "changelogUrl": "https://github.com/QookiX/QookiX-Launcher-Android/blob/master/CHANGELOG.md"
     },
     {
@@ -1029,7 +1103,8 @@
       "repo": "QookiX-Launcher-Android",
       "type": "release",
       "version": "0.2.2-beta16",
-      "date": "2026-11-02",
+      "date": "2026-11-02T05:45:39Z",
+      "changelogDate": "2026-11-02",
       "notes": [],
       "items": [
         {
@@ -1090,14 +1165,16 @@
         ]
       },
       "url": "https://github.com/QookiX/QookiX-Launcher-Android/releases/tag/v0.2.2-beta16",
-      "changelogUrl": "https://github.com/QookiX/QookiX-Launcher-Android/blob/master/CHANGELOG.md"
+      "changelogUrl": "https://github.com/QookiX/QookiX-Launcher-Android/blob/master/CHANGELOG.md",
+      "publishedAt": "2026-11-02T05:45:39Z"
     },
     {
       "id": "QookiX-Launcher-Android:0.2.2-beta15",
       "repo": "QookiX-Launcher-Android",
       "type": "release",
       "version": "0.2.2-beta15",
-      "date": "2026-11-02",
+      "date": "2026-11-02T05:20:14Z",
+      "changelogDate": "2026-11-02",
       "notes": [],
       "items": [
         {
@@ -1140,14 +1217,16 @@
         ]
       },
       "url": "https://github.com/QookiX/QookiX-Launcher-Android/releases/tag/v0.2.2-beta15",
-      "changelogUrl": "https://github.com/QookiX/QookiX-Launcher-Android/blob/master/CHANGELOG.md"
+      "changelogUrl": "https://github.com/QookiX/QookiX-Launcher-Android/blob/master/CHANGELOG.md",
+      "publishedAt": "2026-11-02T05:20:14Z"
     },
     {
       "id": "QookiX-Launcher-Android:0.2.2-beta14",
       "repo": "QookiX-Launcher-Android",
       "type": "release",
       "version": "0.2.2-beta14",
-      "date": "2026-11-02",
+      "date": "2026-11-02T04:40:58Z",
+      "changelogDate": "2026-11-02",
       "notes": [],
       "items": [
         {
@@ -1190,14 +1269,16 @@
         ]
       },
       "url": "https://github.com/QookiX/QookiX-Launcher-Android/releases/tag/v0.2.2-beta14",
-      "changelogUrl": "https://github.com/QookiX/QookiX-Launcher-Android/blob/master/CHANGELOG.md"
+      "changelogUrl": "https://github.com/QookiX/QookiX-Launcher-Android/blob/master/CHANGELOG.md",
+      "publishedAt": "2026-11-02T04:40:58Z"
     },
     {
       "id": "QookiX-Launcher-Android:0.2.2-beta13",
       "repo": "QookiX-Launcher-Android",
       "type": "release",
       "version": "0.2.2-beta13",
-      "date": "2026-11-02",
+      "date": "2026-11-02T04:15:15Z",
+      "changelogDate": "2026-11-02",
       "notes": [
         "接 beta12：菜单不崩了，但「进入世界」还会崩，这个版本修掉了。"
       ],
@@ -1248,14 +1329,16 @@
         ]
       },
       "url": "https://github.com/QookiX/QookiX-Launcher-Android/releases/tag/v0.2.2-beta13",
-      "changelogUrl": "https://github.com/QookiX/QookiX-Launcher-Android/blob/master/CHANGELOG.md"
+      "changelogUrl": "https://github.com/QookiX/QookiX-Launcher-Android/blob/master/CHANGELOG.md",
+      "publishedAt": "2026-11-02T04:15:15Z"
     },
     {
       "id": "QookiX-Launcher-Android:0.2.2-beta12",
       "repo": "QookiX-Launcher-Android",
       "type": "release",
       "version": "0.2.2-beta12",
-      "date": "2026-11-02",
+      "date": "2026-11-02T03:44:56Z",
+      "changelogDate": "2026-11-02",
       "notes": [
         "重要修复版：beta11 上启动游戏后点任何按钮都会崩回启动器，这个版本修好了。"
       ],
@@ -1300,7 +1383,8 @@
         ]
       },
       "url": "https://github.com/QookiX/QookiX-Launcher-Android/releases/tag/v0.2.2-beta12",
-      "changelogUrl": "https://github.com/QookiX/QookiX-Launcher-Android/blob/master/CHANGELOG.md"
+      "changelogUrl": "https://github.com/QookiX/QookiX-Launcher-Android/blob/master/CHANGELOG.md",
+      "publishedAt": "2026-11-02T03:44:56Z"
     },
     {
       "id": "QookiX-Docs:commit:6f1a8ad4753e8a9928be181cd7c1363148032828",
@@ -1935,58 +2019,6 @@
       "changelogUrl": "https://github.com/QookiX/QookiX-Launcher/blob/main/CHANGELOG.md"
     },
     {
-      "id": "QookiX-Launcher-Android:0.2.2-beta11",
-      "repo": "QookiX-Launcher-Android",
-      "type": "release",
-      "version": "0.2.2-beta11",
-      "date": "2026-10-31",
-      "notes": [
-        "预览版：可直接覆盖 0.2.2-beta10（versionCode 20230 > 20229）。"
-      ],
-      "items": [
-        {
-          "module": "启动游戏",
-          "text": "没有账号时不再先闪一下黑屏再退回启动器 —— 现在直接提示「还没有账号」，也不会再拉起游戏界面空转",
-          "kind": "other",
-          "section": null
-        }
-      ],
-      "sections": [],
-      "release": {
-        "tag": "v0.2.2-beta11",
-        "url": "https://github.com/QookiX/QookiX-Launcher-Android/releases/tag/v0.2.2-beta11",
-        "name": "v0.2.2-beta11",
-        "publishedAt": "2026-10-30T16:24:23Z",
-        "prerelease": true,
-        "draft": false,
-        "assets": [
-          {
-            "name": "QookiX-Launcher-Android-v0.2.2-beta11-arm64.apk",
-            "size": 79826242,
-            "url": "https://github.com/QookiX/QookiX-Launcher-Android/releases/download/v0.2.2-beta11/QookiX-Launcher-Android-v0.2.2-beta11-arm64.apk",
-            "downloads": 7,
-            "type": "application/vnd.android.package-archive"
-          },
-          {
-            "name": "QookiX-Launcher-Android-v0.2.2-beta11-x86_64.apk",
-            "size": 76777327,
-            "url": "https://github.com/QookiX/QookiX-Launcher-Android/releases/download/v0.2.2-beta11/QookiX-Launcher-Android-v0.2.2-beta11-x86_64.apk",
-            "downloads": 1,
-            "type": "application/vnd.android.package-archive"
-          },
-          {
-            "name": "SHA256SUMS.txt",
-            "size": 229,
-            "url": "https://github.com/QookiX/QookiX-Launcher-Android/releases/download/v0.2.2-beta11/SHA256SUMS.txt",
-            "downloads": 1,
-            "type": "text/plain"
-          }
-        ]
-      },
-      "url": "https://github.com/QookiX/QookiX-Launcher-Android/releases/tag/v0.2.2-beta11",
-      "changelogUrl": "https://github.com/QookiX/QookiX-Launcher-Android/blob/master/CHANGELOG.md"
-    },
-    {
       "id": "QookiX-Video:commit:77036fc2c13871558a0b5e0cd9dffdc1a1e4d009",
       "repo": "QookiX-Video",
       "type": "commit",
@@ -2047,49 +2079,66 @@
       "sections": []
     },
     {
-      "id": "QookiX-Docs:commit:53f3d773945cf4fc63b4b6e42bb5b45e01913e4d",
-      "repo": "QookiX-Docs",
-      "type": "commit",
-      "version": null,
-      "date": "2026-10-30T14:08:04Z",
-      "sha": "53f3d77",
-      "url": "https://github.com/QookiX/QookiX-Docs/commit/53f3d773945cf4fc63b4b6e42bb5b45e01913e4d",
-      "notes": [],
+      "id": "QookiX-Launcher-Android:0.2.2-beta11",
+      "repo": "QookiX-Launcher-Android",
+      "type": "release",
+      "version": "0.2.2-beta11",
+      "date": "2026-10-30T16:24:23Z",
+      "changelogDate": "2026-10-31",
+      "notes": [
+        "预览版：可直接覆盖 0.2.2-beta10（versionCode 20230 > 20229）。"
+      ],
       "items": [
         {
-          "module": "analytics",
-          "text": "在 head 中注入百度统计脚本",
-          "kind": "feat",
+          "module": "启动游戏",
+          "text": "没有账号时不再先闪一下黑屏再退回启动器 —— 现在直接提示「还没有账号」，也不会再拉起游戏界面空转",
+          "kind": "other",
           "section": null
         }
       ],
-      "sections": []
-    },
-    {
-      "id": "QookiX-Docs:commit:1b4cda042df97d46105de66e4f02e1ff39b3ec36",
-      "repo": "QookiX-Docs",
-      "type": "commit",
-      "version": null,
-      "date": "2026-10-30T14:05:28Z",
-      "sha": "1b4cda0",
-      "url": "https://github.com/QookiX/QookiX-Docs/commit/1b4cda042df97d46105de66e4f02e1ff39b3ec36",
-      "notes": [],
-      "items": [
-        {
-          "module": "analytics",
-          "text": "在 head 中注入百度统计脚本",
-          "kind": "feat",
-          "section": null
-        }
-      ],
-      "sections": []
+      "sections": [],
+      "release": {
+        "tag": "v0.2.2-beta11",
+        "url": "https://github.com/QookiX/QookiX-Launcher-Android/releases/tag/v0.2.2-beta11",
+        "name": "v0.2.2-beta11",
+        "publishedAt": "2026-10-30T16:24:23Z",
+        "prerelease": true,
+        "draft": false,
+        "assets": [
+          {
+            "name": "QookiX-Launcher-Android-v0.2.2-beta11-arm64.apk",
+            "size": 79826242,
+            "url": "https://github.com/QookiX/QookiX-Launcher-Android/releases/download/v0.2.2-beta11/QookiX-Launcher-Android-v0.2.2-beta11-arm64.apk",
+            "downloads": 7,
+            "type": "application/vnd.android.package-archive"
+          },
+          {
+            "name": "QookiX-Launcher-Android-v0.2.2-beta11-x86_64.apk",
+            "size": 76777327,
+            "url": "https://github.com/QookiX/QookiX-Launcher-Android/releases/download/v0.2.2-beta11/QookiX-Launcher-Android-v0.2.2-beta11-x86_64.apk",
+            "downloads": 1,
+            "type": "application/vnd.android.package-archive"
+          },
+          {
+            "name": "SHA256SUMS.txt",
+            "size": 229,
+            "url": "https://github.com/QookiX/QookiX-Launcher-Android/releases/download/v0.2.2-beta11/SHA256SUMS.txt",
+            "downloads": 1,
+            "type": "text/plain"
+          }
+        ]
+      },
+      "url": "https://github.com/QookiX/QookiX-Launcher-Android/releases/tag/v0.2.2-beta11",
+      "changelogUrl": "https://github.com/QookiX/QookiX-Launcher-Android/blob/master/CHANGELOG.md",
+      "publishedAt": "2026-10-30T16:24:23Z"
     },
     {
       "id": "QookiX-Launcher-Android:0.2.2-beta10",
       "repo": "QookiX-Launcher-Android",
       "type": "release",
       "version": "0.2.2-beta10",
-      "date": "2026-10-30",
+      "date": "2026-10-30T15:11:30Z",
+      "changelogDate": "2026-10-30",
       "notes": [
         "预览版：可直接覆盖 0.2.2-beta8（versionCode 20229 > 20227）。",
         "（beta9 的构建被单测挡下：jre_bundled 引用了只在 Android 目标下存在的",
@@ -2148,14 +2197,16 @@
         ]
       },
       "url": "https://github.com/QookiX/QookiX-Launcher-Android/releases/tag/v0.2.2-beta10",
-      "changelogUrl": "https://github.com/QookiX/QookiX-Launcher-Android/blob/master/CHANGELOG.md"
+      "changelogUrl": "https://github.com/QookiX/QookiX-Launcher-Android/blob/master/CHANGELOG.md",
+      "publishedAt": "2026-10-30T15:11:30Z"
     },
     {
       "id": "QookiX-Launcher-Android:0.2.2-beta8",
       "repo": "QookiX-Launcher-Android",
       "type": "release",
       "version": "0.2.2-beta8",
-      "date": "2026-10-30",
+      "date": "2026-10-30T14:35:19Z",
+      "changelogDate": "2026-10-30",
       "notes": [
         "预览版：可直接覆盖 0.2.2-beta7（versionCode 20227 > 20226）。"
       ],
@@ -2218,14 +2269,54 @@
         ]
       },
       "url": "https://github.com/QookiX/QookiX-Launcher-Android/releases/tag/v0.2.2-beta8",
-      "changelogUrl": "https://github.com/QookiX/QookiX-Launcher-Android/blob/master/CHANGELOG.md"
+      "changelogUrl": "https://github.com/QookiX/QookiX-Launcher-Android/blob/master/CHANGELOG.md",
+      "publishedAt": "2026-10-30T14:35:19Z"
+    },
+    {
+      "id": "QookiX-Docs:commit:53f3d773945cf4fc63b4b6e42bb5b45e01913e4d",
+      "repo": "QookiX-Docs",
+      "type": "commit",
+      "version": null,
+      "date": "2026-10-30T14:08:04Z",
+      "sha": "53f3d77",
+      "url": "https://github.com/QookiX/QookiX-Docs/commit/53f3d773945cf4fc63b4b6e42bb5b45e01913e4d",
+      "notes": [],
+      "items": [
+        {
+          "module": "analytics",
+          "text": "在 head 中注入百度统计脚本",
+          "kind": "feat",
+          "section": null
+        }
+      ],
+      "sections": []
+    },
+    {
+      "id": "QookiX-Docs:commit:1b4cda042df97d46105de66e4f02e1ff39b3ec36",
+      "repo": "QookiX-Docs",
+      "type": "commit",
+      "version": null,
+      "date": "2026-10-30T14:05:28Z",
+      "sha": "1b4cda0",
+      "url": "https://github.com/QookiX/QookiX-Docs/commit/1b4cda042df97d46105de66e4f02e1ff39b3ec36",
+      "notes": [],
+      "items": [
+        {
+          "module": "analytics",
+          "text": "在 head 中注入百度统计脚本",
+          "kind": "feat",
+          "section": null
+        }
+      ],
+      "sections": []
     },
     {
       "id": "QookiX-Launcher-Android:0.2.2-beta7",
       "repo": "QookiX-Launcher-Android",
       "type": "release",
       "version": "0.2.2-beta7",
-      "date": "2026-10-30",
+      "date": "2026-10-30T12:56:49Z",
+      "changelogDate": "2026-10-30",
       "notes": [
         "预览版：可直接覆盖 0.2.2-beta6（versionCode 20226 > 20225）。"
       ],
@@ -2282,14 +2373,16 @@
         ]
       },
       "url": "https://github.com/QookiX/QookiX-Launcher-Android/releases/tag/v0.2.2-beta7",
-      "changelogUrl": "https://github.com/QookiX/QookiX-Launcher-Android/blob/master/CHANGELOG.md"
+      "changelogUrl": "https://github.com/QookiX/QookiX-Launcher-Android/blob/master/CHANGELOG.md",
+      "publishedAt": "2026-10-30T12:56:49Z"
     },
     {
       "id": "QookiX-Launcher-Android:0.2.2-beta6",
       "repo": "QookiX-Launcher-Android",
       "type": "release",
       "version": "0.2.2-beta6",
-      "date": "2026-10-30",
+      "date": "2026-10-30T12:30:32Z",
+      "changelogDate": "2026-10-30",
       "notes": [
         "预览版：可直接覆盖 0.2.2-beta5（versionCode 20225 > 20224）。"
       ],
@@ -2346,14 +2439,16 @@
         ]
       },
       "url": "https://github.com/QookiX/QookiX-Launcher-Android/releases/tag/v0.2.2-beta6",
-      "changelogUrl": "https://github.com/QookiX/QookiX-Launcher-Android/blob/master/CHANGELOG.md"
+      "changelogUrl": "https://github.com/QookiX/QookiX-Launcher-Android/blob/master/CHANGELOG.md",
+      "publishedAt": "2026-10-30T12:30:32Z"
     },
     {
       "id": "QookiX-Launcher-Android:0.2.2-beta5",
       "repo": "QookiX-Launcher-Android",
       "type": "release",
       "version": "0.2.2-beta5",
-      "date": "2026-10-30",
+      "date": "2026-10-30T12:08:18Z",
+      "changelogDate": "2026-10-30",
       "notes": [
         "预览版：可直接覆盖 0.2.2-beta4（versionCode 20224 > 20223）。"
       ],
@@ -2398,14 +2493,16 @@
         ]
       },
       "url": "https://github.com/QookiX/QookiX-Launcher-Android/releases/tag/v0.2.2-beta5",
-      "changelogUrl": "https://github.com/QookiX/QookiX-Launcher-Android/blob/master/CHANGELOG.md"
+      "changelogUrl": "https://github.com/QookiX/QookiX-Launcher-Android/blob/master/CHANGELOG.md",
+      "publishedAt": "2026-10-30T12:08:18Z"
     },
     {
       "id": "QookiX-Launcher-Android:0.2.2-beta4",
       "repo": "QookiX-Launcher-Android",
       "type": "release",
       "version": "0.2.2-beta4",
-      "date": "2026-10-30",
+      "date": "2026-10-30T10:42:42Z",
+      "changelogDate": "2026-10-30",
       "notes": [
         "预览版：可直接覆盖 0.2.2-beta3（versionCode 20223 > 20221）。"
       ],
@@ -2462,14 +2559,16 @@
         ]
       },
       "url": "https://github.com/QookiX/QookiX-Launcher-Android/releases/tag/v0.2.2-beta4",
-      "changelogUrl": "https://github.com/QookiX/QookiX-Launcher-Android/blob/master/CHANGELOG.md"
+      "changelogUrl": "https://github.com/QookiX/QookiX-Launcher-Android/blob/master/CHANGELOG.md",
+      "publishedAt": "2026-10-30T10:42:42Z"
     },
     {
       "id": "QookiX-Launcher-Android:0.2.2-beta3",
       "repo": "QookiX-Launcher-Android",
       "type": "release",
       "version": "0.2.2-beta3",
-      "date": "2026-10-30",
+      "date": "2026-10-30T10:01:17Z",
+      "changelogDate": "2026-10-30",
       "notes": [
         "预览版：可直接覆盖 0.2.2-beta1（versionCode 20222 > 20220）。",
         "预览版：0.2.1 之后的修复，可直接覆盖 0.2.1（versionCode 20220 > 20199），实例 / 存档 / 服务器 / 账号全部保留。"
@@ -2587,14 +2686,16 @@
         ]
       },
       "url": "https://github.com/QookiX/QookiX-Launcher-Android/releases/tag/v0.2.2-beta3",
-      "changelogUrl": "https://github.com/QookiX/QookiX-Launcher-Android/blob/master/CHANGELOG.md"
+      "changelogUrl": "https://github.com/QookiX/QookiX-Launcher-Android/blob/master/CHANGELOG.md",
+      "publishedAt": "2026-10-30T10:01:17Z"
     },
     {
       "id": "QookiX-Launcher-Android:0.2.1",
       "repo": "QookiX-Launcher-Android",
       "type": "release",
       "version": "0.2.1",
-      "date": "2026-10-30",
+      "date": "2026-10-29T17:28:48Z",
+      "changelogDate": "2026-10-30",
       "notes": [],
       "items": [
         {
@@ -3603,42 +3704,16 @@
         ]
       },
       "url": "https://github.com/QookiX/QookiX-Launcher-Android/releases/tag/v0.2.1",
-      "changelogUrl": "https://github.com/QookiX/QookiX-Launcher-Android/blob/master/CHANGELOG.md"
-    },
-    {
-      "id": "QookiX-Launcher-Android:0.2.1-rc4",
-      "repo": "QookiX-Launcher-Android",
-      "type": "release",
-      "version": "0.2.1-rc4",
-      "date": "2026-10-29",
-      "notes": [
-        "预览版：装 rc3 的用户可直接覆盖（versionCode 20153 > 20152，签名相同）。"
-      ],
-      "items": [
-        {
-          "module": "设置",
-          "text": "修复了「数据根目录」实际显示的是游戏目录的问题",
-          "kind": "fix",
-          "section": null
-        },
-        {
-          "module": "皮肤",
-          "text": "优化了 3D 预览切换模型与动画的流畅度",
-          "kind": "wip",
-          "section": null
-        }
-      ],
-      "sections": [],
-      "release": null,
-      "url": "https://github.com/QookiX/QookiX-Launcher-Android/blob/master/CHANGELOG.md",
-      "changelogUrl": "https://github.com/QookiX/QookiX-Launcher-Android/blob/master/CHANGELOG.md"
+      "changelogUrl": "https://github.com/QookiX/QookiX-Launcher-Android/blob/master/CHANGELOG.md",
+      "publishedAt": "2026-10-29T17:28:48Z"
     },
     {
       "id": "QookiX-Launcher-Android:0.2.1-rc3",
       "repo": "QookiX-Launcher-Android",
       "type": "release",
       "version": "0.2.1-rc3",
-      "date": "2026-10-29",
+      "date": "2026-10-29T15:14:30Z",
+      "changelogDate": "2026-10-29",
       "notes": [
         "预览版：装 rc2 的用户可直接覆盖（versionCode 20152 > 20151，签名相同）。"
       ],
@@ -3923,6 +3998,36 @@
         ]
       },
       "url": "https://github.com/QookiX/QookiX-Launcher-Android/releases/tag/v0.2.1-rc3",
+      "changelogUrl": "https://github.com/QookiX/QookiX-Launcher-Android/blob/master/CHANGELOG.md",
+      "publishedAt": "2026-10-29T15:14:30Z"
+    },
+    {
+      "id": "QookiX-Launcher-Android:0.2.1-rc4",
+      "repo": "QookiX-Launcher-Android",
+      "type": "release",
+      "version": "0.2.1-rc4",
+      "date": "2026-10-29",
+      "changelogDate": "2026-10-29",
+      "notes": [
+        "预览版：装 rc3 的用户可直接覆盖（versionCode 20153 > 20152，签名相同）。"
+      ],
+      "items": [
+        {
+          "module": "设置",
+          "text": "修复了「数据根目录」实际显示的是游戏目录的问题",
+          "kind": "fix",
+          "section": null
+        },
+        {
+          "module": "皮肤",
+          "text": "优化了 3D 预览切换模型与动画的流畅度",
+          "kind": "wip",
+          "section": null
+        }
+      ],
+      "sections": [],
+      "release": null,
+      "url": "https://github.com/QookiX/QookiX-Launcher-Android/blob/master/CHANGELOG.md",
       "changelogUrl": "https://github.com/QookiX/QookiX-Launcher-Android/blob/master/CHANGELOG.md"
     },
     {
@@ -3930,7 +4035,8 @@
       "repo": "QookiX-Launcher-Android",
       "type": "release",
       "version": "0.2.1-beta19",
-      "date": "2026-10-28",
+      "date": "2026-10-28T13:43:08Z",
+      "changelogDate": "2026-10-28",
       "notes": [
         "预览版：装 beta18 的用户可直接覆盖（versionCode 20138 > 20137，签名相同）。"
       ],
@@ -4005,14 +4111,16 @@
         ]
       },
       "url": "https://github.com/QookiX/QookiX-Launcher-Android/releases/tag/v0.2.1-beta19",
-      "changelogUrl": "https://github.com/QookiX/QookiX-Launcher-Android/blob/master/CHANGELOG.md"
+      "changelogUrl": "https://github.com/QookiX/QookiX-Launcher-Android/blob/master/CHANGELOG.md",
+      "publishedAt": "2026-10-28T13:43:08Z"
     },
     {
       "id": "QookiX-Launcher-Android:0.2.1-beta18",
       "repo": "QookiX-Launcher-Android",
       "type": "release",
       "version": "0.2.1-beta18",
-      "date": "2026-10-28",
+      "date": "2026-10-28T13:00:27Z",
+      "changelogDate": "2026-10-28",
       "notes": [
         "预览版：装 beta17 的用户可直接覆盖（versionCode 20137 > 20136，签名相同）。"
       ],
@@ -4075,14 +4183,16 @@
         ]
       },
       "url": "https://github.com/QookiX/QookiX-Launcher-Android/releases/tag/v0.2.1-beta18",
-      "changelogUrl": "https://github.com/QookiX/QookiX-Launcher-Android/blob/master/CHANGELOG.md"
+      "changelogUrl": "https://github.com/QookiX/QookiX-Launcher-Android/blob/master/CHANGELOG.md",
+      "publishedAt": "2026-10-28T13:00:27Z"
     },
     {
       "id": "QookiX-Launcher-Android:0.2.1-beta17",
       "repo": "QookiX-Launcher-Android",
       "type": "release",
       "version": "0.2.1-beta17",
-      "date": "2026-10-28",
+      "date": "2026-10-28T12:43:02Z",
+      "changelogDate": "2026-10-28",
       "notes": [
         "预览版：装 beta16 的用户可直接覆盖（versionCode 20136 > 20135，签名相同）。"
       ],
@@ -4151,14 +4261,16 @@
         ]
       },
       "url": "https://github.com/QookiX/QookiX-Launcher-Android/releases/tag/v0.2.1-beta17",
-      "changelogUrl": "https://github.com/QookiX/QookiX-Launcher-Android/blob/master/CHANGELOG.md"
+      "changelogUrl": "https://github.com/QookiX/QookiX-Launcher-Android/blob/master/CHANGELOG.md",
+      "publishedAt": "2026-10-28T12:43:02Z"
     },
     {
       "id": "QookiX-Launcher-Android:0.2.1-beta16",
       "repo": "QookiX-Launcher-Android",
       "type": "release",
       "version": "0.2.1-beta16",
-      "date": "2026-10-28",
+      "date": "2026-10-28T11:20:43Z",
+      "changelogDate": "2026-10-28",
       "notes": [
         "预览版：装 beta15 的用户可直接覆盖（versionCode 20135 > 20134，签名相同）。"
       ],
@@ -4203,14 +4315,16 @@
         ]
       },
       "url": "https://github.com/QookiX/QookiX-Launcher-Android/releases/tag/v0.2.1-beta16",
-      "changelogUrl": "https://github.com/QookiX/QookiX-Launcher-Android/blob/master/CHANGELOG.md"
+      "changelogUrl": "https://github.com/QookiX/QookiX-Launcher-Android/blob/master/CHANGELOG.md",
+      "publishedAt": "2026-10-28T11:20:43Z"
     },
     {
       "id": "QookiX-Launcher-Android:0.2.1-beta15",
       "repo": "QookiX-Launcher-Android",
       "type": "release",
       "version": "0.2.1-beta15",
-      "date": "2026-10-28",
+      "date": "2026-10-28T09:17:18Z",
+      "changelogDate": "2026-10-28",
       "notes": [
         "预览版：装 beta14 的用户可直接覆盖（versionCode 20134 > 20133，签名相同）。"
       ],
@@ -4255,14 +4369,16 @@
         ]
       },
       "url": "https://github.com/QookiX/QookiX-Launcher-Android/releases/tag/v0.2.1-beta15",
-      "changelogUrl": "https://github.com/QookiX/QookiX-Launcher-Android/blob/master/CHANGELOG.md"
+      "changelogUrl": "https://github.com/QookiX/QookiX-Launcher-Android/blob/master/CHANGELOG.md",
+      "publishedAt": "2026-10-28T09:17:18Z"
     },
     {
       "id": "QookiX-Launcher-Android:0.2.1-beta14",
       "repo": "QookiX-Launcher-Android",
       "type": "release",
       "version": "0.2.1-beta14",
-      "date": "2026-10-28",
+      "date": "2026-10-28T08:37:54Z",
+      "changelogDate": "2026-10-28",
       "notes": [
         "预览版：装 beta13 的用户可直接覆盖（versionCode 20133 > 20132，签名相同）。"
       ],
@@ -4331,14 +4447,16 @@
         ]
       },
       "url": "https://github.com/QookiX/QookiX-Launcher-Android/releases/tag/v0.2.1-beta14",
-      "changelogUrl": "https://github.com/QookiX/QookiX-Launcher-Android/blob/master/CHANGELOG.md"
+      "changelogUrl": "https://github.com/QookiX/QookiX-Launcher-Android/blob/master/CHANGELOG.md",
+      "publishedAt": "2026-10-28T08:37:54Z"
     },
     {
       "id": "QookiX-Launcher-Android:0.2.1-beta13",
       "repo": "QookiX-Launcher-Android",
       "type": "release",
       "version": "0.2.1-beta13",
-      "date": "2026-10-27",
+      "date": "2026-10-27T12:46:19Z",
+      "changelogDate": "2026-10-27",
       "notes": [
         "预览版：装 beta12 的用户可直接覆盖（versionCode 20132 > 20131，签名相同）。"
       ],
@@ -4383,14 +4501,16 @@
         ]
       },
       "url": "https://github.com/QookiX/QookiX-Launcher-Android/releases/tag/v0.2.1-beta13",
-      "changelogUrl": "https://github.com/QookiX/QookiX-Launcher-Android/blob/master/CHANGELOG.md"
+      "changelogUrl": "https://github.com/QookiX/QookiX-Launcher-Android/blob/master/CHANGELOG.md",
+      "publishedAt": "2026-10-27T12:46:19Z"
     },
     {
       "id": "QookiX-Launcher-Android:0.2.1-beta12",
       "repo": "QookiX-Launcher-Android",
       "type": "release",
       "version": "0.2.1-beta12",
-      "date": "2026-10-27",
+      "date": "2026-10-27T10:11:23Z",
+      "changelogDate": "2026-10-27",
       "notes": [
         "预览版：装 beta11 的用户可直接覆盖（versionCode 20131 > 20130，签名相同）。"
       ],
@@ -4441,14 +4561,16 @@
         ]
       },
       "url": "https://github.com/QookiX/QookiX-Launcher-Android/releases/tag/v0.2.1-beta12",
-      "changelogUrl": "https://github.com/QookiX/QookiX-Launcher-Android/blob/master/CHANGELOG.md"
+      "changelogUrl": "https://github.com/QookiX/QookiX-Launcher-Android/blob/master/CHANGELOG.md",
+      "publishedAt": "2026-10-27T10:11:23Z"
     },
     {
       "id": "QookiX-Launcher-Android:0.2.1-beta11",
       "repo": "QookiX-Launcher-Android",
       "type": "release",
       "version": "0.2.1-beta11",
-      "date": "2026-10-27",
+      "date": "2026-10-27T08:58:34Z",
+      "changelogDate": "2026-10-27",
       "notes": [
         "预览版：装 beta10 的用户可直接覆盖（versionCode 20130 > 20129，签名相同）。"
       ],
@@ -4505,14 +4627,16 @@
         ]
       },
       "url": "https://github.com/QookiX/QookiX-Launcher-Android/releases/tag/v0.2.1-beta11",
-      "changelogUrl": "https://github.com/QookiX/QookiX-Launcher-Android/blob/master/CHANGELOG.md"
+      "changelogUrl": "https://github.com/QookiX/QookiX-Launcher-Android/blob/master/CHANGELOG.md",
+      "publishedAt": "2026-10-27T08:58:34Z"
     },
     {
       "id": "QookiX-Launcher-Android:0.2.1-beta10",
       "repo": "QookiX-Launcher-Android",
       "type": "release",
       "version": "0.2.1-beta10",
-      "date": "2026-10-27",
+      "date": "2026-10-27T08:08:30Z",
+      "changelogDate": "2026-10-27",
       "notes": [
         "预览版：装 beta9 的用户可直接覆盖（versionCode 20129 > 20128，签名相同）。"
       ],
@@ -4581,14 +4705,16 @@
         ]
       },
       "url": "https://github.com/QookiX/QookiX-Launcher-Android/releases/tag/v0.2.1-beta10",
-      "changelogUrl": "https://github.com/QookiX/QookiX-Launcher-Android/blob/master/CHANGELOG.md"
+      "changelogUrl": "https://github.com/QookiX/QookiX-Launcher-Android/blob/master/CHANGELOG.md",
+      "publishedAt": "2026-10-27T08:08:30Z"
     },
     {
       "id": "QookiX-Launcher-Android:0.2.1-beta9",
       "repo": "QookiX-Launcher-Android",
       "type": "release",
       "version": "0.2.1-beta9",
-      "date": "2026-10-27",
+      "date": "2026-10-27T07:50:25Z",
+      "changelogDate": "2026-10-27",
       "notes": [
         "预览版：装 beta8 的用户可直接覆盖（versionCode 20128 > 20127，签名相同）。"
       ],
@@ -4645,14 +4771,16 @@
         ]
       },
       "url": "https://github.com/QookiX/QookiX-Launcher-Android/releases/tag/v0.2.1-beta9",
-      "changelogUrl": "https://github.com/QookiX/QookiX-Launcher-Android/blob/master/CHANGELOG.md"
+      "changelogUrl": "https://github.com/QookiX/QookiX-Launcher-Android/blob/master/CHANGELOG.md",
+      "publishedAt": "2026-10-27T07:50:25Z"
     },
     {
       "id": "QookiX-Launcher-Android:0.2.1-beta8",
       "repo": "QookiX-Launcher-Android",
       "type": "release",
       "version": "0.2.1-beta8",
-      "date": "2026-10-27",
+      "date": "2026-10-27T07:29:31Z",
+      "changelogDate": "2026-10-27",
       "notes": [
         "预览版：装 beta7 的用户可直接覆盖（versionCode 20127 > 20126，签名相同），实例 / 存档 / 服务器 / 账号全部保留。"
       ],
@@ -4727,14 +4855,16 @@
         ]
       },
       "url": "https://github.com/QookiX/QookiX-Launcher-Android/releases/tag/v0.2.1-beta8",
-      "changelogUrl": "https://github.com/QookiX/QookiX-Launcher-Android/blob/master/CHANGELOG.md"
+      "changelogUrl": "https://github.com/QookiX/QookiX-Launcher-Android/blob/master/CHANGELOG.md",
+      "publishedAt": "2026-10-27T07:29:31Z"
     },
     {
       "id": "QookiX-Launcher-Android:0.2.1-beta7",
       "repo": "QookiX-Launcher-Android",
       "type": "release",
       "version": "0.2.1-beta7",
-      "date": "2026-10-27",
+      "date": "2026-10-27T06:01:50Z",
+      "changelogDate": "2026-10-27",
       "notes": [
         "预览版：含大量界面改动，建议覆盖安装后先试几个常用入口。",
         "装 beta6 的用户可直接覆盖（versionCode 20126 > 20125，签名相同），实例 / 存档 / 服务器 / 账号全部保留。"
@@ -4900,14 +5030,16 @@
         ]
       },
       "url": "https://github.com/QookiX/QookiX-Launcher-Android/releases/tag/v0.2.1-beta7",
-      "changelogUrl": "https://github.com/QookiX/QookiX-Launcher-Android/blob/master/CHANGELOG.md"
+      "changelogUrl": "https://github.com/QookiX/QookiX-Launcher-Android/blob/master/CHANGELOG.md",
+      "publishedAt": "2026-10-27T06:01:50Z"
     },
     {
       "id": "QookiX-Launcher-Android:0.2.1-beta6",
       "repo": "QookiX-Launcher-Android",
       "type": "release",
       "version": "0.2.1-beta6",
-      "date": "2026-10-27",
+      "date": "2026-10-26T17:28:31Z",
+      "changelogDate": "2026-10-27",
       "notes": [
         "预览版：beta5 之后的修复，可直接覆盖 beta5（versionCode 20125 > 20124），数据不受影响。"
       ],
@@ -4952,14 +5084,16 @@
         ]
       },
       "url": "https://github.com/QookiX/QookiX-Launcher-Android/releases/tag/v0.2.1-beta6",
-      "changelogUrl": "https://github.com/QookiX/QookiX-Launcher-Android/blob/master/CHANGELOG.md"
+      "changelogUrl": "https://github.com/QookiX/QookiX-Launcher-Android/blob/master/CHANGELOG.md",
+      "publishedAt": "2026-10-26T17:28:31Z"
     },
     {
       "id": "QookiX-Launcher-Android:0.2.1-beta5",
       "repo": "QookiX-Launcher-Android",
       "type": "release",
       "version": "0.2.1-beta5",
-      "date": "2026-10-27",
+      "date": "2026-10-26T16:36:50Z",
+      "changelogDate": "2026-10-27",
       "notes": [
         "预览版：beta4 之后的修复，可直接覆盖 beta4（versionCode 20124 > 20123），数据不受影响。"
       ],
@@ -5028,33 +5162,16 @@
         ]
       },
       "url": "https://github.com/QookiX/QookiX-Launcher-Android/releases/tag/v0.2.1-beta5",
-      "changelogUrl": "https://github.com/QookiX/QookiX-Launcher-Android/blob/master/CHANGELOG.md"
-    },
-    {
-      "id": "QookiX-Docs:commit:3c4719a73b552cbeea036e1f37e6695f068a29e7",
-      "repo": "QookiX-Docs",
-      "type": "commit",
-      "version": null,
-      "date": "2026-10-26T14:30:16Z",
-      "sha": "3c4719a",
-      "url": "https://github.com/QookiX/QookiX-Docs/commit/3c4719a73b552cbeea036e1f37e6695f068a29e7",
-      "notes": [],
-      "items": [
-        {
-          "module": "chore",
-          "text": "更新首页预览截图",
-          "kind": "other",
-          "section": null
-        }
-      ],
-      "sections": []
+      "changelogUrl": "https://github.com/QookiX/QookiX-Launcher-Android/blob/master/CHANGELOG.md",
+      "publishedAt": "2026-10-26T16:36:50Z"
     },
     {
       "id": "QookiX-Launcher-Android:0.2.1-beta4",
       "repo": "QookiX-Launcher-Android",
       "type": "release",
       "version": "0.2.1-beta4",
-      "date": "2026-10-26",
+      "date": "2026-10-26T15:42:56Z",
+      "changelogDate": "2026-10-26",
       "notes": [
         "预览版：beta3 之后的修复，可直接覆盖 beta3（versionCode 20123 > 20122），数据不受影响。"
       ],
@@ -5159,14 +5276,16 @@
         ]
       },
       "url": "https://github.com/QookiX/QookiX-Launcher-Android/releases/tag/v0.2.1-beta4",
-      "changelogUrl": "https://github.com/QookiX/QookiX-Launcher-Android/blob/master/CHANGELOG.md"
+      "changelogUrl": "https://github.com/QookiX/QookiX-Launcher-Android/blob/master/CHANGELOG.md",
+      "publishedAt": "2026-10-26T15:42:56Z"
     },
     {
       "id": "QookiX-Launcher-Android:0.2.1-beta3",
       "repo": "QookiX-Launcher-Android",
       "type": "release",
       "version": "0.2.1-beta3",
-      "date": "2026-10-26",
+      "date": "2026-10-26T14:58:47Z",
+      "changelogDate": "2026-10-26",
       "notes": [
         "预览版：beta2 之后的修复，可直接覆盖 beta2（versionCode 20122 > 20121），数据不受影响。"
       ],
@@ -5289,297 +5408,27 @@
         ]
       },
       "url": "https://github.com/QookiX/QookiX-Launcher-Android/releases/tag/v0.2.1-beta3",
-      "changelogUrl": "https://github.com/QookiX/QookiX-Launcher-Android/blob/master/CHANGELOG.md"
+      "changelogUrl": "https://github.com/QookiX/QookiX-Launcher-Android/blob/master/CHANGELOG.md",
+      "publishedAt": "2026-10-26T14:58:47Z"
     },
     {
-      "id": "QookiX-Launcher-Android:0.2.1-beta2",
-      "repo": "QookiX-Launcher-Android",
-      "type": "release",
-      "version": "0.2.1-beta2",
-      "date": "2026-10-26",
-      "notes": [
-        "预览版：beta1 之后的补充修复，可直接覆盖 beta1（versionCode 20121 > 20120），数据不受影响。"
-      ],
+      "id": "QookiX-Docs:commit:3c4719a73b552cbeea036e1f37e6695f068a29e7",
+      "repo": "QookiX-Docs",
+      "type": "commit",
+      "version": null,
+      "date": "2026-10-26T14:30:16Z",
+      "sha": "3c4719a",
+      "url": "https://github.com/QookiX/QookiX-Docs/commit/3c4719a73b552cbeea036e1f37e6695f068a29e7",
+      "notes": [],
       "items": [
         {
-          "module": "实例",
-          "text": "修复了实例列表读取失败时显示「还没有任何实例」的问题",
-          "kind": "fix",
-          "section": null
-        },
-        {
-          "module": "实例",
-          "text": "修复了「识别」按钮点过一次后一直转圈的问题",
-          "kind": "fix",
-          "section": null
-        },
-        {
-          "module": "联机",
-          "text": "修复了陶瓦隧道断开后不显示退出原因的问题",
-          "kind": "fix",
-          "section": null
-        },
-        {
-          "module": "新闻",
-          "text": "修复了刷新新闻失败会把已经读到的新闻清空的问题",
-          "kind": "fix",
-          "section": null
-        },
-        {
-          "module": "启动器",
-          "text": "修复了连点「启动」会启动两次游戏的问题",
-          "kind": "fix",
-          "section": null
-        },
-        {
-          "module": "服务器",
-          "text": "修复了控制台跑满 2000 行后不再自动滚动、往上翻会被拽回底部的问题",
-          "kind": "fix",
-          "section": null
-        },
-        {
-          "module": "实例",
-          "text": "修复了新建实例页缺少 Quilt 选项的问题",
-          "kind": "fix",
-          "section": null
-        },
-        {
-          "module": "实例",
-          "text": "修复了实例卡片副标题重复显示 MC 版本号的问题",
-          "kind": "fix",
-          "section": null
-        },
-        {
-          "module": "实例",
-          "text": "修复了改过游戏目录的实例共享文件概览显示成 Java 8、0 B 的问题",
-          "kind": "fix",
-          "section": null
-        },
-        {
-          "module": "设置",
-          "text": "修复了自定义代理没填地址时「测试」按钮仍可点的问题",
-          "kind": "fix",
-          "section": null
-        },
-        {
-          "module": "实例",
-          "text": "修复了安装过程中还能点「取消」关掉对话框、之后找不到任务进度的问题",
-          "kind": "fix",
-          "section": null
-        },
-        {
-          "module": "游戏统计",
-          "text": "修复了柱状图没有单位说明的问题",
-          "kind": "fix",
-          "section": null
-        },
-        {
-          "module": "服务器",
-          "text": "修复了删除入口只在「文件」页最底部的问题",
-          "kind": "fix",
-          "section": null
-        },
-        {
-          "module": "设置",
-          "text": "修复了 CurseForge Key 的说明还写着「使用默认 key」的问题",
-          "kind": "fix",
-          "section": null
-        },
-        {
-          "module": "已知问题",
-          "text": "「所有文件访问」在部分系统（如 ColorOS）上显示已允许但实际不生效，游戏目录可能读不到；请到系统设置里关掉再打开一次",
+          "module": "chore",
+          "text": "更新首页预览截图",
           "kind": "other",
-          "section": "已知问题"
-        },
-        {
-          "module": "已知问题",
-          "text": "服务端日志自动滚动在超过 2000 行后会失效",
-          "kind": "other",
-          "section": "已知问题"
+          "section": null
         }
       ],
-      "sections": [],
-      "release": {
-        "tag": "v0.2.1-beta2",
-        "url": "https://github.com/QookiX/QookiX-Launcher-Android/releases/tag/v0.2.1-beta2",
-        "name": "v0.2.1-beta2",
-        "publishedAt": "2026-10-25T17:57:19Z",
-        "prerelease": true,
-        "draft": false,
-        "assets": [
-          {
-            "name": "QookiX-Launcher-Android-v0.2.1-beta2-arm64.apk",
-            "size": 49279160,
-            "url": "https://github.com/QookiX/QookiX-Launcher-Android/releases/download/v0.2.1-beta2/QookiX-Launcher-Android-v0.2.1-beta2-arm64.apk",
-            "downloads": 6,
-            "type": "application/vnd.android.package-archive"
-          },
-          {
-            "name": "QookiX-Launcher-Android-v0.2.1-beta2-x86_64.apk",
-            "size": 46783483,
-            "url": "https://github.com/QookiX/QookiX-Launcher-Android/releases/download/v0.2.1-beta2/QookiX-Launcher-Android-v0.2.1-beta2-x86_64.apk",
-            "downloads": 1,
-            "type": "application/vnd.android.package-archive"
-          },
-          {
-            "name": "SHA256SUMS.txt",
-            "size": 227,
-            "url": "https://github.com/QookiX/QookiX-Launcher-Android/releases/download/v0.2.1-beta2/SHA256SUMS.txt",
-            "downloads": 1,
-            "type": "text/plain"
-          }
-        ]
-      },
-      "url": "https://github.com/QookiX/QookiX-Launcher-Android/releases/tag/v0.2.1-beta2",
-      "changelogUrl": "https://github.com/QookiX/QookiX-Launcher-Android/blob/master/CHANGELOG.md"
-    },
-    {
-      "id": "QookiX-Launcher-Android:0.2.1-beta1",
-      "repo": "QookiX-Launcher-Android",
-      "type": "release",
-      "version": "0.2.1-beta1",
-      "date": "2026-10-26",
-      "notes": [
-        "预览版：这一版只修 bug，不含新功能。装 0.2.0 的用户可以直接覆盖安装（versionCode 20120 > 20099，签名相同），实例 / 存档 / 服务器 / 账号全部保留。"
-      ],
-      "items": [
-        {
-          "module": "多人游戏",
-          "text": "修复了服务器列表读不到时只显示「还没有服务器」的问题",
-          "kind": "fix",
-          "section": null
-        },
-        {
-          "module": "多人游戏",
-          "text": "修复了服务器列表不显示运行状态、正在跑的服务器停不掉的问题",
-          "kind": "fix",
-          "section": null
-        },
-        {
-          "module": "实例",
-          "text": "修复了设置里改一项保存后渲染器、启动参数、别名被重置的问题",
-          "kind": "fix",
-          "section": null
-        },
-        {
-          "module": "实例",
-          "text": "修复了快速连开两个文件时前一个内容串到后一个、保存后写坏文件的问题",
-          "kind": "fix",
-          "section": null
-        },
-        {
-          "module": "实例",
-          "text": "修复了多个世界的实例恢复备份会覆盖到错误世界的问题",
-          "kind": "fix",
-          "section": null
-        },
-        {
-          "module": "实例",
-          "text": "修复了 1.21.x 新建实例默认走 GL4ES 导致进游戏崩溃的问题",
-          "kind": "fix",
-          "section": null
-        },
-        {
-          "module": "服务器",
-          "text": "修复了文件页的新建、重命名、删除点了没反应的问题",
-          "kind": "fix",
-          "section": null
-        },
-        {
-          "module": "实例",
-          "text": "修复了文件页点文件没反应的问题",
-          "kind": "fix",
-          "section": null
-        },
-        {
-          "module": "服务器",
-          "text": "修复了启动失败后一直停在「正在启动」、启停与控制台命令失败没有提示的问题",
-          "kind": "fix",
-          "section": null
-        },
-        {
-          "module": "下载",
-          "text": "修复了进度条偶尔停住不动的问题",
-          "kind": "fix",
-          "section": null
-        },
-        {
-          "module": "启动器",
-          "text": "修复了后台命令卡死时界面一直转圈、没有超时提示的问题",
-          "kind": "fix",
-          "section": null
-        },
-        {
-          "module": "设置",
-          "text": "修复了保存失败后界面仍显示新值的问题",
-          "kind": "fix",
-          "section": null
-        },
-        {
-          "module": "整合包",
-          "text": "修复了安装到「实例」时被装进服务器目录的问题",
-          "kind": "fix",
-          "section": null
-        },
-        {
-          "module": "实例",
-          "text": "修复了文件编辑器返回不提示未保存、保存失败会清掉正在编辑内容的问题",
-          "kind": "fix",
-          "section": null
-        },
-        {
-          "module": "已知问题",
-          "text": "「所有文件访问」在部分系统（如 ColorOS）上显示已允许但实际不生效，游戏目录可能读不到；请到系统设置里关掉再打开一次",
-          "kind": "other",
-          "section": "已知问题"
-        },
-        {
-          "module": "已知问题",
-          "text": "服务端日志自动滚动在超过 2000 行后会失效",
-          "kind": "other",
-          "section": "已知问题"
-        },
-        {
-          "module": "已知问题",
-          "text": "本版未在全部机型验证，遇到问题请附日志反馈",
-          "kind": "other",
-          "section": "已知问题"
-        }
-      ],
-      "sections": [],
-      "release": {
-        "tag": "v0.2.1-beta1",
-        "url": "https://github.com/QookiX/QookiX-Launcher-Android/releases/tag/v0.2.1-beta1",
-        "name": "v0.2.1-beta1",
-        "publishedAt": "2026-10-25T17:15:20Z",
-        "prerelease": true,
-        "draft": false,
-        "assets": [
-          {
-            "name": "QookiX-Launcher-Android-v0.2.1-beta1-arm64.apk",
-            "size": 49272880,
-            "url": "https://github.com/QookiX/QookiX-Launcher-Android/releases/download/v0.2.1-beta1/QookiX-Launcher-Android-v0.2.1-beta1-arm64.apk",
-            "downloads": 3,
-            "type": "application/vnd.android.package-archive"
-          },
-          {
-            "name": "QookiX-Launcher-Android-v0.2.1-beta1-x86_64.apk",
-            "size": 46776199,
-            "url": "https://github.com/QookiX/QookiX-Launcher-Android/releases/download/v0.2.1-beta1/QookiX-Launcher-Android-v0.2.1-beta1-x86_64.apk",
-            "downloads": 1,
-            "type": "application/vnd.android.package-archive"
-          },
-          {
-            "name": "SHA256SUMS.txt",
-            "size": 227,
-            "url": "https://github.com/QookiX/QookiX-Launcher-Android/releases/download/v0.2.1-beta1/SHA256SUMS.txt",
-            "downloads": 1,
-            "type": "text/plain"
-          }
-        ]
-      },
-      "url": "https://github.com/QookiX/QookiX-Launcher-Android/releases/tag/v0.2.1-beta1",
-      "changelogUrl": "https://github.com/QookiX/QookiX-Launcher-Android/blob/master/CHANGELOG.md"
+      "sections": []
     },
     {
       "id": "QookiX-Launcher:0.17.0",
@@ -5877,76 +5726,306 @@
       "changelogUrl": "https://github.com/QookiX/QookiX-Launcher/blob/main/CHANGELOG.md"
     },
     {
-      "id": "QookiX-Docs:commit:832019d02ea71c780ddf2ba9a05f2c3580c76a4b",
-      "repo": "QookiX-Docs",
-      "type": "commit",
-      "version": null,
-      "date": "2026-10-25T06:31:41Z",
-      "sha": "832019d",
-      "url": "https://github.com/QookiX/QookiX-Docs/commit/832019d02ea71c780ddf2ba9a05f2c3580c76a4b",
+      "id": "QookiX-Launcher-Android:0.2.1-beta2",
+      "repo": "QookiX-Launcher-Android",
+      "type": "release",
+      "version": "0.2.1-beta2",
+      "date": "2026-10-25T17:57:19Z",
+      "changelogDate": "2026-10-26",
       "notes": [
-        "hero 描述补充 Android 平台",
-        "功能特性新增「安卓端原生支持」「跨设备数据互通」"
+        "预览版：beta1 之后的补充修复，可直接覆盖 beta1（versionCode 20121 > 20120），数据不受影响。"
       ],
       "items": [
         {
-          "module": "feat",
-          "text": "首页添加安卓端相关内容",
-          "kind": "feat",
-          "section": null
-        }
-      ],
-      "sections": []
-    },
-    {
-      "id": "QookiX-Docs:commit:2c1832ecb881eeb0dfa7bd26050f64647b4c0103",
-      "repo": "QookiX-Docs",
-      "type": "commit",
-      "version": null,
-      "date": "2026-10-25T04:47:55Z",
-      "sha": "2c1832e",
-      "url": "https://github.com/QookiX/QookiX-Docs/commit/2c1832ecb881eeb0dfa7bd26050f64647b4c0103",
-      "notes": [
-        "mirrorDownloadUrl 误将 QookiX.Launcher（点号）替换为 QookiX%20Launcher（空格编码），",
-        "改用 encodeURIComponent 仅转义真正需要编码的字符，保留 . _ - 等无保留字符"
-      ],
-      "items": [
-        {
-          "module": "fix",
-          "text": "修复镜像下载链接 URL 编码错误 + 安卓镜像回退 + x86_64 架构识别",
+          "module": "实例",
+          "text": "修复了实例列表读取失败时显示「还没有任何实例」的问题",
           "kind": "fix",
           "section": null
+        },
+        {
+          "module": "实例",
+          "text": "修复了「识别」按钮点过一次后一直转圈的问题",
+          "kind": "fix",
+          "section": null
+        },
+        {
+          "module": "联机",
+          "text": "修复了陶瓦隧道断开后不显示退出原因的问题",
+          "kind": "fix",
+          "section": null
+        },
+        {
+          "module": "新闻",
+          "text": "修复了刷新新闻失败会把已经读到的新闻清空的问题",
+          "kind": "fix",
+          "section": null
+        },
+        {
+          "module": "启动器",
+          "text": "修复了连点「启动」会启动两次游戏的问题",
+          "kind": "fix",
+          "section": null
+        },
+        {
+          "module": "服务器",
+          "text": "修复了控制台跑满 2000 行后不再自动滚动、往上翻会被拽回底部的问题",
+          "kind": "fix",
+          "section": null
+        },
+        {
+          "module": "实例",
+          "text": "修复了新建实例页缺少 Quilt 选项的问题",
+          "kind": "fix",
+          "section": null
+        },
+        {
+          "module": "实例",
+          "text": "修复了实例卡片副标题重复显示 MC 版本号的问题",
+          "kind": "fix",
+          "section": null
+        },
+        {
+          "module": "实例",
+          "text": "修复了改过游戏目录的实例共享文件概览显示成 Java 8、0 B 的问题",
+          "kind": "fix",
+          "section": null
+        },
+        {
+          "module": "设置",
+          "text": "修复了自定义代理没填地址时「测试」按钮仍可点的问题",
+          "kind": "fix",
+          "section": null
+        },
+        {
+          "module": "实例",
+          "text": "修复了安装过程中还能点「取消」关掉对话框、之后找不到任务进度的问题",
+          "kind": "fix",
+          "section": null
+        },
+        {
+          "module": "游戏统计",
+          "text": "修复了柱状图没有单位说明的问题",
+          "kind": "fix",
+          "section": null
+        },
+        {
+          "module": "服务器",
+          "text": "修复了删除入口只在「文件」页最底部的问题",
+          "kind": "fix",
+          "section": null
+        },
+        {
+          "module": "设置",
+          "text": "修复了 CurseForge Key 的说明还写着「使用默认 key」的问题",
+          "kind": "fix",
+          "section": null
+        },
+        {
+          "module": "已知问题",
+          "text": "「所有文件访问」在部分系统（如 ColorOS）上显示已允许但实际不生效，游戏目录可能读不到；请到系统设置里关掉再打开一次",
+          "kind": "other",
+          "section": "已知问题"
+        },
+        {
+          "module": "已知问题",
+          "text": "服务端日志自动滚动在超过 2000 行后会失效",
+          "kind": "other",
+          "section": "已知问题"
         }
       ],
-      "sections": []
+      "sections": [],
+      "release": {
+        "tag": "v0.2.1-beta2",
+        "url": "https://github.com/QookiX/QookiX-Launcher-Android/releases/tag/v0.2.1-beta2",
+        "name": "v0.2.1-beta2",
+        "publishedAt": "2026-10-25T17:57:19Z",
+        "prerelease": true,
+        "draft": false,
+        "assets": [
+          {
+            "name": "QookiX-Launcher-Android-v0.2.1-beta2-arm64.apk",
+            "size": 49279160,
+            "url": "https://github.com/QookiX/QookiX-Launcher-Android/releases/download/v0.2.1-beta2/QookiX-Launcher-Android-v0.2.1-beta2-arm64.apk",
+            "downloads": 6,
+            "type": "application/vnd.android.package-archive"
+          },
+          {
+            "name": "QookiX-Launcher-Android-v0.2.1-beta2-x86_64.apk",
+            "size": 46783483,
+            "url": "https://github.com/QookiX/QookiX-Launcher-Android/releases/download/v0.2.1-beta2/QookiX-Launcher-Android-v0.2.1-beta2-x86_64.apk",
+            "downloads": 1,
+            "type": "application/vnd.android.package-archive"
+          },
+          {
+            "name": "SHA256SUMS.txt",
+            "size": 227,
+            "url": "https://github.com/QookiX/QookiX-Launcher-Android/releases/download/v0.2.1-beta2/SHA256SUMS.txt",
+            "downloads": 1,
+            "type": "text/plain"
+          }
+        ]
+      },
+      "url": "https://github.com/QookiX/QookiX-Launcher-Android/releases/tag/v0.2.1-beta2",
+      "changelogUrl": "https://github.com/QookiX/QookiX-Launcher-Android/blob/master/CHANGELOG.md",
+      "publishedAt": "2026-10-25T17:57:19Z"
     },
     {
-      "id": "QookiX-Docs:commit:adb8bd127757ca46f8eb003faf28f02e0452fbae",
-      "repo": "QookiX-Docs",
-      "type": "commit",
-      "version": null,
-      "date": "2026-10-25T03:26:16Z",
-      "sha": "adb8bd1",
-      "url": "https://github.com/QookiX/QookiX-Docs/commit/adb8bd127757ca46f8eb003faf28f02e0452fbae",
+      "id": "QookiX-Launcher-Android:0.2.1-beta1",
+      "repo": "QookiX-Launcher-Android",
+      "type": "release",
+      "version": "0.2.1-beta1",
+      "date": "2026-10-25T17:15:20Z",
+      "changelogDate": "2026-10-26",
       "notes": [
-        "修正英文和中文国际化配置文件中的统计数据，将跨平台支持的平台数量由3更新为4，保持展示信息与实际支持情况一致。"
+        "预览版：这一版只修 bug，不含新功能。装 0.2.0 的用户可以直接覆盖安装（versionCode 20120 > 20099，签名相同），实例 / 存档 / 服务器 / 账号全部保留。"
       ],
       "items": [
         {
-          "module": "i18n",
-          "text": "更新跨平台支持数量从3端改为4端",
+          "module": "多人游戏",
+          "text": "修复了服务器列表读不到时只显示「还没有服务器」的问题",
           "kind": "fix",
           "section": null
+        },
+        {
+          "module": "多人游戏",
+          "text": "修复了服务器列表不显示运行状态、正在跑的服务器停不掉的问题",
+          "kind": "fix",
+          "section": null
+        },
+        {
+          "module": "实例",
+          "text": "修复了设置里改一项保存后渲染器、启动参数、别名被重置的问题",
+          "kind": "fix",
+          "section": null
+        },
+        {
+          "module": "实例",
+          "text": "修复了快速连开两个文件时前一个内容串到后一个、保存后写坏文件的问题",
+          "kind": "fix",
+          "section": null
+        },
+        {
+          "module": "实例",
+          "text": "修复了多个世界的实例恢复备份会覆盖到错误世界的问题",
+          "kind": "fix",
+          "section": null
+        },
+        {
+          "module": "实例",
+          "text": "修复了 1.21.x 新建实例默认走 GL4ES 导致进游戏崩溃的问题",
+          "kind": "fix",
+          "section": null
+        },
+        {
+          "module": "服务器",
+          "text": "修复了文件页的新建、重命名、删除点了没反应的问题",
+          "kind": "fix",
+          "section": null
+        },
+        {
+          "module": "实例",
+          "text": "修复了文件页点文件没反应的问题",
+          "kind": "fix",
+          "section": null
+        },
+        {
+          "module": "服务器",
+          "text": "修复了启动失败后一直停在「正在启动」、启停与控制台命令失败没有提示的问题",
+          "kind": "fix",
+          "section": null
+        },
+        {
+          "module": "下载",
+          "text": "修复了进度条偶尔停住不动的问题",
+          "kind": "fix",
+          "section": null
+        },
+        {
+          "module": "启动器",
+          "text": "修复了后台命令卡死时界面一直转圈、没有超时提示的问题",
+          "kind": "fix",
+          "section": null
+        },
+        {
+          "module": "设置",
+          "text": "修复了保存失败后界面仍显示新值的问题",
+          "kind": "fix",
+          "section": null
+        },
+        {
+          "module": "整合包",
+          "text": "修复了安装到「实例」时被装进服务器目录的问题",
+          "kind": "fix",
+          "section": null
+        },
+        {
+          "module": "实例",
+          "text": "修复了文件编辑器返回不提示未保存、保存失败会清掉正在编辑内容的问题",
+          "kind": "fix",
+          "section": null
+        },
+        {
+          "module": "已知问题",
+          "text": "「所有文件访问」在部分系统（如 ColorOS）上显示已允许但实际不生效，游戏目录可能读不到；请到系统设置里关掉再打开一次",
+          "kind": "other",
+          "section": "已知问题"
+        },
+        {
+          "module": "已知问题",
+          "text": "服务端日志自动滚动在超过 2000 行后会失效",
+          "kind": "other",
+          "section": "已知问题"
+        },
+        {
+          "module": "已知问题",
+          "text": "本版未在全部机型验证，遇到问题请附日志反馈",
+          "kind": "other",
+          "section": "已知问题"
         }
       ],
-      "sections": []
+      "sections": [],
+      "release": {
+        "tag": "v0.2.1-beta1",
+        "url": "https://github.com/QookiX/QookiX-Launcher-Android/releases/tag/v0.2.1-beta1",
+        "name": "v0.2.1-beta1",
+        "publishedAt": "2026-10-25T17:15:20Z",
+        "prerelease": true,
+        "draft": false,
+        "assets": [
+          {
+            "name": "QookiX-Launcher-Android-v0.2.1-beta1-arm64.apk",
+            "size": 49272880,
+            "url": "https://github.com/QookiX/QookiX-Launcher-Android/releases/download/v0.2.1-beta1/QookiX-Launcher-Android-v0.2.1-beta1-arm64.apk",
+            "downloads": 3,
+            "type": "application/vnd.android.package-archive"
+          },
+          {
+            "name": "QookiX-Launcher-Android-v0.2.1-beta1-x86_64.apk",
+            "size": 46776199,
+            "url": "https://github.com/QookiX/QookiX-Launcher-Android/releases/download/v0.2.1-beta1/QookiX-Launcher-Android-v0.2.1-beta1-x86_64.apk",
+            "downloads": 1,
+            "type": "application/vnd.android.package-archive"
+          },
+          {
+            "name": "SHA256SUMS.txt",
+            "size": 227,
+            "url": "https://github.com/QookiX/QookiX-Launcher-Android/releases/download/v0.2.1-beta1/SHA256SUMS.txt",
+            "downloads": 1,
+            "type": "text/plain"
+          }
+        ]
+      },
+      "url": "https://github.com/QookiX/QookiX-Launcher-Android/releases/tag/v0.2.1-beta1",
+      "changelogUrl": "https://github.com/QookiX/QookiX-Launcher-Android/blob/master/CHANGELOG.md",
+      "publishedAt": "2026-10-25T17:15:20Z"
     },
     {
       "id": "QookiX-Launcher-Android:0.2.0",
       "repo": "QookiX-Launcher-Android",
       "type": "release",
       "version": "0.2.0",
-      "date": "2026-10-25",
+      "date": "2026-10-25T15:05:09Z",
+      "changelogDate": "2026-10-25",
       "notes": [
         "版本号重开序列（1.8.0 → 0.2.0）：本次是架构级重写 —— Rust 侧改为纯 JNI、移除 WebView/Tauri 运行时、",
         "命令按域拆成 12 个模块、净删约 1.2 万行。",
@@ -6059,7 +6138,73 @@
         ]
       },
       "url": "https://github.com/QookiX/QookiX-Launcher-Android/releases/tag/v0.2.0",
-      "changelogUrl": "https://github.com/QookiX/QookiX-Launcher-Android/blob/master/CHANGELOG.md"
+      "changelogUrl": "https://github.com/QookiX/QookiX-Launcher-Android/blob/master/CHANGELOG.md",
+      "publishedAt": "2026-10-25T15:05:09Z"
+    },
+    {
+      "id": "QookiX-Docs:commit:832019d02ea71c780ddf2ba9a05f2c3580c76a4b",
+      "repo": "QookiX-Docs",
+      "type": "commit",
+      "version": null,
+      "date": "2026-10-25T06:31:41Z",
+      "sha": "832019d",
+      "url": "https://github.com/QookiX/QookiX-Docs/commit/832019d02ea71c780ddf2ba9a05f2c3580c76a4b",
+      "notes": [
+        "hero 描述补充 Android 平台",
+        "功能特性新增「安卓端原生支持」「跨设备数据互通」"
+      ],
+      "items": [
+        {
+          "module": "feat",
+          "text": "首页添加安卓端相关内容",
+          "kind": "feat",
+          "section": null
+        }
+      ],
+      "sections": []
+    },
+    {
+      "id": "QookiX-Docs:commit:2c1832ecb881eeb0dfa7bd26050f64647b4c0103",
+      "repo": "QookiX-Docs",
+      "type": "commit",
+      "version": null,
+      "date": "2026-10-25T04:47:55Z",
+      "sha": "2c1832e",
+      "url": "https://github.com/QookiX/QookiX-Docs/commit/2c1832ecb881eeb0dfa7bd26050f64647b4c0103",
+      "notes": [
+        "mirrorDownloadUrl 误将 QookiX.Launcher（点号）替换为 QookiX%20Launcher（空格编码），",
+        "改用 encodeURIComponent 仅转义真正需要编码的字符，保留 . _ - 等无保留字符"
+      ],
+      "items": [
+        {
+          "module": "fix",
+          "text": "修复镜像下载链接 URL 编码错误 + 安卓镜像回退 + x86_64 架构识别",
+          "kind": "fix",
+          "section": null
+        }
+      ],
+      "sections": []
+    },
+    {
+      "id": "QookiX-Docs:commit:adb8bd127757ca46f8eb003faf28f02e0452fbae",
+      "repo": "QookiX-Docs",
+      "type": "commit",
+      "version": null,
+      "date": "2026-10-25T03:26:16Z",
+      "sha": "adb8bd1",
+      "url": "https://github.com/QookiX/QookiX-Docs/commit/adb8bd127757ca46f8eb003faf28f02e0452fbae",
+      "notes": [
+        "修正英文和中文国际化配置文件中的统计数据，将跨平台支持的平台数量由3更新为4，保持展示信息与实际支持情况一致。"
+      ],
+      "items": [
+        {
+          "module": "i18n",
+          "text": "更新跨平台支持数量从3端改为4端",
+          "kind": "fix",
+          "section": null
+        }
+      ],
+      "sections": []
     },
     {
       "id": "QookiX-Launcher:0.16.0",
@@ -6313,7 +6458,8 @@
       "repo": "QookiX-Launcher-Android",
       "type": "release",
       "version": "1.8.0",
-      "date": "2026-10-22",
+      "date": "2026-10-22T08:14:47Z",
+      "changelogDate": "2026-10-22",
       "notes": [],
       "items": [
         {
@@ -6560,7 +6706,8 @@
         ]
       },
       "url": "https://github.com/QookiX/QookiX-Launcher-Android/releases/tag/v1.8.0",
-      "changelogUrl": "https://github.com/QookiX/QookiX-Launcher-Android/blob/master/CHANGELOG.md"
+      "changelogUrl": "https://github.com/QookiX/QookiX-Launcher-Android/blob/master/CHANGELOG.md",
+      "publishedAt": "2026-10-22T08:14:47Z"
     },
     {
       "id": "QookiX-Launcher:0.15.5",
@@ -6700,7 +6847,8 @@
       "repo": "QookiX-Launcher-Android",
       "type": "release",
       "version": "1.7.4",
-      "date": "2026-10-21",
+      "date": "2026-10-21T15:03:15Z",
+      "changelogDate": "2026-10-21",
       "notes": [],
       "items": [
         {
@@ -6785,14 +6933,16 @@
         ]
       },
       "url": "https://github.com/QookiX/QookiX-Launcher-Android/releases/tag/v1.7.4",
-      "changelogUrl": "https://github.com/QookiX/QookiX-Launcher-Android/blob/master/CHANGELOG.md"
+      "changelogUrl": "https://github.com/QookiX/QookiX-Launcher-Android/blob/master/CHANGELOG.md",
+      "publishedAt": "2026-10-21T15:03:15Z"
     },
     {
       "id": "QookiX-Launcher-Android:1.7.3",
       "repo": "QookiX-Launcher-Android",
       "type": "release",
       "version": "1.7.3",
-      "date": "2026-10-21",
+      "date": "2026-10-21T08:57:17Z",
+      "changelogDate": "2026-10-21",
       "notes": [],
       "items": [
         {
@@ -6883,7 +7033,8 @@
         ]
       },
       "url": "https://github.com/QookiX/QookiX-Launcher-Android/releases/tag/v1.7.3",
-      "changelogUrl": "https://github.com/QookiX/QookiX-Launcher-Android/blob/master/CHANGELOG.md"
+      "changelogUrl": "https://github.com/QookiX/QookiX-Launcher-Android/blob/master/CHANGELOG.md",
+      "publishedAt": "2026-10-21T08:57:17Z"
     },
     {
       "id": "QookiX-Launcher:0.15.4",
@@ -7234,7 +7385,8 @@
       "repo": "QookiX-Launcher-Android",
       "type": "release",
       "version": "1.7.2",
-      "date": "2026-10-20",
+      "date": "2026-10-19T19:08:59Z",
+      "changelogDate": "2026-10-20",
       "notes": [],
       "items": [
         {
@@ -7481,7 +7633,8 @@
         ]
       },
       "url": "https://github.com/QookiX/QookiX-Launcher-Android/releases/tag/v1.7.2",
-      "changelogUrl": "https://github.com/QookiX/QookiX-Launcher-Android/blob/master/CHANGELOG.md"
+      "changelogUrl": "https://github.com/QookiX/QookiX-Launcher-Android/blob/master/CHANGELOG.md",
+      "publishedAt": "2026-10-19T19:08:59Z"
     },
     {
       "id": "QookiL:commit:684dc0d040b19f751ac543c18fc13a12b3efdad6",
@@ -7701,171 +7854,12 @@
       "sections": []
     },
     {
-      "id": "QookiL:commit:7a4c1cc40561b870daf3ac8e0b03ae43699fd259",
-      "repo": "QookiL",
-      "type": "commit",
-      "version": null,
-      "date": "2026-10-18T13:35:53Z",
-      "sha": "7a4c1cc",
-      "url": "https://github.com/QookiX/QookiL/commit/7a4c1cc40561b870daf3ac8e0b03ae43699fd259",
-      "notes": [],
-      "items": [
-        {
-          "module": "",
-          "text": "Fix installer: 路径相对 .iss 目录解析（..\\publish，输出到 installer\\）",
-          "kind": "fix",
-          "section": null
-        }
-      ],
-      "sections": []
-    },
-    {
-      "id": "QookiL:commit:3440729e588b51e25612d43d42062788c1893091",
-      "repo": "QookiL",
-      "type": "commit",
-      "version": null,
-      "date": "2026-10-18T13:32:10Z",
-      "sha": "3440729",
-      "url": "https://github.com/QookiX/QookiL/commit/3440729e588b51e25612d43d42062788c1893091",
-      "notes": [
-        "之前 CI 从错误路径（Unofficial 目录）下载语言文件 404，导致条件编译",
-        "跳过中文段、CustomMessages 引用未知语言而编译失败。"
-      ],
-      "items": [
-        {
-          "module": "",
-          "text": "Fix installer: 随仓库携带官方简体中文语言包，语言名固定 ChineseSimplified",
-          "kind": "fix",
-          "section": null
-        }
-      ],
-      "sections": []
-    },
-    {
-      "id": "QookiL:commit:5597e5bf686388d17f13a702986c827980aeaae5",
-      "repo": "QookiL",
-      "type": "commit",
-      "version": null,
-      "date": "2026-10-18T13:26:46Z",
-      "sha": "5597e5b",
-      "url": "https://github.com/QookiX/QookiL/commit/5597e5bf686388d17f13a702986c827980aeaae5",
-      "notes": [],
-      "items": [
-        {
-          "module": "",
-          "text": "Fix installer: 语言名改为 .isl 内部定义的 ChineseSimplified",
-          "kind": "fix",
-          "section": null
-        }
-      ],
-      "sections": []
-    },
-    {
-      "id": "QookiL:commit:d2984b1d50293377271d5e14d74d0bbb4f11be1d",
-      "repo": "QookiL",
-      "type": "commit",
-      "version": null,
-      "date": "2026-10-18T13:23:21Z",
-      "sha": "d2984b1",
-      "url": "https://github.com/QookiX/QookiL/commit/d2984b1d50293377271d5e14d74d0bbb4f11be1d",
-      "notes": [],
-      "items": [
-        {
-          "module": "",
-          "text": "Fix Release: 中文语言包改为 CI 从官方翻译仓库下载，缺失时回退英文",
-          "kind": "fix",
-          "section": null
-        }
-      ],
-      "sections": []
-    },
-    {
-      "id": "QookiL:commit:88c9ed6722905c53755dff96f840108c7c53c061",
-      "repo": "QookiL",
-      "type": "commit",
-      "version": null,
-      "date": "2026-10-18T13:19:05Z",
-      "sha": "88c9ed6",
-      "url": "https://github.com/QookiX/QookiL/commit/88c9ed6722905c53755dff96f840108c7c53c061",
-      "notes": [],
-      "items": [
-        {
-          "module": "Release",
-          "text": "安装器与绿色版双产物（Inno Setup 编译 QookiL-Setup-x64.exe）",
-          "kind": "other",
-          "section": null
-        }
-      ],
-      "sections": []
-    },
-    {
-      "id": "QookiL:commit:b01934bb279bccd35d39f50e0fac446b7392a866",
-      "repo": "QookiL",
-      "type": "commit",
-      "version": null,
-      "date": "2026-10-18T13:13:54Z",
-      "sha": "b01934b",
-      "url": "https://github.com/QookiX/QookiL/commit/b01934bb279bccd35d39f50e0fac446b7392a866",
-      "notes": [],
-      "items": [
-        {
-          "module": "CI",
-          "text": "新增 Release 工作流（v* 标签触发，构建+测试+打包+发布）",
-          "kind": "feat",
-          "section": null
-        }
-      ],
-      "sections": []
-    },
-    {
-      "id": "QookiL:commit:fe4f2f27785ed7a2eb7fa92b8d0d843c3dbb9ced",
-      "repo": "QookiL",
-      "type": "commit",
-      "version": null,
-      "date": "2026-10-18T13:11:54Z",
-      "sha": "fe4f2f2",
-      "url": "https://github.com/QookiX/QookiL/commit/fe4f2f27785ed7a2eb7fa92b8d0d843c3dbb9ced",
-      "notes": [
-        "C# + WinUI 3 桌面端 + 内嵌 Kestrel 网页服务器：",
-        "共享文件/文件夹，手机浏览器直接浏览、下载（Range 断点续传）"
-      ],
-      "items": [
-        {
-          "module": "",
-          "text": "初始提交：QookiL 局域网快传",
-          "kind": "other",
-          "section": null
-        }
-      ],
-      "sections": []
-    },
-    {
-      "id": "QookiX-Docs:commit:a7c56d1e5a4c4ca5ff1007ddd40fba872eca3625",
-      "repo": "QookiX-Docs",
-      "type": "commit",
-      "version": null,
-      "date": "2026-10-18T06:06:27Z",
-      "sha": "a7c56d1",
-      "url": "https://github.com/QookiX/QookiX-Docs/commit/a7c56d1e5a4c4ca5ff1007ddd40fba872eca3625",
-      "notes": [
-        "在 AppFooter 组件的项目信息栏中新增“爱发电”链接入口，并在中英文语言包中补充对应的国际化文案，为项目提供赞助渠道。"
-      ],
-      "items": [
-        {
-          "module": "footer",
-          "text": "页脚添加爱发电赞助链接",
-          "kind": "feat",
-          "section": null
-        }
-      ],
-      "sections": []
-    },
-    {
       "id": "QookiX-Launcher-Android:1.7.1",
       "repo": "QookiX-Launcher-Android",
       "type": "release",
       "version": "1.7.1",
-      "date": "2026-10-18",
+      "date": "2026-10-18T13:48:54Z",
+      "changelogDate": "2026-10-18",
       "notes": [],
       "items": [
         {
@@ -8046,14 +8040,155 @@
         ]
       },
       "url": "https://github.com/QookiX/QookiX-Launcher-Android/releases/tag/v1.7.1",
-      "changelogUrl": "https://github.com/QookiX/QookiX-Launcher-Android/blob/master/CHANGELOG.md"
+      "changelogUrl": "https://github.com/QookiX/QookiX-Launcher-Android/blob/master/CHANGELOG.md",
+      "publishedAt": "2026-10-18T13:48:54Z"
+    },
+    {
+      "id": "QookiL:commit:7a4c1cc40561b870daf3ac8e0b03ae43699fd259",
+      "repo": "QookiL",
+      "type": "commit",
+      "version": null,
+      "date": "2026-10-18T13:35:53Z",
+      "sha": "7a4c1cc",
+      "url": "https://github.com/QookiX/QookiL/commit/7a4c1cc40561b870daf3ac8e0b03ae43699fd259",
+      "notes": [],
+      "items": [
+        {
+          "module": "",
+          "text": "Fix installer: 路径相对 .iss 目录解析（..\\publish，输出到 installer\\）",
+          "kind": "fix",
+          "section": null
+        }
+      ],
+      "sections": []
+    },
+    {
+      "id": "QookiL:commit:3440729e588b51e25612d43d42062788c1893091",
+      "repo": "QookiL",
+      "type": "commit",
+      "version": null,
+      "date": "2026-10-18T13:32:10Z",
+      "sha": "3440729",
+      "url": "https://github.com/QookiX/QookiL/commit/3440729e588b51e25612d43d42062788c1893091",
+      "notes": [
+        "之前 CI 从错误路径（Unofficial 目录）下载语言文件 404，导致条件编译",
+        "跳过中文段、CustomMessages 引用未知语言而编译失败。"
+      ],
+      "items": [
+        {
+          "module": "",
+          "text": "Fix installer: 随仓库携带官方简体中文语言包，语言名固定 ChineseSimplified",
+          "kind": "fix",
+          "section": null
+        }
+      ],
+      "sections": []
+    },
+    {
+      "id": "QookiL:commit:5597e5bf686388d17f13a702986c827980aeaae5",
+      "repo": "QookiL",
+      "type": "commit",
+      "version": null,
+      "date": "2026-10-18T13:26:46Z",
+      "sha": "5597e5b",
+      "url": "https://github.com/QookiX/QookiL/commit/5597e5bf686388d17f13a702986c827980aeaae5",
+      "notes": [],
+      "items": [
+        {
+          "module": "",
+          "text": "Fix installer: 语言名改为 .isl 内部定义的 ChineseSimplified",
+          "kind": "fix",
+          "section": null
+        }
+      ],
+      "sections": []
+    },
+    {
+      "id": "QookiL:commit:d2984b1d50293377271d5e14d74d0bbb4f11be1d",
+      "repo": "QookiL",
+      "type": "commit",
+      "version": null,
+      "date": "2026-10-18T13:23:21Z",
+      "sha": "d2984b1",
+      "url": "https://github.com/QookiX/QookiL/commit/d2984b1d50293377271d5e14d74d0bbb4f11be1d",
+      "notes": [],
+      "items": [
+        {
+          "module": "",
+          "text": "Fix Release: 中文语言包改为 CI 从官方翻译仓库下载，缺失时回退英文",
+          "kind": "fix",
+          "section": null
+        }
+      ],
+      "sections": []
+    },
+    {
+      "id": "QookiL:commit:88c9ed6722905c53755dff96f840108c7c53c061",
+      "repo": "QookiL",
+      "type": "commit",
+      "version": null,
+      "date": "2026-10-18T13:19:05Z",
+      "sha": "88c9ed6",
+      "url": "https://github.com/QookiX/QookiL/commit/88c9ed6722905c53755dff96f840108c7c53c061",
+      "notes": [],
+      "items": [
+        {
+          "module": "Release",
+          "text": "安装器与绿色版双产物（Inno Setup 编译 QookiL-Setup-x64.exe）",
+          "kind": "other",
+          "section": null
+        }
+      ],
+      "sections": []
+    },
+    {
+      "id": "QookiL:commit:b01934bb279bccd35d39f50e0fac446b7392a866",
+      "repo": "QookiL",
+      "type": "commit",
+      "version": null,
+      "date": "2026-10-18T13:13:54Z",
+      "sha": "b01934b",
+      "url": "https://github.com/QookiX/QookiL/commit/b01934bb279bccd35d39f50e0fac446b7392a866",
+      "notes": [],
+      "items": [
+        {
+          "module": "CI",
+          "text": "新增 Release 工作流（v* 标签触发，构建+测试+打包+发布）",
+          "kind": "feat",
+          "section": null
+        }
+      ],
+      "sections": []
+    },
+    {
+      "id": "QookiL:commit:fe4f2f27785ed7a2eb7fa92b8d0d843c3dbb9ced",
+      "repo": "QookiL",
+      "type": "commit",
+      "version": null,
+      "date": "2026-10-18T13:11:54Z",
+      "sha": "fe4f2f2",
+      "url": "https://github.com/QookiX/QookiL/commit/fe4f2f27785ed7a2eb7fa92b8d0d843c3dbb9ced",
+      "notes": [
+        "C# + WinUI 3 桌面端 + 内嵌 Kestrel 网页服务器：",
+        "共享文件/文件夹，手机浏览器直接浏览、下载（Range 断点续传）"
+      ],
+      "items": [
+        {
+          "module": "",
+          "text": "初始提交：QookiL 局域网快传",
+          "kind": "other",
+          "section": null
+        }
+      ],
+      "sections": []
     },
     {
       "id": "QookiX-Launcher-Android:1.7.0",
       "repo": "QookiX-Launcher-Android",
       "type": "release",
       "version": "1.7.0",
-      "date": "2026-10-18",
+      "date": "2026-10-18T08:42:45Z",
+      "changelogDate": "2026-10-18",
       "notes": [],
       "items": [
         {
@@ -8096,7 +8231,29 @@
         ]
       },
       "url": "https://github.com/QookiX/QookiX-Launcher-Android/releases/tag/v1.7.0",
-      "changelogUrl": "https://github.com/QookiX/QookiX-Launcher-Android/blob/master/CHANGELOG.md"
+      "changelogUrl": "https://github.com/QookiX/QookiX-Launcher-Android/blob/master/CHANGELOG.md",
+      "publishedAt": "2026-10-18T08:42:45Z"
+    },
+    {
+      "id": "QookiX-Docs:commit:a7c56d1e5a4c4ca5ff1007ddd40fba872eca3625",
+      "repo": "QookiX-Docs",
+      "type": "commit",
+      "version": null,
+      "date": "2026-10-18T06:06:27Z",
+      "sha": "a7c56d1",
+      "url": "https://github.com/QookiX/QookiX-Docs/commit/a7c56d1e5a4c4ca5ff1007ddd40fba872eca3625",
+      "notes": [
+        "在 AppFooter 组件的项目信息栏中新增“爱发电”链接入口，并在中英文语言包中补充对应的国际化文案，为项目提供赞助渠道。"
+      ],
+      "items": [
+        {
+          "module": "footer",
+          "text": "页脚添加爱发电赞助链接",
+          "kind": "feat",
+          "section": null
+        }
+      ],
+      "sections": []
     },
     {
       "id": "QookiX-Launcher:0.15.1",
@@ -8539,7 +8696,8 @@
       "repo": "QookiX-Launcher-Android",
       "type": "release",
       "version": "1.6.0",
-      "date": "2026-10-11",
+      "date": "2026-10-11T14:30:34Z",
+      "changelogDate": "2026-10-11",
       "notes": [],
       "items": [
         {
@@ -8654,7 +8812,8 @@
         ]
       },
       "url": "https://github.com/QookiX/QookiX-Launcher-Android/releases/tag/v1.6.0",
-      "changelogUrl": "https://github.com/QookiX/QookiX-Launcher-Android/blob/master/CHANGELOG.md"
+      "changelogUrl": "https://github.com/QookiX/QookiX-Launcher-Android/blob/master/CHANGELOG.md",
+      "publishedAt": "2026-10-11T14:30:34Z"
     },
     {
       "id": "QookiX-Launcher:0.14.1",
@@ -9382,33 +9541,12 @@
       "changelogUrl": "https://github.com/QookiX/QookiX-Launcher/blob/main/CHANGELOG.md"
     },
     {
-      "id": "QookiV:commit:aade58aa6bcdfe3fa820aba10180403e5b787073",
-      "repo": "QookiV",
-      "type": "commit",
-      "version": null,
-      "date": "2026-10-10T14:49:42Z",
-      "sha": "aade58a",
-      "url": "https://github.com/QookiX/QookiV/commit/aade58aa6bcdfe3fa820aba10180403e5b787073",
-      "notes": [
-        "新增纯预览模式，隐藏操作提示和交互框",
-        "全屏时移除内边距与边框圆角"
-      ],
-      "items": [
-        {
-          "module": "预览",
-          "text": "添加纯预览模式并支持播放速率",
-          "kind": "feat",
-          "section": null
-        }
-      ],
-      "sections": []
-    },
-    {
       "id": "QookiX-Launcher-Android:1.5.1",
       "repo": "QookiX-Launcher-Android",
       "type": "release",
       "version": "1.5.1",
-      "date": "2026-10-10",
+      "date": "2026-10-10T15:09:49Z",
+      "changelogDate": "2026-10-10",
       "notes": [],
       "items": [
         {
@@ -9511,14 +9649,38 @@
         ]
       },
       "url": "https://github.com/QookiX/QookiX-Launcher-Android/releases/tag/v1.5.1",
-      "changelogUrl": "https://github.com/QookiX/QookiX-Launcher-Android/blob/master/CHANGELOG.md"
+      "changelogUrl": "https://github.com/QookiX/QookiX-Launcher-Android/blob/master/CHANGELOG.md",
+      "publishedAt": "2026-10-10T15:09:49Z"
+    },
+    {
+      "id": "QookiV:commit:aade58aa6bcdfe3fa820aba10180403e5b787073",
+      "repo": "QookiV",
+      "type": "commit",
+      "version": null,
+      "date": "2026-10-10T14:49:42Z",
+      "sha": "aade58a",
+      "url": "https://github.com/QookiX/QookiV/commit/aade58aa6bcdfe3fa820aba10180403e5b787073",
+      "notes": [
+        "新增纯预览模式，隐藏操作提示和交互框",
+        "全屏时移除内边距与边框圆角"
+      ],
+      "items": [
+        {
+          "module": "预览",
+          "text": "添加纯预览模式并支持播放速率",
+          "kind": "feat",
+          "section": null
+        }
+      ],
+      "sections": []
     },
     {
       "id": "QookiX-Launcher-Android:1.5.0",
       "repo": "QookiX-Launcher-Android",
       "type": "release",
       "version": "1.5.0",
-      "date": "2026-10-10",
+      "date": "2026-10-09T19:33:21Z",
+      "changelogDate": "2026-10-10",
       "notes": [],
       "items": [
         {
@@ -9585,14 +9747,16 @@
         ]
       },
       "url": "https://github.com/QookiX/QookiX-Launcher-Android/releases/tag/v1.5.0",
-      "changelogUrl": "https://github.com/QookiX/QookiX-Launcher-Android/blob/master/CHANGELOG.md"
+      "changelogUrl": "https://github.com/QookiX/QookiX-Launcher-Android/blob/master/CHANGELOG.md",
+      "publishedAt": "2026-10-09T19:33:21Z"
     },
     {
       "id": "QookiX-Launcher-Android:1.4.1",
       "repo": "QookiX-Launcher-Android",
       "type": "release",
       "version": "1.4.1",
-      "date": "2026-10-10",
+      "date": "2026-10-09T18:16:16Z",
+      "changelogDate": "2026-10-10",
       "notes": [],
       "items": [
         {
@@ -9647,14 +9811,16 @@
         ]
       },
       "url": "https://github.com/QookiX/QookiX-Launcher-Android/releases/tag/v1.4.1",
-      "changelogUrl": "https://github.com/QookiX/QookiX-Launcher-Android/blob/master/CHANGELOG.md"
+      "changelogUrl": "https://github.com/QookiX/QookiX-Launcher-Android/blob/master/CHANGELOG.md",
+      "publishedAt": "2026-10-09T18:16:16Z"
     },
     {
       "id": "QookiX-Launcher-Android:1.4.0",
       "repo": "QookiX-Launcher-Android",
       "type": "release",
       "version": "1.4.0",
-      "date": "2026-10-09",
+      "date": "2026-10-09T07:36:08Z",
+      "changelogDate": "2026-10-09",
       "notes": [],
       "items": [
         {
@@ -9703,14 +9869,16 @@
         ]
       },
       "url": "https://github.com/QookiX/QookiX-Launcher-Android/releases/tag/v1.4.0",
-      "changelogUrl": "https://github.com/QookiX/QookiX-Launcher-Android/blob/master/CHANGELOG.md"
+      "changelogUrl": "https://github.com/QookiX/QookiX-Launcher-Android/blob/master/CHANGELOG.md",
+      "publishedAt": "2026-10-09T07:36:08Z"
     },
     {
       "id": "QookiX-Launcher-Android:1.3.4",
       "repo": "QookiX-Launcher-Android",
       "type": "release",
       "version": "1.3.4",
-      "date": "2026-10-09",
+      "date": "2026-10-08T16:32:25Z",
+      "changelogDate": "2026-10-09",
       "notes": [],
       "items": [
         {
@@ -9801,14 +9969,16 @@
         ]
       },
       "url": "https://github.com/QookiX/QookiX-Launcher-Android/releases/tag/v1.3.4",
-      "changelogUrl": "https://github.com/QookiX/QookiX-Launcher-Android/blob/master/CHANGELOG.md"
+      "changelogUrl": "https://github.com/QookiX/QookiX-Launcher-Android/blob/master/CHANGELOG.md",
+      "publishedAt": "2026-10-08T16:32:25Z"
     },
     {
       "id": "QookiX-Launcher-Android:1.3.3",
       "repo": "QookiX-Launcher-Android",
       "type": "release",
       "version": "1.3.3",
-      "date": "2026-10-08",
+      "date": "2026-10-08T12:18:39Z",
+      "changelogDate": "2026-10-08",
       "notes": [],
       "items": [
         {
@@ -9917,14 +10087,16 @@
         ]
       },
       "url": "https://github.com/QookiX/QookiX-Launcher-Android/releases/tag/v1.3.3",
-      "changelogUrl": "https://github.com/QookiX/QookiX-Launcher-Android/blob/master/CHANGELOG.md"
+      "changelogUrl": "https://github.com/QookiX/QookiX-Launcher-Android/blob/master/CHANGELOG.md",
+      "publishedAt": "2026-10-08T12:18:39Z"
     },
     {
       "id": "QookiX-Launcher-Android:1.3.2",
       "repo": "QookiX-Launcher-Android",
       "type": "release",
       "version": "1.3.2",
-      "date": "2026-10-08",
+      "date": "2026-10-08T09:41:52Z",
+      "changelogDate": "2026-10-08",
       "notes": [],
       "items": [
         {
@@ -10063,14 +10235,16 @@
         ]
       },
       "url": "https://github.com/QookiX/QookiX-Launcher-Android/releases/tag/v1.3.2",
-      "changelogUrl": "https://github.com/QookiX/QookiX-Launcher-Android/blob/master/CHANGELOG.md"
+      "changelogUrl": "https://github.com/QookiX/QookiX-Launcher-Android/blob/master/CHANGELOG.md",
+      "publishedAt": "2026-10-08T09:41:52Z"
     },
     {
       "id": "QookiX-Launcher-Android:1.3.1",
       "repo": "QookiX-Launcher-Android",
       "type": "release",
       "version": "1.3.1",
-      "date": "2026-10-08",
+      "date": "2026-10-08T05:32:43Z",
+      "changelogDate": "2026-10-08",
       "notes": [],
       "items": [
         {
@@ -10143,7 +10317,8 @@
         ]
       },
       "url": "https://github.com/QookiX/QookiX-Launcher-Android/releases/tag/v1.3.1",
-      "changelogUrl": "https://github.com/QookiX/QookiX-Launcher-Android/blob/master/CHANGELOG.md"
+      "changelogUrl": "https://github.com/QookiX/QookiX-Launcher-Android/blob/master/CHANGELOG.md",
+      "publishedAt": "2026-10-08T05:32:43Z"
     },
     {
       "id": "QookiX-Launcher:0.11.2",
@@ -10291,77 +10466,12 @@
       "sections": []
     },
     {
-      "id": "QookiT:commit:ff843e8257247a5b5ee0e4036c9ef26c069464c7",
-      "repo": "QookiT",
-      "type": "commit",
-      "version": null,
-      "date": "2026-10-07T04:02:56Z",
-      "sha": "ff843e8",
-      "url": "https://github.com/QookiX/QookiT/commit/ff843e8257247a5b5ee0e4036c9ef26c069464c7",
-      "notes": [
-        "WebviewWindow::hwnd() 是 Tauri 的 Windows-only API，非 Windows 平台构建报：",
-        "E0599 no method named hwnd found for struct tauri::WebviewWindow<R>。"
-      ],
-      "items": [
-        {
-          "module": "build",
-          "text": "main_hwnd 按平台分实现，修复 Linux / macOS 构建失败",
-          "kind": "fix",
-          "section": null
-        }
-      ],
-      "sections": []
-    },
-    {
-      "id": "QookiT:commit:4c77c4c8a155c489a89db8414b7003a6c17db742",
-      "repo": "QookiT",
-      "type": "commit",
-      "version": null,
-      "date": "2026-10-07T03:45:04Z",
-      "sha": "4c77c4c",
-      "url": "https://github.com/QookiX/QookiT/commit/4c77c4c8a155c489a89db8414b7003a6c17db742",
-      "notes": [
-        "新增 fsutil::safe_rename：rename 遇到「跨设备」错误时降级为 copy + delete",
-        "用 ErrorKind::CrossesDevices 判断（Windows 17 / Unix 18），避免硬编码错误码在 Unix 误判"
-      ],
-      "items": [
-        {
-          "module": "fix",
-          "text": "跨设备 rename 降级为 copy + delete",
-          "kind": "fix",
-          "section": null
-        }
-      ],
-      "sections": []
-    },
-    {
-      "id": "QookiT:commit:eaf9f40612f30e2938292077dfccd2894be6f15d",
-      "repo": "QookiT",
-      "type": "commit",
-      "version": null,
-      "date": "2026-10-07T03:30:09Z",
-      "sha": "eaf9f40",
-      "url": "https://github.com/QookiX/QookiT/commit/eaf9f40612f30e2938292077dfccd2894be6f15d",
-      "notes": [
-        "新增端口转发面板：本地 / 远程 / SOCKS5 动态转发，实时流量统计",
-        "新增 systemd 服务管理面板：启停重启、启用禁用、查看日志与单元文件、编辑与新建服务"
-      ],
-      "items": [
-        {
-          "module": "feat",
-          "text": "端口转发、systemd 服务管理与定时任务面板",
-          "kind": "feat",
-          "section": null
-        }
-      ],
-      "sections": []
-    },
-    {
       "id": "QookiX-Launcher-Android:1.3.0",
       "repo": "QookiX-Launcher-Android",
       "type": "release",
       "version": "1.3.0",
-      "date": "2026-10-07",
+      "date": "2026-10-07T10:13:47Z",
+      "changelogDate": "2026-10-07",
       "notes": [],
       "items": [
         {
@@ -10470,14 +10580,82 @@
         ]
       },
       "url": "https://github.com/QookiX/QookiX-Launcher-Android/releases/tag/v1.3.0",
-      "changelogUrl": "https://github.com/QookiX/QookiX-Launcher-Android/blob/master/CHANGELOG.md"
+      "changelogUrl": "https://github.com/QookiX/QookiX-Launcher-Android/blob/master/CHANGELOG.md",
+      "publishedAt": "2026-10-07T10:13:47Z"
+    },
+    {
+      "id": "QookiT:commit:ff843e8257247a5b5ee0e4036c9ef26c069464c7",
+      "repo": "QookiT",
+      "type": "commit",
+      "version": null,
+      "date": "2026-10-07T04:02:56Z",
+      "sha": "ff843e8",
+      "url": "https://github.com/QookiX/QookiT/commit/ff843e8257247a5b5ee0e4036c9ef26c069464c7",
+      "notes": [
+        "WebviewWindow::hwnd() 是 Tauri 的 Windows-only API，非 Windows 平台构建报：",
+        "E0599 no method named hwnd found for struct tauri::WebviewWindow<R>。"
+      ],
+      "items": [
+        {
+          "module": "build",
+          "text": "main_hwnd 按平台分实现，修复 Linux / macOS 构建失败",
+          "kind": "fix",
+          "section": null
+        }
+      ],
+      "sections": []
+    },
+    {
+      "id": "QookiT:commit:4c77c4c8a155c489a89db8414b7003a6c17db742",
+      "repo": "QookiT",
+      "type": "commit",
+      "version": null,
+      "date": "2026-10-07T03:45:04Z",
+      "sha": "4c77c4c",
+      "url": "https://github.com/QookiX/QookiT/commit/4c77c4c8a155c489a89db8414b7003a6c17db742",
+      "notes": [
+        "新增 fsutil::safe_rename：rename 遇到「跨设备」错误时降级为 copy + delete",
+        "用 ErrorKind::CrossesDevices 判断（Windows 17 / Unix 18），避免硬编码错误码在 Unix 误判"
+      ],
+      "items": [
+        {
+          "module": "fix",
+          "text": "跨设备 rename 降级为 copy + delete",
+          "kind": "fix",
+          "section": null
+        }
+      ],
+      "sections": []
+    },
+    {
+      "id": "QookiT:commit:eaf9f40612f30e2938292077dfccd2894be6f15d",
+      "repo": "QookiT",
+      "type": "commit",
+      "version": null,
+      "date": "2026-10-07T03:30:09Z",
+      "sha": "eaf9f40",
+      "url": "https://github.com/QookiX/QookiT/commit/eaf9f40612f30e2938292077dfccd2894be6f15d",
+      "notes": [
+        "新增端口转发面板：本地 / 远程 / SOCKS5 动态转发，实时流量统计",
+        "新增 systemd 服务管理面板：启停重启、启用禁用、查看日志与单元文件、编辑与新建服务"
+      ],
+      "items": [
+        {
+          "module": "feat",
+          "text": "端口转发、systemd 服务管理与定时任务面板",
+          "kind": "feat",
+          "section": null
+        }
+      ],
+      "sections": []
     },
     {
       "id": "QookiX-Launcher-Android:1.2.4",
       "repo": "QookiX-Launcher-Android",
       "type": "release",
       "version": "1.2.4",
-      "date": "2026-10-07",
+      "date": "2026-10-06T17:53:21Z",
+      "changelogDate": "2026-10-07",
       "notes": [],
       "items": [
         {
@@ -10550,14 +10728,16 @@
         ]
       },
       "url": "https://github.com/QookiX/QookiX-Launcher-Android/releases/tag/v1.2.4",
-      "changelogUrl": "https://github.com/QookiX/QookiX-Launcher-Android/blob/master/CHANGELOG.md"
+      "changelogUrl": "https://github.com/QookiX/QookiX-Launcher-Android/blob/master/CHANGELOG.md",
+      "publishedAt": "2026-10-06T17:53:21Z"
     },
     {
       "id": "QookiX-Launcher-Android:1.2.3",
       "repo": "QookiX-Launcher-Android",
       "type": "release",
       "version": "1.2.3",
-      "date": "2026-10-07",
+      "date": "2026-10-06T16:14:46Z",
+      "changelogDate": "2026-10-07",
       "notes": [],
       "items": [
         {
@@ -10684,14 +10864,16 @@
         ]
       },
       "url": "https://github.com/QookiX/QookiX-Launcher-Android/releases/tag/v1.2.3",
-      "changelogUrl": "https://github.com/QookiX/QookiX-Launcher-Android/blob/master/CHANGELOG.md"
+      "changelogUrl": "https://github.com/QookiX/QookiX-Launcher-Android/blob/master/CHANGELOG.md",
+      "publishedAt": "2026-10-06T16:14:46Z"
     },
     {
       "id": "QookiX-Launcher-Android:1.2.2",
       "repo": "QookiX-Launcher-Android",
       "type": "release",
       "version": "1.2.2",
-      "date": "2026-10-05",
+      "date": "2026-10-05T14:10:57Z",
+      "changelogDate": "2026-10-05",
       "notes": [],
       "items": [
         {
@@ -10764,7 +10946,8 @@
         ]
       },
       "url": "https://github.com/QookiX/QookiX-Launcher-Android/releases/tag/v1.2.2",
-      "changelogUrl": "https://github.com/QookiX/QookiX-Launcher-Android/blob/master/CHANGELOG.md"
+      "changelogUrl": "https://github.com/QookiX/QookiX-Launcher-Android/blob/master/CHANGELOG.md",
+      "publishedAt": "2026-10-05T14:10:57Z"
     },
     {
       "id": "QookiX-Launcher:0.11.1",
@@ -10917,33 +11100,12 @@
       "changelogUrl": "https://github.com/QookiX/QookiX-Launcher/blob/main/CHANGELOG.md"
     },
     {
-      "id": "QookiT:commit:cd51d96d8626099b2b77b0bfb7714edde29f7c26",
-      "repo": "QookiT",
-      "type": "commit",
-      "version": null,
-      "date": "2026-10-04T10:27:13Z",
-      "sha": "cd51d96",
-      "url": "https://github.com/QookiX/QookiT/commit/cd51d96d8626099b2b77b0bfb7714edde29f7c26",
-      "notes": [
-        "新增主机分组：Rust 侧 groups 模块 + 前端分组树/搜索/筛选/新建分组",
-        "新增系统信息面板（CPU 核数等）"
-      ],
-      "items": [
-        {
-          "module": "feat",
-          "text": "主机分组、系统信息、关闭确认与安全加固",
-          "kind": "feat",
-          "section": null
-        }
-      ],
-      "sections": []
-    },
-    {
       "id": "QookiX-Launcher-Android:1.2.1",
       "repo": "QookiX-Launcher-Android",
       "type": "release",
       "version": "1.2.1",
-      "date": "2026-10-04",
+      "date": "2026-10-04T13:52:06Z",
+      "changelogDate": "2026-10-04",
       "notes": [],
       "items": [
         {
@@ -10998,14 +11160,38 @@
         ]
       },
       "url": "https://github.com/QookiX/QookiX-Launcher-Android/releases/tag/v1.2.1",
-      "changelogUrl": "https://github.com/QookiX/QookiX-Launcher-Android/blob/master/CHANGELOG.md"
+      "changelogUrl": "https://github.com/QookiX/QookiX-Launcher-Android/blob/master/CHANGELOG.md",
+      "publishedAt": "2026-10-04T13:52:06Z"
+    },
+    {
+      "id": "QookiT:commit:cd51d96d8626099b2b77b0bfb7714edde29f7c26",
+      "repo": "QookiT",
+      "type": "commit",
+      "version": null,
+      "date": "2026-10-04T10:27:13Z",
+      "sha": "cd51d96",
+      "url": "https://github.com/QookiX/QookiT/commit/cd51d96d8626099b2b77b0bfb7714edde29f7c26",
+      "notes": [
+        "新增主机分组：Rust 侧 groups 模块 + 前端分组树/搜索/筛选/新建分组",
+        "新增系统信息面板（CPU 核数等）"
+      ],
+      "items": [
+        {
+          "module": "feat",
+          "text": "主机分组、系统信息、关闭确认与安全加固",
+          "kind": "feat",
+          "section": null
+        }
+      ],
+      "sections": []
     },
     {
       "id": "QookiX-Launcher-Android:1.2.0",
       "repo": "QookiX-Launcher-Android",
       "type": "release",
       "version": "1.2.0",
-      "date": "2026-10-04",
+      "date": "2026-10-03T20:13:42Z",
+      "changelogDate": "2026-10-04",
       "notes": [],
       "items": [
         {
@@ -11186,7 +11372,8 @@
         ]
       },
       "url": "https://github.com/QookiX/QookiX-Launcher-Android/releases/tag/v1.2.0",
-      "changelogUrl": "https://github.com/QookiX/QookiX-Launcher-Android/blob/master/CHANGELOG.md"
+      "changelogUrl": "https://github.com/QookiX/QookiX-Launcher-Android/blob/master/CHANGELOG.md",
+      "publishedAt": "2026-10-03T20:13:42Z"
     },
     {
       "id": "QookiX-Video:commit:baf750ec5845cb700ded880ce8fe0c70e60059f8",
@@ -11636,7 +11823,8 @@
       "repo": "QookiX-Launcher-Android",
       "type": "release",
       "version": "1.1.0",
-      "date": "2026-09-28",
+      "date": "2026-09-28T15:10:32Z",
+      "changelogDate": "2026-09-28",
       "notes": [],
       "items": [
         {
@@ -11799,7 +11987,8 @@
         ]
       },
       "url": "https://github.com/QookiX/QookiX-Launcher-Android/releases/tag/v1.1.0",
-      "changelogUrl": "https://github.com/QookiX/QookiX-Launcher-Android/blob/master/CHANGELOG.md"
+      "changelogUrl": "https://github.com/QookiX/QookiX-Launcher-Android/blob/master/CHANGELOG.md",
+      "publishedAt": "2026-09-28T15:10:32Z"
     },
     {
       "id": "QookiX-Launcher:0.10.0",
@@ -12503,7 +12692,8 @@
       "repo": "QookiX-Launcher-Android",
       "type": "release",
       "version": "1.0.0",
-      "date": "2026-09-22",
+      "date": "2026-09-22T16:54:22Z",
+      "changelogDate": "2026-09-22",
       "notes": [],
       "items": [
         {
@@ -12532,7 +12722,8 @@
         ]
       },
       "url": "https://github.com/QookiX/QookiX-Launcher-Android/releases/tag/v1.0.0",
-      "changelogUrl": "https://github.com/QookiX/QookiX-Launcher-Android/blob/master/CHANGELOG.md"
+      "changelogUrl": "https://github.com/QookiX/QookiX-Launcher-Android/blob/master/CHANGELOG.md",
+      "publishedAt": "2026-09-22T16:54:22Z"
     },
     {
       "id": "QookiT:commit:878cfa40be02b896380eb709bc5c685843d84ddf",

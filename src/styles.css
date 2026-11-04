@@ -5,6 +5,7 @@
 @import "./styles/detail.css";
 @import "./styles/holy.css";
 @import "./styles/still.css";
+@import "./styles/mobile.css";
 
 /* ---------- 漂浮碎屑 ---------- */
 .crumbs {

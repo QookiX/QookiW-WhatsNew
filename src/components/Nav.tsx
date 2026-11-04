@@ -62,7 +62,7 @@ export function Nav({ org, minimal = false }: { org: string; minimal?: boolean }
         <div className="nav__actions">
           <a className="nav__gh" href={`https://github.com/${org}`} target="_blank" rel="noreferrer">
             <IconGithub size={14} />
-            GitHub
+            <span className="nav__gh-text">GitHub</span>
           </a>
         </div>
       </div>
